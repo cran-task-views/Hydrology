@@ -1,5 +1,5 @@
 if(!require("stringr")) install.packages("stringr", repos="http://cran.rstudio.com")
-template <- readLines("WebTechnologies.ctv")
+template <- readLines("hydrometeorology.ctv")
 pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
 pkgs <- stringr::str_extract_all(out, pattern)[[1]]
@@ -9,9 +9,9 @@ pkgs <- pkgs[ !pkgs %in% priority] # remove priority packages
 pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 
 c(paste0('<CRANTaskView>
-  <name>WebTechnologies</name>
-  <topic>Web Technologies and Services</topic>
-  <maintainer email="scott@ropensci.org">Scott Chamberlain, Thomas Leeper, Patrick Mair, Karthik Ram, Christopher Gandrud</maintainer>
+  <name>hydrometeorology</name>
+  <topic>Hydrology and Meteorology</topic>
+  <maintainer email="samuelczipper@gmail.com">SAm Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
   <version>',Sys.Date(),'</version>'), 
   '  <info>',
   paste0("    ",template), 
@@ -27,4 +27,4 @@ c(paste0('<CRANTaskView>
   '  </links>',
   '</CRANTaskView>')
 
-writeLines(output, "WebTechnologies.ctv")
+writeLines(output, "hydrometeorology.ctv")
