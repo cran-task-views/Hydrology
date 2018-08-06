@@ -60,12 +60,34 @@ Data Analysis
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
+-   <pkg>driftR</pkg> A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data. There are many sources of water quality data including private (ex: YSI instruments) and open source (ex: USGS and NDBC), each of which are susceptible to errors/inaccuracies due to drift. This package allows the user to correct their data using one or two standard reference values in a uniform, reproducible way. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS). [![cran checks](https://cranchecks.info/badges/worst/driftR)](https://cranchecks.info/pkgs/driftR)
+
+-   <github>bcgov/fasstr</github> (NOT ON CRAN) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
+
 -   <pkg>getMet</pkg> Hydrologic models often require users to collect and format input meteorological data. This package contains functions for sourcing, formatting, and editing meteorological data for hydrologic models. [![cran checks](https://cranchecks.info/badges/worst/getMet)](https://cranchecks.info/pkgs/getMet)
 
 
-**Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, etc.)**
+**Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)**
+
+-   <pkg>biotic</pkg> Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI. [![cran checks](https://cranchecks.info/badges/worst/biotic)](https://cranchecks.info/pkgs/biotic)
+
+-   <pkg>ecoval</pkg> Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions. [![cran checks](https://cranchecks.info/badges/worst/ecoval)](https://cranchecks.info/pkgs/ecoval)
+
+-   <github>USGS-R/EflowStats</github> (NOT ON CRAN) Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data.
+
+-   <github>USGS-R/EGRET</github> (NOT ON CRAN) Exploration and Graphics for RivEr Trends (EGRET): analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS).
+
+    +   <github>USGS-R/EGRETci</github> (NOT ON CRAN) A bootstrap method for estimating uncertainty of water quality trends
+
+-   <pkg>FAdist</pkg> Probability distributions that are sometimes useful in hydrology. [![cran checks](https://cranchecks.info/badges/worst/FAdist)](https://cranchecks.info/pkgs/FAdist)
+
+-   <github>bcgov/fasstr</github> (NOT ON CRAN) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
+
+-   <pkg>FlowScreen</pkg> Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics. [![cran checks](https://cranchecks.info/badges/worst/FlowScreen)](https://cranchecks.info/pkgs/FlowScreen)
 
 **Other**
+
+-   <pkg>berryFunctions</pkg> Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions. [![cran checks](https://cranchecks.info/badges/worst/berryFunctions)](https://cranchecks.info/pkgs/berryFunctions)
 
 **Spatial data processing - link to MapTools CranTV**
 
