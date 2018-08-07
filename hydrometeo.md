@@ -97,6 +97,9 @@ Modeling
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models such as TOPMODEL)**
 
 
+-  <pkg>geotopbricks</pkg> An R Plug-in for the Distributed Hydrological Model GEOtop. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. It contains functions and methods to import maps and other keywords from geotop.inpts file. Some examples with simulation cases of GEOtop 2.0 are presented in the package. Any information about the GEOtop Distributed Hydrological Model source code is available on https://github.com/geotopmodel or https://github.com/se27xx/GEOtop. Technical details about the model are available in [Endrizzi et al, 2014](http://www.geosci-model-dev.net/7/2831/2014/gmd-7-2831-2014.html).
+
+
 -  <pkg>kwb.hantush</pkg>  Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).[![cran checks](https://cranchecks.info/badges/worst/kwb.hantush)](https://cranchecks.info/pkgs/kwb.hantush)
 
 -  <github>USGS-R/loadflex</github> (NOT ON CRAN) Models and Tools for Watershed Flux Estimates [see](http://dx.doi.org/10.1890/ES14-00517.1) 

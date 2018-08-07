@@ -101,6 +101,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models such as TOPMODEL)**
 
+  - [geotopbricks](http://cran.rstudio.com/web/packages/geotopbricks/index.html) An R Plug-in for the Distributed Hydrological Model GEOtop. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. It contains functions and methods to import maps and other keywords from geotop.inpts file. Some examples with simulation cases of GEOtop 2.0 are presented in the package. Any information about the GEOtop Distributed Hydrological Model source code is available on https://github.com/geotopmodel or https://github.com/se27xx/GEOtop. Technical details about the model are available in [Endrizzi et al, 2014](http://www.geosci-model-dev.net/7/2831/2014/gmd-7-2831-2014.html).
+
   - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html) Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)). [](https://cranchecks.info/pkgs/kwb.hantush)
 
   - [<span class="GitHub">loadflex</span>](https://github.com/USGS-R/loadflex/) (NOT ON CRAN) Models and Tools for Watershed Flux Estimates [see](http://dx.doi.org/10.1890/ES14-00517.1)
@@ -134,4 +136,4 @@ If you have any comments or suggestions for additions or improvements for this T
   - [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics)
   - [WebTechnologies TaskView](https://github.com/ropensci/webservices)
   - [Open Data TaskView](https://github.com/ropensci/opendata)
-  - [USGS-R community.](https://owi.usgs.gov/R/)
+  - [USGS-R community](https://owi.usgs.gov/R/)
