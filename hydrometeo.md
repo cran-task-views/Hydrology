@@ -96,4 +96,28 @@ Modeling
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models such as TOPMODEL)**
 
+
+-  <pkg>kwb.hantush</pkg>  Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).[![cran checks](https://cranchecks.info/badges/worst/kwb.hantush)](https://cranchecks.info/pkgs/kwb.hantush)
+
+-  <github>USGS-R/loadflex</github> (NOT ON CRAN) Models and Tools for Watershed Flux Estimates [see](http://dx.doi.org/10.1890/ES14-00517.1) 
+
+-  <pkg>reservoir</pkg> Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient. [![cran checks](https://cranchecks.info/badges/worst/reservoir)](https://cranchecks.info/pkgs/reservoir)
+
+-  <pkg>RHMS</pkg>  Hydrologic Modelling System for R Users. Hydrologic modelling system is an object oriented tool which enables R users to simulate and analyze hydrologic events. The package proposes functions and methods for construction, simulation, visualization, and calibration of hydrologic systems.[![cran checks](https://cranchecks.info/badges/worst/RHMS)](https://cranchecks.info/pkgs/RHMS)
+
+-  <pkg>RSAlgaeR</pkg> Builds Empirical Remote Sensing Models of Water Quality Variables and Analyzes Long-Term Trends. Assists in processing reflectance data, developing empirical models using stepwise regression and a generalized linear modeling approach, cross- validation, and analysis of trends in water quality conditions (specifically chl-a) and climate conditions using the Theil-Sen estimator. [![cran checks](https://cranchecks.info/badges/worst/RSAlgaeR)](https://cranchecks.info/pkgs/RSAlgaeR)
+
+-  <github>szipper/streamDepletr</github> (NOT ON CRAN) for assessing the impacts of groundwater pumping on streams. 
+
+-  <github>USGS-R/streamMetabolizer</github> (NOT ON CRAN) Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. Several time-honored methods are implemented along with many promising new variants that produce more accurate and precise metabolism estimates.
+
+-  <pkg>wasim</pkg>  Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH [![cran checks](https://cranchecks.info/badges/worst/wasim)](https://cranchecks.info/pkgs/wasim)
+
+-  <pkg>water</pkg> Tools and functions to calculate actual Evapotranspiration using surface energy balance models. [![cran checks](https://cranchecks.info/badges/worst/water)](https://cranchecks.info/pkgs/water)
+
+-  <pkg>WRSS</pkg> Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. 'WRSS' proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP). [![cran checks](https://cranchecks.info/badges/worst/WRSS)](https://cranchecks.info/pkgs/WRSS)
+
+
 **Statistical modeling (hydrology-related statistical models and link to Envirometrics CranTV)**
+
+
