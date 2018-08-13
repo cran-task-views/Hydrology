@@ -74,6 +74,8 @@ Data Analysis
 
 -   <pkg>biotic</pkg> [![cran checks](https://cranchecks.info/badges/worst/biotic)](https://cran.rstudio.com/web/checks/check_results_biotic.html) Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI. 
 
+-  <pkg>EcoHydRology</pkg> [![cran checks](https://cranchecks.info/badges/worst/EcoHydRology)](https://cran.rstudio.com/web/checks/check_results_EcoHydRology.html) This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+
 -   <pkg>ecoval</pkg> [![cran checks](https://cranchecks.info/badges/worst/ecoval)](https://cran.rstudio.com/web/checks/check_results_ecoval.html) Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions. 
 
 -   <github>USGS-R/EflowStats</github> [![cran checks](https://cranchecks.info/badges/worst/EflowStats)](https://cran.rstudio.com/web/checks/check_results_EflowStats.html) Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data.
@@ -88,11 +90,39 @@ Data Analysis
 
 -   <pkg>FlowScreen</pkg> [![cran checks](https://cranchecks.info/badges/worst/FlowScreen)](https://cran.rstudio.com/web/checks/check_results_FlowScreen.html) Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics. 
 
+-   <pkg>hydrostats</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydrostats)](https://cran.rstudio.com/web/checks/check_results_hydrostats.html) Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
+
+-   <pkg>hydroTSM</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroTSM)](https://cran.rstudio.com/web/checks/check_results_hydroTSM.html) S3 functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks. The focus of this package has been put in providing a collection of tools useful for the daily work of hydrologists (although an effort was made to optimise each function as much as possible, functionality has had priority over speed). 
+
+**Meteorology (functions for working with meteorological and climate data)**
+
+-   <pkg>humidity</pkg> [![cran checks](https://cranchecks.info/badges/worst/humidity)](https://cran.rstudio.com/web/checks/check_results_humidity.html) Vapor pressure, relative humidity, absolute humidity, specific humidity, and mixing ratio are commonly used water vapor measures in meteorology. This R package provides functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
+
+-   <pkg>meteoland</pkg> [![cran checks](https://cranchecks.info/badges/worst/meteoland)](https://cran.rstudio.com/web/checks/check_results_meteoland.html) Functions to estimate weather variables at any position of a landscape.
+
+-   <pkg>qmap</pkg> [![cran checks](https://cranchecks.info/badges/worst/qmap)](https://cran.rstudio.com/web/checks/check_results_qmap.html) Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
+
 **Other**
 
 -   <pkg>berryFunctions</pkg> [![cran checks](https://cranchecks.info/badges/worst/berryFunctions)](https://cran.rstudio.com/web/checks/check_results_berryFunctions.html) Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions. 
 
+-   <pkg>GWSDAT</pkg> [![cran checks](https://cranchecks.info/badges/worst/GWSDAT)](https://cran.rstudio.com/web/checks/check_results_GWSDAT.html) Shiny application for the analysis of groundwater monitoring data, designed to work with simple time-series data for solute concentration and ground water elevation, but can also plot non-aqueous phase liquid (NAPL) thickness if required.
+
+-   <pkg>hydrogeo</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydrogeo)](https://cran.rstudio.com/web/checks/check_results_hydrogeo.html) Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
+
+-   <pkg>kitagawa</pkg> [![cran checks](https://cranchecks.info/badges/worst/kitagawa)](https://cran.rstudio.com/web/checks/check_results_kitagawa.html) Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989). These models treat strain (or aquifer head) as an input to the physical system, and fluid-pressure (or water height) as the output. The applicable frequency band of these models is characteristic of seismic waves, atmospheric pressure fluctuations, and solid earth tides.
+
+-  <github>leppott/MBSStools</github> Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
+
+-   <pkg>wql</pkg> [![cran checks](https://cranchecks.info/badges/worst/wql)](https://cran.rstudio.com/web/checks/check_results_wql.html) Functions to assist in the processing and exploration of data from environmental monitoring programs. The package name stands for "water quality" and reflects the original focus on time series data for physical and chemical properties of water, as well as the biota. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.
+
+-   <pkg>WRTDStidal</pkg> [![cran checks](https://cranchecks.info/badges/worst/WRTDStidal)](https://cran.rstudio.com/web/checks/check_results_WRTDStidal.html) An adaptation for estuaries (tidal waters) of weighted regression on time, discharge, and season to evaluate trends in water quality time series.
+
 **Spatial data processing - link to MapTools CranTV**
+
+-   <pkg>lakemorpho</pkg> [![cran checks](https://cranchecks.info/badges/worst/lakemorpho)](https://cran.rstudio.com/web/checks/check_results_lakemorpho.html) Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. Traditionally, these metrics are calculated by hand, with planimeters, and increasingly with commercial GIS products. All of these methods work; however, they are either outdated, difficult to reproduce, or require expensive licenses to use. The 'lakemorpho' package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon. The metrics currently supported are: fetch, major axis, minor axis, major/minor axis ratio, maximum length, maximum width, mean width, maximum depth, mean depth, shoreline development, shoreline length, surface area, and volume.
+
+-   <pkg>Watersheds</pkg> [![cran checks](https://cranchecks.info/badges/worst/Watersheds)](https://cran.rstudio.com/web/checks/check_results_Watersheds.html) Methods for watersheds aggregation and spatial drainage network analysis.
 
 Modeling
 --------
@@ -100,8 +130,19 @@ Modeling
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models such as TOPMODEL)**
 
 
--  <pkg>geotopbricks</pkg> [![cran checks](https://cranchecks.info/badges/worst/geotopbricks)](https://cran.rstudio.com/web/checks/check_results_geotopbricks.html) An R Plug-in for the Distributed Hydrological Model GEOtop. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. It contains functions and methods to import maps and other keywords from geotop.inpts file. Some examples with simulation cases of GEOtop 2.0 are presented in the package. Any information about the GEOtop Distributed Hydrological Model source code is available on https://github.com/geotopmodel or https://github.com/se27xx/GEOtop. Technical details about the model are available in [Endrizzi et al, 2014](http://www.geosci-model-dev.net/7/2831/2014/gmd-7-2831-2014.html). 
+-  <pkg>airGR</pkg> [![cran checks](https://cranchecks.info/badges/worst/airGR)](https://cran.rstudio.com/web/checks/check_results_airGR.html) Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation. 
 
+-  <pkg>airGRteaching</pkg> [![cran checks](https://cranchecks.info/badges/worst/airGRteaching)](https://cran.rstudio.com/web/checks/check_results_airGRteaching.html) Add-on package to the 'airGR' package that simplifies its use and is aimed at being used for teaching hydrology. The package provides 1) three functions that allow to complete very simply a hydrological modelling exercise 2) plotting functions to help students to explore observed data and to interpret the results of calibration and simulation of the GR ('Génie rural') models 3) a 'Shiny' graphical interface that allows for displaying the impact of model parameters on hydrographs and models internal variables.
+
+-  <pkg>boussinesq</pkg> [![cran checks](https://cranchecks.info/badges/worst/boussinesq)](https://cran.rstudio.com/web/checks/check_results_boussinesq.html) This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water). In particular, the function "beq.lin" is the analytic solution of the linearized form of Boussinesq Equation between two different head-based boundary (Dirichlet) conditions; "beq.song" is the non-linear power-series analytic solution of the motion of a wetting front over a dry bedrock (Song at al, 2007, see complete reference on function documentation).
+
+-  <pkg>dynatopmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/dynatopmodel)](https://cran.rstudio.com/web/checks/check_results_dynatopmodel.html) A native R implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs.
+
+-  <pkg>Ecohydmod</pkg> [![cran checks](https://cranchecks.info/badges/worst/Ecohydmod)](https://cran.rstudio.com/web/checks/check_results_Ecohydmod.html) Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). Please see [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
+
+-  <pkg>EcoHydRology</pkg> [![cran checks](https://cranchecks.info/badges/worst/EcoHydRology)](https://cran.rstudio.com/web/checks/check_results_EcoHydRology.html) This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+
+-  <pkg>geotopbricks</pkg> [![cran checks](https://cranchecks.info/badges/worst/geotopbricks)](https://cran.rstudio.com/web/checks/check_results_geotopbricks.html) An R Plug-in for the Distributed Hydrological Model GEOtop. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. It contains functions and methods to import maps and other keywords from geotop.inpts file. Some examples with simulation cases of GEOtop 2.0 are presented in the package. Any information about the GEOtop Distributed Hydrological Model source code is available on https://github.com/geotopmodel or https://github.com/se27xx/GEOtop. Technical details about the model are available in [Endrizzi et al, 2014](http://www.geosci-model-dev.net/7/2831/2014/gmd-7-2831-2014.html). 
 
 -  <pkg>kwb.hantush</pkg> [![cran checks](https://cranchecks.info/badges/worst/kwb.hantush)](https://cran.rstudio.com/web/checks/check_results_kwb.hantush.html) Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
@@ -119,6 +160,10 @@ Modeling
 
 -  <github>USGS-R/streamMetabolizer</github> [![cran checks](https://cranchecks.info/badges/worst/streamMetabolizer)](https://cran.rstudio.com/web/checks/check_results_streamMetabolizer.html) Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. Several time-honored methods are implemented along with many promising new variants that produce more accurate and precise metabolism estimates.
 
+-  <pkg>SWATmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/SWATmodel)](https://cran.rstudio.com/web/checks/check_results_SWATmodel.html) The Soil and Water Assessment Tool is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
+
+-  <pkg>topmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/topmodel)](https://cran.rstudio.com/web/checks/check_results_topmodel.html) Set of hydrological functions including an R implementation of the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode.
+
 -  <pkg>wasim</pkg> [![cran checks](https://cranchecks.info/badges/worst/wasim)](https://cran.rstudio.com/web/checks/check_results_wasim.html)  Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH 
 
 -  <pkg>water</pkg> [![cran checks](https://cranchecks.info/badges/worst/water)](https://cran.rstudio.com/web/checks/check_results_water.html) Tools and functions to calculate actual Evapotranspiration using surface energy balance models. 
@@ -129,3 +174,20 @@ Modeling
 **Statistical modeling (hydrology-related statistical models and link to Envirometrics CranTV)**
 
 
+-  <pkg>CityWaterBalance</pkg> [![cran checks](https://cranchecks.info/badges/worst/CityWaterBalance)](https://cran.rstudio.com/web/checks/check_results_CityWaterBalance.html) Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies 'geoknife' and 'dataRetrieval'. 
+
+-   <pkg>hydroApps</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroApps)](https://cran.rstudio.com/web/checks/check_results_hydroApps.html) Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
+
+-   <pkg>hydroGOF</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroGOF)](https://cran.rstudio.com/web/checks/check_results_hydroGOF.html) S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models. 
+
+-   <pkg>HydroMe</pkg> [![cran checks](https://cranchecks.info/badges/worst/HydroMe)](https://cran.rstudio.com/web/checks/check_results_HydroMe.html) Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
+
+-   <pkg>hyfo</pkg> [![cran checks](https://cranchecks.info/badges/worst/hyfo)](https://cran.rstudio.com/web/checks/check_results_hyfo.html) Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
+
+-   <pkg>LPM</pkg> [![cran checks](https://cranchecks.info/badges/worst/LPM)](https://cran.rstudio.com/web/checks/check_results_LPM.html) Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
+
+-   <pkg>SCI</pkg> [![cran checks](https://cranchecks.info/badges/worst/SCI)](https://cran.rstudio.com/web/checks/check_results_SCI.html) Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
+
+-   <pkg>soilwater</pkg> [![cran checks](https://cranchecks.info/badges/worst/soilwater)](https://cran.rstudio.com/web/checks/check_results_soilwater.html) It implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
+
+-   <pkg>SPEI</pkg> [![cran checks](https://cranchecks.info/badges/worst/SPEI)](https://cran.rstudio.com/web/checks/check_results_SPEI.html) A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
