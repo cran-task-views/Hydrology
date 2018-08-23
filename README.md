@@ -23,7 +23,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html) [![cran checks](https://cranchecks.info/badges/worst/dbhydroR)](https://cran.rstudio.com/web/checks/check_results_dbhydroR.html) Client for programmatic access to the South Florida Water Management District’s ‘DBHYDRO’ database at <https://www.sfwmd.gov/science-data/dbhydro>, with functions for accessing hydrologic and water quality data.
 
-  - [hddtools](https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/hddtools/index.html) [![cran checks](https://cranchecks.info/badges/worst/hddtools)](https://cran.rstudio.com/web/checks/check_results_hddtools.html) Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
+  - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html) [![cran checks](https://cranchecks.info/badges/worst/hddtools)](https://cran.rstudio.com/web/checks/check_results_hddtools.html) Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
 
   - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html) [![cran checks](https://cranchecks.info/badges/worst/hydrolinks)](https://cran.rstudio.com/web/checks/check_results_hydrolinks.html) Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
 
@@ -155,7 +155,7 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
 <!-- end list -->
 
-  - [<span class="GitHub"> hydromad </span>](https://github.com/floybix/hydromad/) [![cran checks](https://cranchecks.info/badges/worst/hydromat)](https://cran.rstudio.com/web/checks/check_results_hydromat.html) Hydrological Model Assessment and Development. See [hydromad.catchment.org](http://hydromad.catchment.org).
+  - [<span class="GitHub">hydromad</span>](https://github.com/floybix/hydromad/) [![cran checks](https://cranchecks.info/badges/worst/hydromat)](https://cran.rstudio.com/web/checks/check_results_hydromat.html) Hydrological Model Assessment and Development. See [hydromad.catchment.org](http://hydromad.catchment.org).
 
   - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html) [](https://cran.rstudio.com/web/checks/check_results_kwb.hantush.html) Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)).
 
@@ -189,7 +189,7 @@ Packages which allow simple and complex modeling of Extreme Value are instead di
 
   - [CityWaterBalance](http://cran.rstudio.com/web/packages/CityWaterBalance/index.html) [![cran checks](https://cranchecks.info/badges/worst/CityWaterBalance)](https://cran.rstudio.com/web/checks/check_results_CityWaterBalance.html) Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies ‘geoknife’ and ‘dataRetrieval’.
 
-  - [<span class="GitHub"> fuse </span>](https://github.com/cvitolo/fuse/) [![cran checks](https://cranchecks.info/badges/worst/fuse)](https://cran.rstudio.com/web/checks/check_results_fuse.html) an R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/)
+  - [<span class="GitHub">fuse</span>](https://github.com/cvitolo/fuse/) [![cran checks](https://cranchecks.info/badges/worst/fuse)](https://cran.rstudio.com/web/checks/check_results_fuse.html) an R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/)
 
   - [hydroApps](http://cran.rstudio.com/web/packages/hydroApps/index.html) [![cran checks](https://cranchecks.info/badges/worst/hydroApps)](https://cran.rstudio.com/web/checks/check_results_hydroApps.html) Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
 
@@ -199,7 +199,7 @@ Packages which allow simple and complex modeling of Extreme Value are instead di
 
   - [hyfo](http://cran.rstudio.com/web/packages/hyfo/index.html) [![cran checks](https://cranchecks.info/badges/worst/hyfo)](https://cran.rstudio.com/web/checks/check_results_hyfo.html) Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
 
-  - [IDF](http://cran.rstudio.com/whttp://cran.rstudio.com/web/packages/IDF/index.html) [![cran checks](https://cranchecks.info/badges/worst/IDF)](https://cran.rstudio.com/web/checks/check_results_IDF.html) The package ‘IDF’ provides a function to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
+  - [IDF](http://cran.rstudio.com/web/packages/IDF/index.html) [![cran checks](https://cranchecks.info/badges/worst/IDF)](https://cran.rstudio.com/web/checks/check_results_IDF.html) The package ‘IDF’ provides a function to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
 
 <!-- end list -->
 
