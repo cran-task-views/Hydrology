@@ -156,7 +156,6 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>airGRteaching</pkg> [![cran checks](https://cranchecks.info/badges/worst/airGRteaching)](https://cran.rstudio.com/web/checks/check_results_airGRteaching.html) Add-on package to the 'airGR' package that simplifies its use and is aimed at being used for teaching hydrology. 
 <!-- The package provides 1) three functions that allow to complete very simply a hydrological modelling exercise 2) plotting functions to help students to explore observed data and to interpret the results of calibration and simulation of the GR ('Génie rural') models 3) a 'Shiny' graphical interface that allows for displaying the impact of model parameters on hydrographs and models internal variables. -->
 
-https://cran.r-project.org/web/packages/bigleaf/index.html
 
 -  <pkg>bigleaf</pkg> [![cran checks](https://cranchecks.info/badges/worst/bigleaf)](https://cran.rstudio.com/web/checks/check_results_bigleaf.html) Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a 'big-leaf' and return bulk ecosystem/canopy variables.
 
@@ -191,6 +190,9 @@ https://cran.r-project.org/web/packages/bigleaf/index.html
 -  <pkg>SWATmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/SWATmodel)](https://cran.rstudio.com/web/checks/check_results_SWATmodel.html) The Soil and Water Assessment Tool is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
 
 -  <pkg>topmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/topmodel)](https://cran.rstudio.com/web/checks/check_results_topmodel.html) Set of hydrological functions including an R implementation of the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode.
+
+-  <pkg>TUWmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/TUWmodel)](https://cran.rstudio.com/web/checks/check_results_TUWmodel.html): Lumped Hydrological Model for Education Purposes
+The model, developed at the Vienna University of Technology, is a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine. <!-- See Parajka, J., R. Merz, G. Bloeschl (2007) <doi:10.1002/hyp.6253> Uncertainty and multiple objective calibration in regional water balance modelling: case study in 320 Austrian catchments, Hydrological Processes, 21, 435-446. -->
 
 -  <pkg>wasim</pkg> [![cran checks](https://cranchecks.info/badges/worst/wasim)](https://cran.rstudio.com/web/checks/check_results_wasim.html)  Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH 
 
