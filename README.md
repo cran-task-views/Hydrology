@@ -4,7 +4,7 @@
 | --------------- | -------------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi          |
 | **Contact:**    | samuelczipper at gmail.com                         |
-| **Version:**    | 2018-08-23                                         |
+| **Version:**    | 2018-08-28                                         |
 | **URL:**        | <https://CRAN.R-project.org/view=hydrometeorology> |
 
 <div>
@@ -81,6 +81,10 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [<span class="GitHub">fasstr</span>](https://github.com/bcgov/fasstr/) [![cran checks](https://cranchecks.info/badges/worst/fasstr)](https://cran.rstudio.com/web/checks/check_results_fasstr.html) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
 
+  - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html) [](https://cran.rstudio.com/web/checks/check_results_climdex.pcic.html): PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
+
+  - [climatol](http://cran.rstudio.com/web/packages/climatol/index.html) [![cran checks](https://cranchecks.info/badges/worst/climatol)](https://cran.rstudio.com/web/checks/check_results_climatol.html): Functions for the quality control, homogenization and missing data infilling of climatological series and to obtain climatological summaries and grids from the results. Also functions to draw wind-roses and Walter\&Lieth climate diagrams.
+
   - [getMet](http://cran.rstudio.com/web/packages/getMet/index.html) [![cran checks](https://cranchecks.info/badges/worst/getMet)](https://cran.rstudio.com/web/checks/check_results_getMet.html) Hydrologic models often require users to collect and format input meteorological data. This package contains functions for sourcing, formatting, and editing meteorological data for hydrologic models.
 
 **Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)**
@@ -149,7 +153,11 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
   - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html) [![cran checks](https://cranchecks.info/badges/worst/airGRteaching)](https://cran.rstudio.com/web/checks/check_results_airGRteaching.html) Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.
 
-  - [boussinesq](http://cran.rstudio.com/web/packages/boussinesq/index.html) [![cran checks](https://cranchecks.info/badges/worst/boussinesq)](https://cran.rstudio.com/web/checks/check_results_boussinesq.html) This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water). In particular, the function “beq.lin” is the analytic solution of the linearized form of Boussinesq Equation between two different head-based boundary (Dirichlet) conditions; “beq.song” is the non-linear power-series analytic solution of the motion of a wetting front over a dry bedrock (Song at al, 2007, see complete reference on function documentation).
+https://cran.r-project.org/whttp://cran.rstudio.com/web/packages/bigleaf/index.html
+
+  - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html) [![cran checks](https://cranchecks.info/badges/worst/bigleaf)](https://cran.rstudio.com/web/checks/check_results_bigleaf.html) Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.
+
+  - [boussinesq](http://cran.rstudio.com/web/packages/boussinesq/index.html) [![cran checks](https://cranchecks.info/badges/worst/boussinesq)](https://cran.rstudio.com/web/checks/check_results_boussinesq.html) This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water).
 
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html) [![cran checks](https://cranchecks.info/badges/worst/dynatopmodel)](https://cran.rstudio.com/web/checks/check_results_dynatopmodel.html) A native R implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs.
 
@@ -185,13 +193,15 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
   - [WRSS](http://cran.rstudio.com/web/packages/WRSS/index.html) [![cran checks](https://cranchecks.info/badges/worst/WRSS)](https://cran.rstudio.com/web/checks/check_results_WRSS.html) Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. ‘WRSS’ proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).
 
-**Statistical modeling (hydrology-related statistical models and link to Envirometrics CranTV)**
+**Statistical modeling (hydrology-related statistical models)**
 
 The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gives an overview of packages used in the analysis of environmental data, including hydrological data.
 
 Packages which allow simple and complex modeling of Extreme Value are instead discussed in the [ExtremeValue TaskView](https://CRAN.R-project.org/view=ExtremeValue).
 
   - [CityWaterBalance](http://cran.rstudio.com/web/packages/CityWaterBalance/index.html) [![cran checks](https://cranchecks.info/badges/worst/CityWaterBalance)](https://cran.rstudio.com/web/checks/check_results_CityWaterBalance.html) Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies ‘geoknife’ and ‘dataRetrieval’.
+
+[<span class="Rforge">dream</span>](https://R-Forge.R-project.org/projects/dream/) DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces. Developed by J.A. Vrugt, C.J.F. ter Braak et al.
 
   - [<span class="GitHub">fuse</span>](https://github.com/cvitolo/fuse/) [![cran checks](https://cranchecks.info/badges/worst/fuse)](https://cran.rstudio.com/web/checks/check_results_fuse.html) an R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/)
 
@@ -208,6 +218,8 @@ Packages which allow simple and complex modeling of Extreme Value are instead di
 <!-- end list -->
 
   - [LPM](http://cran.rstudio.com/web/packages/LPM/index.html) [![cran checks](https://cranchecks.info/badges/worst/LPM)](https://cran.rstudio.com/web/checks/check_results_LPM.html) Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
+
+  - [rtop](http://cran.rstudio.com/web/packages/rtop/index.html) [![cran checks](https://cranchecks.info/badges/worst/rtop)](https://cran.rstudio.com/web/checks/check_results_rtop.html): Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
 
   - [SCI](http://cran.rstudio.com/web/packages/SCI/index.html) [![cran checks](https://cranchecks.info/badges/worst/SCI)](https://cran.rstudio.com/web/checks/check_results_SCI.html) Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
 
