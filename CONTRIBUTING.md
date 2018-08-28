@@ -8,7 +8,7 @@ Thanks for your contribution!
 * `make`
 * [`pandoc`](http://johnmacfarlane.net/pandoc/installing.html)
 
-If you don't want to or can't install these things, then just edit the `webtech.md` file, and submit a pull request.
+If you don't want to or can't install these things, then just edit the `hydrometeorology.md` file, and submit a pull request.
 
 ### Steps
 
