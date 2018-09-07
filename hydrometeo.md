@@ -1,7 +1,7 @@
 *Do not edit this README by hand. See [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 
-This Task View contains information about packages relevant to the field of hydrology and meteorology
+This Task View contains information about packages broadly relevated to *water*, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing. 
 
 If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrometeorology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrometeorology/pulls). If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -184,13 +184,11 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 **Statistical modeling (hydrology-related statistical models)**
 
-The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gives an overview of packages used in the analysis of environmental data, including hydrological data. 
-
-Packages which allow simple and complex modeling of Extreme Value are instead discussed in the [ExtremeValue TaskView](https://CRAN.R-project.org/view=ExtremeValue). 
+The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gives an overview of packages used in the analysis of environmental data, including hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the [ExtremeValue TaskView](https://CRAN.R-project.org/view=ExtremeValue). 
 
 -  <pkg>CityWaterBalance</pkg> Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies <pkg>geoknife</pkg> and <pkg>dataRetrieval</pkg>. 
 
-<rforge> dream</rforge> DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces. Developed by J.A. Vrugt, C.J.F. ter Braak et al.
+-   <rforge>dream</rforge> DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces.
 
   - <github>cvitolo/fuse</github> An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/) 
 
