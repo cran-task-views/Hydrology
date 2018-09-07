@@ -42,13 +42,14 @@ Data Retrieval
 
 -   <pkg>getMet</pkg> Functions for sourcing, formatting, and editing meteorological data for hydrologic models. 
 
+
 -   <pkg>GSODR</pkg> Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R. 
 
 -   <pkg>rdwd</pkg> Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
 
 -   <pkg>RNCEP</pkg> Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets. 
 
--  <pkg>rnoaa</pkg> Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface  NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository ('HOMR'), storm data via 'IBTrACS', tornado data via the NOAA storm prediction center, and more.                
+-  <pkg>rnoaa</pkg> Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface  NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository ('HOMR'), storm data via 'IBTrACS', tornado data via the NOAA storm prediction center, and more.        
 
 -  <pkg>rpdo</pkg> Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> [![cran checks](https://cranchecks.info/badges/worst/rsoi)](https://cran.rstudio.com/web/checks/check_results_rsoi.html) for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data. 
 
@@ -131,7 +132,6 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
 -   <pkg>Watersheds</pkg> Methods for watersheds aggregation and spatial drainage network analysis.
 
-
 Modeling
 --------
 
@@ -144,6 +144,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>airGRteaching</pkg> Add-on package to the 'airGR' package that simplifies its use and is aimed at being used for teaching hydrology. 
 
 -  <pkg>bigleaf</pkg> Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a 'big-leaf' and return bulk ecosystem/canopy variables.
+
 
 -  <pkg>boussinesq</pkg> This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water). 
 
