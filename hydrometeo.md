@@ -1,7 +1,7 @@
 *Do not edit this README by hand. See [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 
-This Task View contains information about packages broadly relevated to *water*, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing. 
+This Task View contains information about packages broadly relevated to *water*, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
 
 If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrometeorology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrometeorology/pulls). If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -100,7 +100,11 @@ Data Analysis
 
 -   <pkg>hydroTSM</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroTSM)](https://cran.rstudio.com/web/checks/check_results_hydroTSM.html) Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
 
+-   <pkg>lfstat</pkg> [![cran checks](https://cranchecks.info/badges/worst/lfstat)](https://cran.rstudio.com/web/checks/check_results_lfstat.html) Functions to compute and plot statistics described in the "Manual on Low-flow Estimation and Prediction", published by the World Meteorological Organisation (WMO).
+
 **Meteorology (functions for working with meteorological and climate data)**
+
+-  <pkg>Evapotranspiration</pkg> [![cran checks](https://cranchecks.info/badges/worst/Evapotranspiration)](https://cran.rstudio.com/web/checks/check_results_Evapotranspiration.html) Functions to calculate potential evapotranspiration (PET) and actual evapotranspiration (AET) from 21 different formulations including Penman, Penman-Monteith FAO 56, Priestley-Taylor and Morton models.
 
 -   <pkg>humidity</pkg> [![cran checks](https://cranchecks.info/badges/worst/humidity)](https://cran.rstudio.com/web/checks/check_results_humidity.html) Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
 
@@ -133,6 +137,8 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
 -   <pkg>lakemorpho</pkg> [![cran checks](https://cranchecks.info/badges/worst/lakemorpho)](https://cran.rstudio.com/web/checks/check_results_lakemorpho.html) Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The 'lakemorpho' package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon. 
 
+-  <github>tpilz/lumpR</github> [![cran checks](https://cranchecks.info/badges/worst/lumpR)](https://cran.rstudio.com/web/checks/check_results_lumpR.html) Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW).
+
 -   <pkg>Watersheds</pkg> [![cran checks](https://cranchecks.info/badges/worst/Watersheds)](https://cran.rstudio.com/web/checks/check_results_Watersheds.html) Methods for watersheds aggregation and spatial drainage network analysis.
 
 
@@ -158,6 +164,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>EcoHydRology</pkg> [![cran checks](https://cranchecks.info/badges/worst/EcoHydRology)](https://cran.rstudio.com/web/checks/check_results_EcoHydRology.html) This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -  <pkg>geotopbricks</pkg> [![cran checks](https://cranchecks.info/badges/worst/geotopbricks)](https://cran.rstudio.com/web/checks/check_results_geotopbricks.html) An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. Technical details about the model are available in [Endrizzi et al, 2014](http://www.geosci-model-dev.net/7/2831/2014/gmd-7-2831-2014.html).
+
+-  <pkg>hydroPSO</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroPSO)](https://cran.rstudio.com/web/checks/check_results_hydroPSO.html) Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine. 
 
 -  <pkg>kwb.hantush</pkg> [![cran checks](https://cranchecks.info/badges/worst/kwb.hantush)](https://cran.rstudio.com/web/checks/check_results_kwb.hantush.html) Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
@@ -208,6 +216,10 @@ The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gi
 -   <pkg>IDF</pkg> [![cran checks](https://cranchecks.info/badges/worst/IDF)](https://cran.rstudio.com/web/checks/check_results_IDF.html) The package 'IDF' provides a function to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. 
 
 -   <pkg>LPM</pkg> [![cran checks](https://cranchecks.info/badges/worst/LPM)](https://cran.rstudio.com/web/checks/check_results_LPM.html) Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
+
+-   <pkg>meteo</pkg> [![cran checks](https://cranchecks.info/badges/worst/meteo)](https://cran.rstudio.com/web/checks/check_results_meteo.html) Spatio-temporal geostatistical mapping of meteorological data.
+
+-   <pkg>RMAWGEN</pkg> [![cran checks](https://cranchecks.info/badges/worst/RMAWGEN)](https://cran.rstudio.com/web/checks/check_results_RMAWGEN.html): Functions for spatial multi-site stochastic generation of daily time series of temperature and precipitation. 
 
 -   <pkg>rtop</pkg> [![cran checks](https://cranchecks.info/badges/worst/rtop)](https://cran.rstudio.com/web/checks/check_results_rtop.html): Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
 
