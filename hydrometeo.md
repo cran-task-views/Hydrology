@@ -10,7 +10,7 @@ Data Retrieval
 
 **Hydrological data (surface water/groundwater quantity and quality)**
 
--   <pkg>dataRetrieval</pkg> Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services. 
+-   <pkg priority="core">dataRetrieval</pkg> Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services. 
 
 -   <pkg>dbhydroR</pkg>  Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data. 
 
@@ -38,7 +38,7 @@ Data Retrieval
 
 -   <pkg>bomrang</pkg>. Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files. 
 
--  <pkg>countyweather</pkg> Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the 'rnoaa' package to obtain and compile weather time series for U.S. counties. 
+-   <pkg>countyweather</pkg> Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the 'rnoaa' package to obtain and compile weather time series for U.S. counties. 
 
 -   <pkg>getMet</pkg> Functions for sourcing, formatting, and editing meteorological data for hydrologic models. 
 
@@ -51,7 +51,7 @@ Data Retrieval
 
 -  <pkg>rnoaa</pkg> Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface  NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository ('HOMR'), storm data via 'IBTrACS', tornado data via the NOAA storm prediction center, and more.        
 
--  <pkg>rpdo</pkg> Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> [![cran checks](https://cranchecks.info/badges/worst/rsoi)](https://cran.rstudio.com/web/checks/check_results_rsoi.html) for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data. 
+-  <pkg>rpdo</pkg> Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data. 
 
 -  <pkg>rwunderground</pkg> Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures. 
 
@@ -80,7 +80,7 @@ Data Analysis
 
 -   <pkg>biotic</pkg>  Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI. 
 
--  <pkg>EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+-  <pkg priority="core">EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -   <pkg>ecoval</pkg> Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions. 
 
@@ -96,15 +96,15 @@ Data Analysis
 
 -   <pkg>hydrostats</pkg> Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
--   <pkg>hydroTSM</pkg> Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
+-   <pkg priority="core">hydroTSM</pkg> Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
 
--   <pkg>lfstat</pkg> [![cran checks](https://cranchecks.info/badges/worst/lfstat)](https://cran.rstudio.com/web/checks/check_results_lfstat.html) Functions to compute and plot statistics described in the "Manual on Low-flow Estimation and Prediction", published by the World Meteorological Organisation (WMO).
+-   <pkg>lfstat</pkg> Functions to compute and plot statistics described in the "Manual on Low-flow Estimation and Prediction", published by the World Meteorological Organisation (WMO).
 
 **Meteorology (functions for working with meteorological and climate data)**
 
--  <pkg>Evapotranspiration</pkg> [![cran checks](https://cranchecks.info/badges/worst/Evapotranspiration)](https://cran.rstudio.com/web/checks/check_results_Evapotranspiration.html) Functions to calculate potential evapotranspiration (PET) and actual evapotranspiration (AET) from 21 different formulations including Penman, Penman-Monteith FAO 56, Priestley-Taylor and Morton models.
+-  <pkg>Evapotranspiration</pkg> Functions to calculate potential evapotranspiration (PET) and actual evapotranspiration (AET) from 21 different formulations including Penman, Penman-Monteith FAO 56, Priestley-Taylor and Morton models.
 
--   <pkg>humidity</pkg> [![cran checks](https://cranchecks.info/badges/worst/humidity)](https://cran.rstudio.com/web/checks/check_results_humidity.html) Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
+-   <pkg>humidity</pkg> Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
 
 
 -   <pkg>meteoland</pkg> Functions to estimate weather variables at any position of a landscape.
@@ -133,7 +133,7 @@ The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an ov
 
 -   <pkg>hydrolinks</pkg> Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers. 
 
--  <github>tpilz/lumpR</github> [![cran checks](https://cranchecks.info/badges/worst/lumpR)](https://cran.rstudio.com/web/checks/check_results_lumpR.html) Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW).
+-  <github>tpilz/lumpR</github> Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW).
 
 -   <pkg>lakemorpho</pkg> Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The 'lakemorpho' package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon. 
 
@@ -152,18 +152,17 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>bigleaf</pkg> Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a 'big-leaf' and return bulk ecosystem/canopy variables.
 
-
 -  <pkg>boussinesq</pkg> This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water). 
 
--  <pkg>dynatopmodel</pkg> Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg> [![cran checks](https://cranchecks.info/badges/worst/topmodel)](https://cran.rstudio.com/web/checks/check_results_topmodel.html).
+-  <pkg>dynatopmodel</pkg> Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>
 
 -  <pkg>Ecohydmod</pkg> Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
 
--  <pkg>EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+-  <pkg priority="core">EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -  <pkg>geotopbricks</pkg> An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. 
 
--  <pkg>hydroPSO</pkg> [![cran checks](https://cranchecks.info/badges/worst/hydroPSO)](https://cran.rstudio.com/web/checks/check_results_hydroPSO.html) Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine. 
+-  <pkg>hydroPSO</pkg> Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine. 
 
 -  <pkg>kwb.hantush</pkg> Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
@@ -203,7 +202,7 @@ The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gi
 
 -   <pkg>hydroApps</pkg> Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
 
--   <pkg>hydroGOF</pkg> S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models. 
+-   <pkg priority="core">hydroGOF</pkg> S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models. 
 
 -   <pkg>HydroMe</pkg> Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
 
@@ -213,11 +212,11 @@ The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gi
   
 -   <pkg>LPM</pkg> Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
 
--   <pkg>meteo</pkg> [![cran checks](https://cranchecks.info/badges/worst/meteo)](https://cran.rstudio.com/web/checks/check_results_meteo.html) Spatio-temporal geostatistical mapping of meteorological data.
+-   <pkg>meteo</pkg> Spatio-temporal geostatistical mapping of meteorological data.
 
--   <pkg>RMAWGEN</pkg> [![cran checks](https://cranchecks.info/badges/worst/RMAWGEN)](https://cran.rstudio.com/web/checks/check_results_RMAWGEN.html): Functions for spatial multi-site stochastic generation of daily time series of temperature and precipitation. 
+-   <pkg>RMAWGEN</pkg> Functions for spatial multi-site stochastic generation of daily time series of temperature and precipitation. 
 
--   <pkg>rtop</pkg> [![cran checks](https://cranchecks.info/badges/worst/rtop)](https://cran.rstudio.com/web/checks/check_results_rtop.html): Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
+-   <pkg>rtop</pkg> Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
 
 -   <pkg>SCI</pkg> Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
 
