@@ -42,8 +42,9 @@ Data Retrieval
 
 -   <pkg>getMet</pkg> Functions for sourcing, formatting, and editing meteorological data for hydrologic models. 
 
-
 -   <pkg>GSODR</pkg> Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R. 
+
+-   <pkg>MODISTools</pkg>. Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of 'MODIS' time series.
 
 -   <pkg>rdwd</pkg> Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
 
@@ -54,6 +55,8 @@ Data Retrieval
 -  <pkg>rpdo</pkg> Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data. 
 
 -  <pkg>rwunderground</pkg> Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures. 
+
+-  <pkg>smapr</pkg> Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data. 
 
 -   <pkg>weathercan</pkg> Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.      
 
@@ -106,7 +109,11 @@ Data Analysis
 
 -   <pkg>humidity</pkg> Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
 
+-   <pkg>MBC</pkg> Multivariate Bias Correction of Climate Model Outputs. Calibrate and apply multivariate bias correction algorithms for climate model simulations of multiple climate variables.
+
 -   <pkg>meteoland</pkg> Functions to estimate weather variables at any position of a landscape.
+
+-   <pkg>musica</pkg> Multiscale Climate Model Assessment. Provides function to compare and analyse time series.
 
 -   <pkg>qmap</pkg> Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
@@ -121,6 +128,11 @@ Data Analysis
 -   <pkg>kitagawa</pkg> Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989). 
 
 -  <github>leppott/MBSStools</github> Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
+
+-   <pkg>MODIStsp</pkg> Suite of tools to automate the Download and Preprocessing of MODIS Land Products Data
+Allows automating the creation of time series of rasters derived from MODIS Satellite Land Products data. It performs several typical preprocessing steps such as download, mosaicking, reprojection and resize of data acquired on a specified time period.
+
+-   <pkg>lulcc</pkg> Land Use Change Modelling in R. Classes and methods for spatially explicit land use change modelling in R.
 
 -   <pkg>wql</pkg> Functions to assist in the processing and exploration of data from environmental monitoring programs. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.
 
@@ -160,6 +172,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg priority="core">EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -  <pkg>geotopbricks</pkg> An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. 
+
+-  <github>floybix/hydromad</github> Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org) 
 
 -  <pkg>hydroPSO</pkg> Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine. 
 

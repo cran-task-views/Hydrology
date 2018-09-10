@@ -53,6 +53,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html) Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.
 
+  - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html). Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of ‘MODIS’ time series.
+
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html) Handle climate data from the German DWD ([‘Deutscher Wetterdienst’](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)).
 
   - [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html) Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
@@ -62,6 +64,8 @@ If you have any comments or suggestions for additions or improvements for this T
   - [rpdo](http://cran.rstudio.com/web/packages/rpdo/index.html) Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also [rsoi](http://cran.rstudio.com/web/packages/rsoi/index.html) for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
 
   - [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html) Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.
+
+  - [smapr](http://cran.rstudio.com/web/packages/smapr/index.html) Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.
 
   - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html) Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
@@ -111,7 +115,11 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [humidity](http://cran.rstudio.com/web/packages/humidity/index.html) Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
 
+  - [MBC](http://cran.rstudio.com/web/packages/MBC/index.html) Multivariate Bias Correction of Climate Model Outputs. Calibrate and apply multivariate bias correction algorithms for climate model simulations of multiple climate variables.
+
   - [meteoland](http://cran.rstudio.com/web/packages/meteoland/index.html) Functions to estimate weather variables at any position of a landscape.
+
+  - [musica](http://cran.rstudio.com/web/packages/musica/index.html) Multiscale Climate Model Assessment. Provides function to compare and analyse time series.
 
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html) Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
@@ -126,6 +134,10 @@ If you have any comments or suggestions for additions or improvements for this T
   - [kitagawa](http://cran.rstudio.com/web/packages/kitagawa/index.html) Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
 
   - [<span class="GitHub">MBSStools</span>](https://github.com/leppott/MBSStools/) Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
+
+  - [MODIStsp](http://cran.rstudio.com/web/packages/MODIStsp/index.html) Suite of tools to automate the Download and Preprocessing of MODIS Land Products Data Allows automating the creation of time series of rasters derived from MODIS Satellite Land Products data. It performs several typical preprocessing steps such as download, mosaicking, reprojection and resize of data acquired on a specified time period.
+
+  - [lulcc](http://cran.rstudio.com/web/packages/lulcc/index.html) Land Use Change Modelling in R. Classes and methods for spatially explicit land use change modelling in R.
 
   - [wql](http://cran.rstudio.com/web/packages/wql/index.html) Functions to assist in the processing and exploration of data from environmental monitoring programs. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.
 
@@ -164,6 +176,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
   - [EcoHydRology](http://cran.rstudio.com/web/packages/EcoHydRology/index.html) This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
   - [geotopbricks](http://cran.rstudio.com/web/packages/geotopbricks/index.html) An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.
+
+  - [<span class="GitHub">hydromad</span>](https://github.com/floybix/hydromad/) Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org)
 
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html) Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
 
@@ -279,8 +293,13 @@ The [Environmetrics](Environmetrics.html) Task View gives an overview of package
   - [lakemorpho](http://cran.rstudio.com/web/packages/lakemorpho/index.html)
   - [lfstat](http://cran.rstudio.com/web/packages/lfstat/index.html)
   - [LPM](http://cran.rstudio.com/web/packages/LPM/index.html)
+  - [lulcc](http://cran.rstudio.com/web/packages/lulcc/index.html)
+  - [MBC](http://cran.rstudio.com/web/packages/MBC/index.html)
   - [meteo](http://cran.rstudio.com/web/packages/meteo/index.html)
   - [meteoland](http://cran.rstudio.com/web/packages/meteoland/index.html)
+  - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html)
+  - [MODIStsp](http://cran.rstudio.com/web/packages/MODIStsp/index.html)
+  - [musica](http://cran.rstudio.com/web/packages/musica/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html)
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html)
@@ -297,6 +316,7 @@ The [Environmetrics](Environmetrics.html) Task View gives an overview of package
   - [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html)
   - [sbtools](http://cran.rstudio.com/web/packages/sbtools/index.html)
   - [SCI](http://cran.rstudio.com/web/packages/SCI/index.html)
+  - [smapr](http://cran.rstudio.com/web/packages/smapr/index.html)
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html)
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html)
   - [SWATmodel](http://cran.rstudio.com/web/packages/SWATmodel/index.html)
