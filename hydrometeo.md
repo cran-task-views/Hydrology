@@ -106,7 +106,6 @@ Data Analysis
 
 -   <pkg>humidity</pkg> Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
 
-
 -   <pkg>meteoland</pkg> Functions to estimate weather variables at any position of a landscape.
 
 -   <pkg>qmap</pkg> Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
