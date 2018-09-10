@@ -11,7 +11,7 @@ pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 
 c(paste0('<CRANTaskView>
   <name>hydrometeorology</name>
-  <topic>Hydrology and Meteorology</topic>
+  <topic>Water Science</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
   <version>',Sys.Date(),'</version>'), 
   '  <info>',
