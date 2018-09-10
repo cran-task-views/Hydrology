@@ -6,11 +6,11 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <meta name="citation_title" content="CRAN Task View: Hydrology and Meteorology" />
   <meta name="citation_author" content="Sam Zipper, Sam Albers, Ilaria Prosdocimi" />
-  <meta name="citation_publication_date" content="2018-09-07" />
+  <meta name="citation_publication_date" content="2018-09-10" />
   <meta name="citation_public_url" content="https://CRAN.R-project.org/view=hydrometeorology" />
   <meta name="DC.title" content="CRAN Task View: Hydrology and Meteorology" />
   <meta name="DC.creator" content="Sam Zipper, Sam Albers, Ilaria Prosdocimi" />
-  <meta name="DC.issued" content="2018-09-07" />
+  <meta name="DC.issued" content="2018-09-10" />
   <meta name="DC.identifier" content="https://CRAN.R-project.org/view=hydrometeorology" />
 </head>
 
@@ -19,738 +19,967 @@
   <table summary="hydrometeorology task view information">
     <tr><td valign="top"><b>Maintainer:</b></td><td>Sam Zipper, Sam Albers, Ilaria Prosdocimi</td></tr>
     <tr><td valign="top"><b>Contact:</b></td><td>&#x73;&#x61;&#x6d;&#x75;&#x65;&#x6c;&#x63;&#x7a;&#x69;&#x70;&#x70;&#x65;&#x72;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</td></tr>
-    <tr><td valign="top"><b>Version:</b></td><td>2018-09-07</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2018-09-10</td></tr>
     <tr><td valign="top"><b>URL:</b></td><td><a href="https://CRAN.R-project.org/view=hydrometeorology">https://CRAN.R-project.org/view=hydrometeorology</a></td></tr>
   </table>
 
     <div>
-      <p>
-        <em>
-          Do not edit this README by hand. See
-          <a href="CONTRIBUTING.md" class="uri">
-            CONTRIBUTING.md
-          </a>.
-        </em>
-      </p>
-      <p>
-        This Task View contains information about packages broadly relevated to
-        <em>
-          water
-        </em>, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing.
-      </p>
-      <p>
-        If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and
-        <a href="https://github.com/ropensci/hydrometeorology/issues">
-          submit an issue
-        </a>, or make some changes and
-        <a href="https://github.com/ropensci/hydrometeorology/pulls">
-          submit a pull request
-        </a>. If you can’t contribute on GitHub,
-        <a href="mailto:samuelczipper@gmail.com">
-          send Sam Zipper an email
-        </a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
-      </p>
-      <h2 id="data-retrieval">
-        Data Retrieval
-      </h2>
-      <p>
-        <strong>
-          Hydrological data (surface water/groundwater quantity and quality)
-        </strong>
-      </p>
-      <ul>
-        <li>
+      <CRANTaskView>
+        <name>
+          hydrometeorology
+        </name>
+        <topic>
+          Hydrology and Meteorology
+        </topic>
+        <maintainer email="samuelczipper@gmail.com">
+          Sam Zipper, Sam Albers, Ilaria Prosdocimi
+        </maintainer>
+        <version>
+          2018-09-10
+        </version>
+        <div>
           <p>
+            <em>
+              Do not edit this README by hand. See
+              <a href="CONTRIBUTING.md" class="uri">
+                CONTRIBUTING.md
+              </a>.
+            </em>
+          </p>
+          <p>
+            This Task View contains information about packages broadly relevated to
+            <em>
+              water
+            </em>, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing. See also
+            <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">
+              Riccardo Rigon’s excellent list
+            </a>
+            of hydrology-related R tools and resources.
+          </p>
+          <p>
+            If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and
+            <a href="https://github.com/ropensci/hydrometeorology/issues">
+              submit an issue
+            </a>, or make some changes and
+            <a href="https://github.com/ropensci/hydrometeorology/pulls">
+              submit a pull request
+            </a>. If you can’t contribute on GitHub,
+            <a href="mailto:samuelczipper@gmail.com">
+              send Sam Zipper an email
+            </a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+          </p>
+          <h2 id="data-retrieval">
+            Data Retrieval
+          </h2>
+          <p>
+            <strong>
+              Hydrological data (surface water/groundwater quantity and quality)
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/dataRetrieval/index.html">dataRetrieval</a>
-            Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
-          </p>
-        </li>
-        <li>
-          <p>
+                Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/dbhydroR/index.html">dbhydroR</a>
-            Client for programmatic access to the South Florida Water Management District’s
-            <a href="https://www.sfwmd.gov/science-data/dbhydro">
-              DBHYDRO database
-            </a>, with functions for accessing hydrologic and water quality data.
-          </p>
-        </li>
-        <li>
-          <p>
+                Client for programmatic access to the South Florida Water Management District’s
+                <a href="https://www.sfwmd.gov/science-data/dbhydro">
+                  DBHYDRO database
+                </a>, with functions for accessing hydrologic and water quality data.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hddtools/index.html">hddtools</a>
-            Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
-          </p>
-        </li>
-        <li>
-          <p>
+                Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydrolinks/index.html">hydrolinks</a>
-            Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydroscoper/index.html">hydroscoper</a>
-            R interface to the
-            <a href="http://www.hydroscope.gr/">
-              Greek National Data Bank for Hydrological and Meteorological Information
-            </a>. It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
-          </p>
-        </li>
-        <li>
-          <p>
+                R interface to the
+                <a href="http://www.hydroscope.gr/">
+                  Greek National Data Bank for Hydrological and Meteorological Information
+                </a>. It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/rywhale/kiwisR/"><span class="GitHub">kiwisR</span></a>
-            Wrapper for retrieving data from
-            <a href="https://www.kisters.net/NA/products/wiski/">
-              KISTERS WISKI databases
-            </a>
-            via the KiWIS API.
-          </p>
-        </li>
-        <li>
-          <p>
+                Wrapper for retrieving data from
+                <a href="https://www.kisters.net/NA/products/wiski/">
+                  KISTERS WISKI databases
+                </a>
+                via the KiWIS API.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rnrfa/index.html">rnrfa</a>
-            Utility functions to retrieve data from the
-            <a href="http://nrfa.ceh.ac.uk/">
-              UK National River Flow Archive
-            </a>. There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
-          </p>
-        </li>
-        <li>
-          <p>
+                Utility functions to retrieve data from the
+                <a href="http://nrfa.ceh.ac.uk/">
+                  UK National River Flow Archive
+                </a>. There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/sbtools/index.html">sbtools</a>
-            Tools for interacting with
-            <a href="https://www.sciencebase.gov">
-              U.S. Geological Survey ScienceBase
-            </a>
-            data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools for interacting with
+                <a href="https://www.sciencebase.gov">
+                  U.S. Geological Survey ScienceBase
+                </a>
+                data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/tidyhydat/index.html">tidyhydat</a>
-            Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources (
-            <a href="http://dd.weather.gc.ca/hydrometric/csv/" class="uri">
-              http://dd.weather.gc.ca/hydrometric/csv/
-            </a>
-            and
-            <a href="http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/" class="uri">
-              http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/
-            </a>) and then applies tidy data principles.
-          </p>
-        </li>
-        <li>
-          <p>
+                Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources (
+                <a href="http://dd.weather.gc.ca/hydrometric/csv/" class="uri">
+                  http://dd.weather.gc.ca/hydrometric/csv/
+                </a>
+                and
+                <a href="http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/" class="uri">
+                  http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/
+                </a>) and then applies tidy data principles.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/washdata/index.html">washdata</a>
-            Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
-          </p>
-        </li>
-        <li>
-          <p>
+                Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/waterData/index.html">waterData</a>
-            Imports U.S. Geological Survey (USGS) daily hydrologic data from
-            <a href="https://waterservices.usgs.gov/">
-              USGS web services
-            </a>, plots the data, addresses some common data problems, and calculates and plots anomalies.
-          </p>
-        </li>
-        <li>
-          <p>
+                Imports U.S. Geological Survey (USGS) daily hydrologic data from
+                <a href="https://waterservices.usgs.gov/">
+                  USGS web services
+                </a>, plots the data, addresses some common data problems, and calculates and plots anomalies.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/WaterML/index.html">WaterML</a>
-            Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Meteorological data (precipitation, radiation, temperature, etc including both measurements and reanalysis)
-        </strong>
-      </p>
-      <ul>
-        <li>
+                Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Meteorological data (precipitation, radiation, temperature, etc including both measurements and reanalysis)
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/bomrang/index.html">bomrang</a>. Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
-          </p>
-        </li>
-        <li>
-          <p>
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/countyweather/index.html">countyweather</a>
-            Interacts with NOAA data sources (including the
-            <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">
-              NCDC API
-            </a>
-            and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.
-          </p>
-        </li>
-        <li>
-          <p>
+                Interacts with NOAA data sources (including the
+                <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">
+                  NCDC API
+                </a>
+                and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/getMet/index.html">getMet</a>
-            Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/GSODR/index.html">GSODR</a>
-            Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.
-          </p>
-        </li>
-        <li>
-          <p>
+                Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rdwd/index.html">rdwd</a>
-            Handle climate data from the German DWD (
-            <a href="https://www.dwd.de/EN/climate_environment/cdc/cdc.html">
-              ‘Deutscher Wetterdienst’
-            </a>).
-          </p>
-        </li>
-        <li>
-          <p>
+                Handle climate data from the German DWD (
+                <a href="https://www.dwd.de/EN/climate_environment/cdc/cdc.html">
+                  ‘Deutscher Wetterdienst’
+                </a>).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/RNCEP/index.html">RNCEP</a>
-            Contains functions to retrieve, organize, and visualize weather data from the
-            <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html">
-              NCEP/NCAR Reanalysis
-            </a>
-            and
-            <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html">
-              NCEP/DOE Reanalysis II
-            </a>
-            datasets.
-          </p>
-        </li>
-        <li>
-          <p>
+                Contains functions to retrieve, organize, and visualize weather data from the
+                <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html">
+                  NCEP/NCAR Reanalysis
+                </a>
+                and
+                <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html">
+                  NCEP/DOE Reanalysis II
+                </a>
+                datasets.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rnoaa/index.html">rnoaa</a>
-            Client for many NOAA data sources including the
-            <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">
-              NCDC climate API
-            </a>, with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.
-          </p>
-        </li>
-        <li>
-          <p>
+                Client for many NOAA data sources including the
+                <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">
+                  NCDC climate API
+                </a>, with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rpdo/index.html">rpdo</a>
-            Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also
+                Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also
 <a href="../packages/rsoi/index.html">rsoi</a>
-            <a href="https://cran.rstudio.com/web/checks/check_results_rsoi.html">
-              <img src="https://cranchecks.info/badges/worst/rsoi" alt="cran checks">
-              </img>
-            </a>
-            for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
-          </p>
-        </li>
-        <li>
-          <p>
+                for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rwunderground/index.html">rwunderground</a>
-            Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/weathercan/index.html">weathercan</a>
-            Provides means for downloading historical weather data from the
-            <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">
-              Environment and Climate Change Canada website
-            </a>. Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
-          </p>
-        </li>
-        <li>
-          <p>
+                Provides means for downloading historical weather data from the
+                <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">
+                  Environment and Climate Change Canada website
+                </a>. Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/worldmet/index.html">worldmet</a>
-            Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA)
-            <a href="https://www.ncdc.noaa.gov/isd">
-              Integrated Surface Database (ISD)
-            </a>.
-          </p>
-        </li>
-      </ul>
-      <h2 id="data-analysis">
-        Data Analysis
-      </h2>
-      <p>
-        <strong>
-          Data tidying (gap-filling, data organization, QA/QC, etc)
-        </strong>
-      </p>
-      <ul>
-        <li>
+                Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA)
+                <a href="https://www.ncdc.noaa.gov/isd">
+                  Integrated Surface Database (ISD)
+                </a>.
+              </p>
+            </li>
+          </ul>
+          <h2 id="data-analysis">
+            Data Analysis
+          </h2>
           <p>
+            <strong>
+              Data tidying (gap-filling, data organization, QA/QC, etc)
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/driftR/index.html">driftR</a>
-            A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from
-            <a href="http://doi.org/10.7936/K7N014KS">
-              Hasenmueller (2011)
-            </a>.
-          </p>
-        </li>
-        <li>
-          <p>
+                A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from
+                <a href="http://doi.org/10.7936/K7N014KS">
+                  Hasenmueller (2011)
+                </a>.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/bcgov/fasstr/"><span class="GitHub">fasstr</span></a>
-            Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/climdex.pcic/index.html">climdex.pcic</a>
-            PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
-          </p>
-        </li>
-        <li>
-          <p>
+                PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/climatol/index.html">climatol</a>
-            Functions for the quality control, homogenization and missing data infilling of climatological series and to obtain climatological summaries and grids from the results. Also functions to draw wind-roses and Walter&amp;Lieth climate diagrams.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions for the quality control, homogenization and missing data infilling of climatological series and to obtain climatological summaries and grids from the results. Also functions to draw wind-roses and Walter&amp;Lieth climate diagrams.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/getMet/index.html">getMet</a>
-            Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)
-        </strong>
-      </p>
-      <ul>
-        <li>
+                Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/biotic/index.html">biotic</a>
-            Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI.
-          </p>
-        </li>
-        <li>
-          <p>
+                Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/EcoHydRology/index.html">EcoHydRology</a>
-            This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
-          </p>
-        </li>
-        <li>
-          <p>
+                This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/ecoval/index.html">ecoval</a>
-            Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/USGS-R/EflowStats/"><span class="GitHub">EflowStats</span></a>
-            Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data.
-          </p>
-        </li>
-        <li>
-          <p>
+                Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/EGRET/index.html">EGRET</a>
-            Exploration and Graphics for RivEr Trends (EGRET): analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS).
-          </p>
-        </li>
-        <li>
-          <p>
+                Exploration and Graphics for RivEr Trends (EGRET): analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/EGRETci/index.html">EGRETci</a>
-            A bootstrap method for estimating uncertainty of water quality trends
-          </p>
-        </li>
-        <li>
-          <p>
+                A bootstrap method for estimating uncertainty of water quality trends
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/FAdist/index.html">FAdist</a>
-            Probability distributions that are sometimes useful in hydrology.
-          </p>
-        </li>
-        <li>
-          <p>
+                Probability distributions that are sometimes useful in hydrology.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/FlowScreen/index.html">FlowScreen</a>
-            Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
-          </p>
-        </li>
-        <li>
-          <p>
+                Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydrostats/index.html">hydrostats</a>
-            Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
-          </p>
-        </li>
-        <li>
-          <p>
+                Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydroTSM/index.html">hydroTSM</a>
-            Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Meteorology (functions for working with meteorological and climate data)
-        </strong>
-      </p>
-      <ul>
-        <li>
+                Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="../packages/lfstat/index.html">lfstat</a>
+                Functions to compute and plot statistics described in the “Manual on Low-flow Estimation and Prediction”, published by the World Meteorological Organisation (WMO).
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Meteorology (functions for working with meteorological and climate data)
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
+<a href="../packages/Evapotranspiration/index.html">Evapotranspiration</a>
+                Functions to calculate potential evapotranspiration (PET) and actual evapotranspiration (AET) from 21 different formulations including Penman, Penman-Monteith FAO 56, Priestley-Taylor and Morton models.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/humidity/index.html">humidity</a>
-            Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions for calculating saturation vapor pressure (hPa), partial water vapor pressure (Pa), relative humidity (%), absolute humidity (kg/m^3), specific humidity (kg/kg), and mixing ratio (kg/kg) from temperature (K) and dew point (K). Conversion functions between humidity measures are also provided.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/meteoland/index.html">meteoland</a>
-            Functions to estimate weather variables at any position of a landscape.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions to estimate weather variables at any position of a landscape.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/qmap/index.html">qmap</a>
-            Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Other
-        </strong>
-      </p>
-      <ul>
-        <li>
+                Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Other
+            </strong>
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/berryFunctions/index.html">berryFunctions</a>
-            Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions.
-          </p>
-        </li>
-        <li>
-          <p>
+                Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/GWSDAT/index.html">GWSDAT</a>
-            Shiny application for the analysis of groundwater monitoring data, designed to work with simple time-series data for solute concentration and ground water elevation, but can also plot non-aqueous phase liquid (NAPL) thickness if required.
-          </p>
-        </li>
-        <li>
-          <p>
+                Shiny application for the analysis of groundwater monitoring data, designed to work with simple time-series data for solute concentration and ground water elevation, but can also plot non-aqueous phase liquid (NAPL) thickness if required.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydrogeo/index.html">hydrogeo</a>
-            Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
-          </p>
-        </li>
-        <li>
-          <p>
+                Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/kitagawa/index.html">kitagawa</a>
-            Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
-          </p>
-        </li>
-        <li>
-          <p>
+                Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/leppott/MBSStools/"><span class="GitHub">MBSStools</span></a>
-            Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
-          </p>
-        </li>
-        <li>
-          <p>
+                Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/wql/index.html">wql</a>
-            Functions to assist in the processing and exploration of data from environmental monitoring programs. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions to assist in the processing and exploration of data from environmental monitoring programs. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/WRTDStidal/index.html">WRTDStidal</a>
-            An adaptation for estuaries (tidal waters) of weighted regression on time, discharge, and season to evaluate trends in water quality time series.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Spatial data processing
-        </strong>
-      </p>
-      <p>
-        The CRAN
-        <a href="https://CRAN.R-project.org/view=Spatial">
-          Spatial TaskView
-        </a>
-        gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci
-        <a href="https://github.com/ropensci/maptools">
-          MapTools Taskview
-        </a>.
-      </p>
-      <ul>
-        <li>
+                An adaptation for estuaries (tidal waters) of weighted regression on time, discharge, and season to evaluate trends in water quality time series.
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Spatial data processing
+            </strong>
+          </p>
+          <p>
+            The CRAN
+<a href="Spatial.html">Spatial</a>
+            Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci
+            <a href="https://github.com/ropensci/maptools">
+              MapTools Listing
+            </a>.
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/hydrolinks/index.html">hydrolinks</a>
-            Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="https://github.com/tpilz/lumpR/"><span class="GitHub">lumpR</span></a>
+                Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/lakemorpho/index.html">lakemorpho</a>
-            Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.
-          </p>
-        </li>
-        <li>
-          <p>
+                Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/Watersheds/index.html">Watersheds</a>
-            Methods for watersheds aggregation and spatial drainage network analysis.
-          </p>
-        </li>
-      </ul>
-      <h2 id="modeling">
-        Modeling
-      </h2>
-      <p>
-        <strong>
-          Process-based modeling (scripts for preparing inputs/outputs and running process-based models)
-        </strong>
-      </p>
-      <p>
-        See also the
-        <a href="https://r-forge.r-project.org/R/?group_id=411">
-          RHydro project
-        </a>
-        on R-forge.
-      </p>
-      <ul>
-        <li>
+                Methods for watersheds aggregation and spatial drainage network analysis.
+              </p>
+            </li>
+          </ul>
+          <h2 id="modeling">
+            Modeling
+          </h2>
           <p>
+            <strong>
+              Process-based modeling (scripts for preparing inputs/outputs and running process-based models)
+            </strong>
+          </p>
+          <p>
+            See also the
+            <a href="https://r-forge.r-project.org/R/?group_id=411">
+              RHydro project
+            </a>
+            on R-forge.
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/airGR/index.html">airGR</a>
-            Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
-          </p>
-        </li>
-        <li>
-          <p>
+                Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/airGRteaching/index.html">airGRteaching</a>
-            Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.
-          </p>
-        </li>
-        <li>
-          <p>
+                Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/bigleaf/index.html">bigleaf</a>
-            Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.
-          </p>
-        </li>
-        <li>
-          <p>
+                Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/boussinesq/index.html">boussinesq</a>
-            This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water).
-          </p>
-        </li>
-        <li>
-          <p>
+                This package is a collection of R functions implemented from published and available analytic solutions for the One-Dimensional Boussinesq Equation (ground-water).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/dynatopmodel/index.html">dynatopmodel</a>
-            Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also
+                Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also
 <a href="../packages/topmodel/index.html">topmodel</a>
-            <a href="https://cran.rstudio.com/web/checks/check_results_topmodel.html">
-              <img src="https://cranchecks.info/badges/worst/topmodel" alt="cran checks">
-              </img>
-            </a>.
-          </p>
-        </li>
-        <li>
-          <p>
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/Ecohydmod/index.html">Ecohydmod</a>
-            Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See
-            <a href="http://doi.org/10.1002/hyp.10953">
-              Souza et al. (2016)
-            </a>.
-          </p>
-        </li>
-        <li>
-          <p>
+                Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See
+                <a href="http://doi.org/10.1002/hyp.10953">
+                  Souza et al. (2016)
+                </a>.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/EcoHydRology/index.html">EcoHydRology</a>
-            This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
-          </p>
-        </li>
-        <li>
-          <p>
+                This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/geotopbricks/index.html">geotopbricks</a>
-            An R Plug-in for the Distributed Hydrological Model
-            <a href="https://github.com/geotopmodel">
-              GEOtop
-            </a>. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.
-          </p>
-        </li>
-        <li>
-          <p>
+                An R Plug-in for the Distributed Hydrological Model
+                <a href="https://github.com/geotopmodel">
+                  GEOtop
+                </a>. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="../packages/hydroPSO/index.html">hydroPSO</a>
+                Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/kwb.hantush/index.html">kwb.hantush</a>
-            Calculation groundwater mounding beneath an infiltration basin based on the
-            <a href="http://doi.org/10.1029/WR003i001p00227">
-              Hantush (1967)
-            </a>
-            equation. The correct implementation is shown with a verification example based on a USGS report (
-            <a href="http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf">
-              page 25
-            </a>).
-          </p>
-        </li>
-        <li>
-          <p>
+                Calculation groundwater mounding beneath an infiltration basin based on the
+                <a href="http://doi.org/10.1029/WR003i001p00227">
+                  Hantush (1967)
+                </a>
+                equation. The correct implementation is shown with a verification example based on a USGS report (
+                <a href="http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf">
+                  page 25
+                </a>).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/USGS-R/loadflex/"><span class="GitHub">loadflex</span></a>
-            Models and Tools for Watershed Flux Estimates
-            <a href="http://dx.doi.org/10.1890/ES14-00517.1">
-              see
-            </a>
-          </p>
-        </li>
-        <li>
-          <p>
+                Models and Tools for Watershed Flux Estimates see
+                <a href="http://dx.doi.org/10.1890/ES14-00517.1">
+                  paper
+                </a>.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/reservoir/index.html">reservoir</a>
-            Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/RHMS/index.html">RHMS</a>
-            Hydrologic modelling system is an object oriented tool which enables R users to simulate and analyze hydrologic events. The package proposes functions and methods for construction, simulation, visualization, and calibration of hydrologic systems.
-          </p>
-        </li>
-        <li>
-          <p>
+                Hydrologic modelling system is an object oriented tool which enables R users to simulate and analyze hydrologic events. The package proposes functions and methods for construction, simulation, visualization, and calibration of hydrologic systems.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/RSAlgaeR/index.html">RSAlgaeR</a>
-            Builds Empirical Remote Sensing Models of Water Quality Variables and Analyzes Long-Term Trends. Assists in processing reflectance data, developing empirical models using stepwise regression and a generalized linear modeling approach, cross- validation, and analysis of trends in water quality conditions (specifically chl-a) and climate conditions using the Theil-Sen estimator.
-          </p>
-        </li>
-        <li>
-          <p>
+                Builds Empirical Remote Sensing Models of Water Quality Variables and Analyzes Long-Term Trends. Assists in processing reflectance data, developing empirical models using stepwise regression and a generalized linear modeling approach, cross- validation, and analysis of trends in water quality conditions (specifically chl-a) and climate conditions using the Theil-Sen estimator.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/szipper/streamDepletr/"><span class="GitHub">streamDepletr</span></a>
-            Package for assessing the impacts of groundwater pumping on streams.
-          </p>
-        </li>
-        <li>
-          <p>
+                Package for assessing the impacts of groundwater pumping on streams.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/USGS-R/streamMetabolizer/"><span class="GitHub">streamMetabolizer</span></a>
-            Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs.
-          </p>
-        </li>
-        <li>
-          <p>
+                Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/SWATmodel/index.html">SWATmodel</a>
-            The Soil and Water Assessment Tool is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
-          </p>
-        </li>
-        <li>
-          <p>
+                The Soil and Water Assessment Tool is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/topmodel/index.html">topmodel</a>
-            Set of hydrological functions including an R implementation of the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also
+                Set of hydrological functions including an R implementation of the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also
 <a href="../packages/dynatopmodel/index.html">dynatopmodel</a>
-          </p>
-        </li>
-        <li>
-          <p>
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/TUWmodel/index.html">TUWmodel</a>
-            Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
-          </p>
-        </li>
-        <li>
-          <p>
+                Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/wasim/index.html">wasim</a>
-            Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH
-          </p>
-        </li>
-        <li>
-          <p>
+                Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/water/index.html">water</a>
-            Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
-          </p>
-        </li>
-        <li>
-          <p>
+                Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/WRSS/index.html">WRSS</a>
-            Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. ‘WRSS’ proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).
-          </p>
-        </li>
-      </ul>
-      <p>
-        <strong>
-          Statistical modeling (hydrology-related statistical models)
-        </strong>
-      </p>
-      <p>
-        The
-        <a href="https://CRAN.R-project.org/view=Environmetrics">
-          Environmetrics TaskView
-        </a>
-        gives an overview of packages used in the analysis of environmental data, including hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the
-        <a href="https://CRAN.R-project.org/view=ExtremeValue">
-          ExtremeValue TaskView
-        </a>.
-      </p>
-      <ul>
-        <li>
+                Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. ‘WRSS’ proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).
+              </p>
+            </li>
+          </ul>
           <p>
+            <strong>
+              Statistical modeling (hydrology-related statistical models)
+            </strong>
+          </p>
+          <p>
+            The
+<a href="Environmetrics.html">Environmetrics</a>
+            Task View gives an overview of packages used in the analysis of environmental data, encompassing hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the
+<a href="ExtremeValue.html">ExtremeValue</a>
+            Task View.
+          </p>
+          <ul>
+            <li>
+              <p>
 <a href="../packages/CityWaterBalance/index.html">CityWaterBalance</a>
-            Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies
+                Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies
 <a href="../packages/geoknife/index.html">geoknife</a>
-            and
+                and
 <a href="../packages/dataRetrieval/index.html">dataRetrieval</a>.
-          </p>
-        </li>
-        <li>
-          <p>
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://R-Forge.R-project.org/projects/dream/"><span class="Rforge">dream</span></a>
-            DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces.
-          </p>
-        </li>
-        <li>
-          <p>
+                DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="https://github.com/cvitolo/fuse/"><span class="GitHub">fuse</span></a>
-            An R package implementing the Framework for Understanding Structural Errors
-            <a href="https://cvitolo.github.io/fuse/">
-              cvitolo.github.io/fuse/
-            </a>
-          </p>
-        </li>
-        <li>
-          <p>
+                An R package implementing the Framework for Understanding Structural Errors
+                <a href="https://cvitolo.github.io/fuse/">
+                  cvitolo.github.io/fuse/
+                </a>
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydroApps/index.html">hydroApps</a>
-            Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
-          </p>
-        </li>
-        <li>
-          <p>
+                Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hydroGOF/index.html">hydroGOF</a>
-            S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models.
-          </p>
-        </li>
-        <li>
-          <p>
+                S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/HydroMe/index.html">HydroMe</a>
-            Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
-          </p>
-        </li>
-        <li>
-          <p>
+                Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/hyfo/index.html">hyfo</a>
-            Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
-          </p>
-        </li>
-        <li>
-          <p>
+                Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/IDF/index.html">IDF</a>
-            The package ‘IDF’ provides a function to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
-          </p>
-        </li>
-        <li>
-          <p>
+                The package ‘IDF’ provides a function to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/LPM/index.html">LPM</a>
-            Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
-          </p>
-        </li>
-        <li>
-          <p>
+                Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="../packages/meteo/index.html">meteo</a>
+                Spatio-temporal geostatistical mapping of meteorological data.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="../packages/nsRFA/index.html">nsRFA</a>
+                A collection of statistical tools for objective (non-supervised) applications of the Regional Frequency Analysis methods in hydrology.
+              </p>
+            </li>
+            <li>
+              <p>
+<a href="../packages/RMAWGEN/index.html">RMAWGEN</a>
+                Functions for spatial multi-site stochastic generation of daily time series of temperature and precipitation.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/rtop/index.html">rtop</a>
-            Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
-          </p>
-        </li>
-        <li>
-          <p>
+                Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/SCI/index.html">SCI</a>
-            Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
-          </p>
-        </li>
-        <li>
-          <p>
+                Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/soilwater/index.html">soilwater</a>
-            Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
-          </p>
-        </li>
-        <li>
-          <p>
+                Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
+              </p>
+            </li>
+            <li>
+              <p>
 <a href="../packages/SPEI/index.html">SPEI</a>
-            A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
-          </p>
-        </li>
-      </ul>
+                A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
+              </p>
+            </li>
+          </ul>
+        </div>
+        <packagelist>
+<a href="../packages/nsRFA/index.html">nsRFA</a>
+<a href="../packages/airGR/index.html">airGR</a>
+<a href="../packages/airGRteaching/index.html">airGRteaching</a>
+<a href="../packages/berryFunctions/index.html">berryFunctions</a>
+<a href="../packages/bigleaf/index.html">bigleaf</a>
+<a href="../packages/biotic/index.html">biotic</a>
+<a href="../packages/bomrang/index.html">bomrang</a>
+<a href="../packages/boussinesq/index.html">boussinesq</a>
+<a href="../packages/CityWaterBalance/index.html">CityWaterBalance</a>
+<a href="../packages/climatol/index.html">climatol</a>
+<a href="../packages/climdex.pcic/index.html">climdex.pcic</a>
+<a href="../packages/countyweather/index.html">countyweather</a>
+<a href="../packages/dataRetrieval/index.html">dataRetrieval</a>
+<a href="../packages/dbhydroR/index.html">dbhydroR</a>
+<a href="../packages/driftR/index.html">driftR</a>
+<a href="../packages/dynatopmodel/index.html">dynatopmodel</a>
+<a href="../packages/Ecohydmod/index.html">Ecohydmod</a>
+<a href="../packages/ecoval/index.html">ecoval</a>
+<a href="../packages/EGRET/index.html">EGRET</a>
+<a href="../packages/EGRETci/index.html">EGRETci</a>
+<a href="../packages/Evapotranspiration/index.html">Evapotranspiration</a>
+<a href="../packages/FAdist/index.html">FAdist</a>
+<a href="../packages/FlowScreen/index.html">FlowScreen</a>
+<a href="../packages/geoknife/index.html">geoknife</a>
+<a href="../packages/geotopbricks/index.html">geotopbricks</a>
+<a href="../packages/getMet/index.html">getMet</a>
+<a href="../packages/GSODR/index.html">GSODR</a>
+<a href="../packages/GWSDAT/index.html">GWSDAT</a>
+<a href="../packages/hddtools/index.html">hddtools</a>
+<a href="../packages/humidity/index.html">humidity</a>
+<a href="../packages/hydroApps/index.html">hydroApps</a>
+<a href="../packages/hydrogeo/index.html">hydrogeo</a>
+<a href="../packages/hydrolinks/index.html">hydrolinks</a>
+<a href="../packages/HydroMe/index.html">HydroMe</a>
+<a href="../packages/hydroPSO/index.html">hydroPSO</a>
+<a href="../packages/hydroscoper/index.html">hydroscoper</a>
+<a href="../packages/hydrostats/index.html">hydrostats</a>
+<a href="../packages/hyfo/index.html">hyfo</a>
+<a href="../packages/IDF/index.html">IDF</a>
+<a href="../packages/kitagawa/index.html">kitagawa</a>
+<a href="../packages/kwb.hantush/index.html">kwb.hantush</a>
+<a href="../packages/lakemorpho/index.html">lakemorpho</a>
+<a href="../packages/lfstat/index.html">lfstat</a>
+<a href="../packages/LPM/index.html">LPM</a>
+<a href="../packages/meteo/index.html">meteo</a>
+<a href="../packages/meteoland/index.html">meteoland</a>
+<a href="../packages/qmap/index.html">qmap</a>
+<a href="../packages/rdwd/index.html">rdwd</a>
+<a href="../packages/reservoir/index.html">reservoir</a>
+<a href="../packages/RHMS/index.html">RHMS</a>
+<a href="../packages/RMAWGEN/index.html">RMAWGEN</a>
+<a href="../packages/RNCEP/index.html">RNCEP</a>
+<a href="../packages/rnoaa/index.html">rnoaa</a>
+<a href="../packages/rnrfa/index.html">rnrfa</a>
+<a href="../packages/rpdo/index.html">rpdo</a>
+<a href="../packages/RSAlgaeR/index.html">RSAlgaeR</a>
+<a href="../packages/rsoi/index.html">rsoi</a>
+<a href="../packages/rtop/index.html">rtop</a>
+<a href="../packages/rwunderground/index.html">rwunderground</a>
+<a href="../packages/sbtools/index.html">sbtools</a>
+<a href="../packages/SCI/index.html">SCI</a>
+<a href="../packages/soilwater/index.html">soilwater</a>
+<a href="../packages/SPEI/index.html">SPEI</a>
+<a href="../packages/SWATmodel/index.html">SWATmodel</a>
+<a href="../packages/tidyhydat/index.html">tidyhydat</a>
+<a href="../packages/topmodel/index.html">topmodel</a>
+<a href="../packages/TUWmodel/index.html">TUWmodel</a>
+<a href="../packages/washdata/index.html">washdata</a>
+<a href="../packages/wasim/index.html">wasim</a>
+<a href="../packages/water/index.html">water</a>
+<a href="../packages/waterData/index.html">waterData</a>
+<a href="../packages/WaterML/index.html">WaterML</a>
+<a href="../packages/Watersheds/index.html">Watersheds</a>
+<a href="../packages/weathercan/index.html">weathercan</a>
+<a href="../packages/worldmet/index.html">worldmet</a>
+<a href="../packages/wql/index.html">wql</a>
+<a href="../packages/WRSS/index.html">WRSS</a>
+<a href="../packages/WRTDStidal/index.html">WRTDStidal</a>
+        </packagelist>
+        <links>
+          <a href="https://CRAN.R-project.org/view=Environmetrics">
+            Environmetrics TaskView
+          </a>
+          <a href="https://CRAN.R-project.org/view=ExtremeValue">
+            Extreme Values TaskView
+          </a>
+          <a href="https://github.com/ropensci/opendata">
+            Open Data TaskView
+          </a>
+          <a href="https://CRAN.R-project.org/view=Spatial">
+            Spatial Data TaskView
+          </a>
+          <a href="https://github.com/ropensci/webservices">
+            WebTechnologies TaskView
+          </a>
+          <a href="https://owi.usgs.gov/R/">
+            USGS-R community
+          </a>
+        </links>
+      </CRANTaskView>
     </div>
 
   <h3>CRAN packages:</h3>
   <ul>
-    <li><a href="../packages/core/index.html">core</a></li>
+    <li><a href="../packages/airGR/index.html">airGR</a></li>
+    <li><a href="../packages/airGRteaching/index.html">airGRteaching</a></li>
+    <li><a href="../packages/berryFunctions/index.html">berryFunctions</a></li>
+    <li><a href="../packages/bigleaf/index.html">bigleaf</a></li>
+    <li><a href="../packages/biotic/index.html">biotic</a></li>
+    <li><a href="../packages/bomrang/index.html">bomrang</a></li>
+    <li><a href="../packages/boussinesq/index.html">boussinesq</a></li>
+    <li><a href="../packages/CityWaterBalance/index.html">CityWaterBalance</a></li>
+    <li><a href="../packages/climatol/index.html">climatol</a></li>
+    <li><a href="../packages/climdex.pcic/index.html">climdex.pcic</a></li>
+    <li><a href="../packages/countyweather/index.html">countyweather</a></li>
+    <li><a href="../packages/dataRetrieval/index.html">dataRetrieval</a> (core)</li>
+    <li><a href="../packages/dbhydroR/index.html">dbhydroR</a></li>
+    <li><a href="../packages/driftR/index.html">driftR</a></li>
+    <li><a href="../packages/dynatopmodel/index.html">dynatopmodel</a></li>
+    <li><a href="../packages/Ecohydmod/index.html">Ecohydmod</a></li>
+    <li><a href="../packages/EcoHydRology/index.html">EcoHydRology</a> (core)</li>
+    <li><a href="../packages/ecoval/index.html">ecoval</a></li>
+    <li><a href="../packages/EGRET/index.html">EGRET</a></li>
+    <li><a href="../packages/EGRETci/index.html">EGRETci</a></li>
+    <li><a href="../packages/Evapotranspiration/index.html">Evapotranspiration</a></li>
+    <li><a href="../packages/FAdist/index.html">FAdist</a></li>
+    <li><a href="../packages/FlowScreen/index.html">FlowScreen</a></li>
+    <li><a href="../packages/geoknife/index.html">geoknife</a></li>
+    <li><a href="../packages/geotopbricks/index.html">geotopbricks</a></li>
+    <li><a href="../packages/getMet/index.html">getMet</a></li>
+    <li><a href="../packages/GSODR/index.html">GSODR</a></li>
+    <li><a href="../packages/GWSDAT/index.html">GWSDAT</a></li>
+    <li><a href="../packages/hddtools/index.html">hddtools</a></li>
+    <li><a href="../packages/humidity/index.html">humidity</a></li>
+    <li><a href="../packages/hydroApps/index.html">hydroApps</a></li>
+    <li><a href="../packages/hydrogeo/index.html">hydrogeo</a></li>
+    <li><a href="../packages/hydroGOF/index.html">hydroGOF</a> (core)</li>
+    <li><a href="../packages/hydrolinks/index.html">hydrolinks</a></li>
+    <li><a href="../packages/HydroMe/index.html">HydroMe</a></li>
+    <li><a href="../packages/hydroPSO/index.html">hydroPSO</a></li>
+    <li><a href="../packages/hydroscoper/index.html">hydroscoper</a></li>
+    <li><a href="../packages/hydrostats/index.html">hydrostats</a></li>
+    <li><a href="../packages/hydroTSM/index.html">hydroTSM</a> (core)</li>
+    <li><a href="../packages/hyfo/index.html">hyfo</a></li>
+    <li><a href="../packages/IDF/index.html">IDF</a></li>
+    <li><a href="../packages/kitagawa/index.html">kitagawa</a></li>
+    <li><a href="../packages/kwb.hantush/index.html">kwb.hantush</a></li>
+    <li><a href="../packages/lakemorpho/index.html">lakemorpho</a></li>
+    <li><a href="../packages/lfstat/index.html">lfstat</a></li>
+    <li><a href="../packages/LPM/index.html">LPM</a></li>
+    <li><a href="../packages/meteo/index.html">meteo</a></li>
+    <li><a href="../packages/meteoland/index.html">meteoland</a></li>
+    <li><a href="../packages/nsRFA/index.html">nsRFA</a> (core)</li>
+    <li><a href="../packages/qmap/index.html">qmap</a></li>
+    <li><a href="../packages/rdwd/index.html">rdwd</a></li>
+    <li><a href="../packages/reservoir/index.html">reservoir</a></li>
+    <li><a href="../packages/RHMS/index.html">RHMS</a></li>
+    <li><a href="../packages/RMAWGEN/index.html">RMAWGEN</a></li>
+    <li><a href="../packages/RNCEP/index.html">RNCEP</a></li>
+    <li><a href="../packages/rnoaa/index.html">rnoaa</a></li>
+    <li><a href="../packages/rnrfa/index.html">rnrfa</a></li>
+    <li><a href="../packages/rpdo/index.html">rpdo</a></li>
+    <li><a href="../packages/RSAlgaeR/index.html">RSAlgaeR</a></li>
+    <li><a href="../packages/rsoi/index.html">rsoi</a></li>
+    <li><a href="../packages/rtop/index.html">rtop</a></li>
+    <li><a href="../packages/rwunderground/index.html">rwunderground</a></li>
+    <li><a href="../packages/sbtools/index.html">sbtools</a></li>
+    <li><a href="../packages/SCI/index.html">SCI</a></li>
+    <li><a href="../packages/soilwater/index.html">soilwater</a></li>
+    <li><a href="../packages/SPEI/index.html">SPEI</a></li>
+    <li><a href="../packages/SWATmodel/index.html">SWATmodel</a></li>
+    <li><a href="../packages/tidyhydat/index.html">tidyhydat</a></li>
+    <li><a href="../packages/topmodel/index.html">topmodel</a></li>
+    <li><a href="../packages/TUWmodel/index.html">TUWmodel</a></li>
+    <li><a href="../packages/washdata/index.html">washdata</a></li>
+    <li><a href="../packages/wasim/index.html">wasim</a></li>
+    <li><a href="../packages/water/index.html">water</a></li>
+    <li><a href="../packages/waterData/index.html">waterData</a></li>
+    <li><a href="../packages/WaterML/index.html">WaterML</a></li>
+    <li><a href="../packages/Watersheds/index.html">Watersheds</a></li>
+    <li><a href="../packages/weathercan/index.html">weathercan</a></li>
+    <li><a href="../packages/worldmet/index.html">worldmet</a></li>
+    <li><a href="../packages/wql/index.html">wql</a></li>
+    <li><a href="../packages/WRSS/index.html">WRSS</a></li>
+    <li><a href="../packages/WRTDStidal/index.html">WRTDStidal</a></li>
   </ul>
 
   <h3>Related links:</h3>

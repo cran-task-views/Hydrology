@@ -129,7 +129,7 @@ Data Analysis
 
 **Spatial data processing**
 
-The CRAN [Spatial TaskView](https://CRAN.R-project.org/view=Spatial) gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Taskview](https://github.com/ropensci/maptools). 
+The CRAN <view>Spatial</view> Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Listing](https://github.com/ropensci/maptools). 
 
 -   <pkg>hydrolinks</pkg> Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers. 
 
@@ -166,7 +166,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>kwb.hantush</pkg> Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
--  <github>USGS-R/loadflex</github> Models and Tools for Watershed Flux Estimates [see](http://dx.doi.org/10.1890/ES14-00517.1) 
+-  <github>USGS-R/loadflex</github> Models and Tools for Watershed Flux Estimates see [paper](http://dx.doi.org/10.1890/ES14-00517.1).
 
 -  <pkg>reservoir</pkg> Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient. 
 
@@ -192,7 +192,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 **Statistical modeling (hydrology-related statistical models)**
 
-The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gives an overview of packages used in the analysis of environmental data, including hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the [ExtremeValue TaskView](https://CRAN.R-project.org/view=ExtremeValue). 
+The <view>Environmetrics</view> Task View gives an overview of packages used in the analysis of environmental data, encompassing hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the <view>ExtremeValue</view> Task View.  
 
 -  <pkg>CityWaterBalance</pkg> Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies <pkg>geoknife</pkg> and <pkg>dataRetrieval</pkg>. 
 
@@ -213,6 +213,8 @@ The [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics) gi
 -   <pkg>LPM</pkg> Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
 
 -   <pkg>meteo</pkg> Spatio-temporal geostatistical mapping of meteorological data.
+
+-   <pkg>nsRFA</pkg> A collection of statistical tools for objective (non-supervised) applications of the Regional Frequency Analysis methods in hydrology. 
 
 -   <pkg>RMAWGEN</pkg> Functions for spatial multi-site stochastic generation of daily time series of temperature and precipitation. 
 
