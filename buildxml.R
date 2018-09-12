@@ -6,6 +6,7 @@ pkgs <- stringr::str_extract_all(out, pattern)[[1]]
 pkgs <- unique(gsub("^pkg>", "", pkgs))
 prPkg <- stringr::str_extract_all(out, "core\">[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+")[[1]]
 priority <- unique(gsub("^core\">", "", prPkg))
+priority <- c("EcoHydRology","hydroTSM","hydroGOF")
 pkgs <- pkgs[ !pkgs %in% priority] # remove priority packages
 pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 

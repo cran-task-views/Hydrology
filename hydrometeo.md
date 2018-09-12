@@ -10,7 +10,7 @@ Data Retrieval
 
 **Hydrological data (surface water/groundwater quantity and quality)**
 
--   <pkg priority="core">dataRetrieval</pkg> Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services. 
+-   <pkg>dataRetrieval</pkg> Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services. 
 
 -   <pkg>dbhydroR</pkg>  Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data. 
 
@@ -83,7 +83,7 @@ Data Analysis
 
 -   <pkg>biotic</pkg>  Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI. 
 
--  <pkg priority="core">EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+-  <pkg>EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -   <pkg>ecoval</pkg> Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions. 
 
@@ -99,7 +99,7 @@ Data Analysis
 
 -   <pkg>hydrostats</pkg> Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
--   <pkg priority="core">hydroTSM</pkg> Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
+-   <pkg>hydroTSM</pkg> Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
 
 -   <pkg>lfstat</pkg> Functions to compute and plot statistics described in the "Manual on Low-flow Estimation and Prediction", published by the World Meteorological Organisation (WMO).
 
@@ -169,7 +169,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>Ecohydmod</pkg> Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
 
--  <pkg priority="core">EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
+-  <pkg>EcoHydRology</pkg> This package provides a flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
 -  <pkg>geotopbricks</pkg> An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. 
 
@@ -215,7 +215,7 @@ The <view>Environmetrics</view> Task View gives an overview of packages used in 
 
 -   <pkg>hydroApps</pkg> Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
 
--   <pkg priority="core">hydroGOF</pkg> S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models. 
+-   <pkg>hydroGOF</pkg> S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, mainly oriented to be used during the calibration, validation, and application of hydrological models. 
 
 -   <pkg>HydroMe</pkg> Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
 

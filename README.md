@@ -1,17 +1,17 @@
-## CRAN Task View: Hydrology and Meteorology
+## CRAN Task View: Water Science
 
 |                 |                                                    |
 | --------------- | -------------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi          |
 | **Contact:**    | samuelczipper at gmail.com                         |
-| **Version:**    | 2018-09-10                                         |
+| **Version:**    | 2018-09-11                                         |
 | **URL:**        | <https://CRAN.R-project.org/view=hydrometeorology> |
 
 <div>
 
 *Do not edit this README by hand. See [CONTRIBUTING.md](CONTRIBUTING.md).*
 
-This Task View contains information about packages broadly relevated to *water* , focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing task views that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
+This Task View contains information about packages broadly relevated to *water science* , focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
 
 If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrometeorology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrometeorology/pulls). If you can’t contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -258,7 +258,7 @@ The [Environmetrics](Environmetrics.html) Task View gives an overview of package
   - [climatol](http://cran.rstudio.com/web/packages/climatol/index.html)
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html)
   - [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html)
-  - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html) (core)
+  - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
   - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html)
   - [driftR](http://cran.rstudio.com/web/packages/driftR/index.html)
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html)
