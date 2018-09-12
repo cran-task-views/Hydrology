@@ -27,9 +27,9 @@ c(paste0('<CRANTaskView>
   '  <links>',
   '     <a href="https://CRAN.R-project.org/view=Environmetrics">Environmetrics TaskView</a>',
   '     <a href="https://CRAN.R-project.org/view=ExtremeValue">Extreme Values TaskView</a>',
-  '     <a href="https://github.com/ropensci/opendata">Open Data TaskView</a>',
   '     <a href="https://CRAN.R-project.org/view=Spatial">Spatial Data TaskView</a>',
-  '     <a href="https://github.com/ropensci/webservices">WebTechnologies TaskView</a>',
+  '     <a href="https://cran.r-project.org/view=WebTechnologies">WebTechnologies TaskView</a>',
+  '     <a href="https://github.com/ropensci/opendata">Open Data TaskView</a>',
   '     <a href="https://owi.usgs.gov/R/">USGS-R community</a>',
   '  </links>',
   '</CRANTaskView>')

@@ -339,7 +339,7 @@ The [Environmetrics](Environmetrics.html) Task View gives an overview of package
 
   - [Environmetrics TaskView](https://CRAN.R-project.org/view=Environmetrics)
   - [Extreme Values TaskView](https://CRAN.R-project.org/view=ExtremeValue)
-  - [Open Data TaskView](https://github.com/ropensci/opendata)
   - [Spatial Data TaskView](https://CRAN.R-project.org/view=Spatial)
-  - [WebTechnologies TaskView](https://github.com/ropensci/webservices)
+  - [WebTechnologies TaskView](https://cran.r-project.org/view=WebTechnologies)
+  - [Open Data TaskView](https://github.com/ropensci/opendata)
   - [USGS-R community](https://owi.usgs.gov/R/)
