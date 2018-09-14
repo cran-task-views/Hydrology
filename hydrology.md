@@ -1,14 +1,14 @@
 *Do not edit this README by hand. See [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 
-This Task View contains information about packages broadly relevated to *water science*, focused on hydrology, hydrogeology, and meteorology. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
+This Task View contains information about packages broadly relevant to *hydrology*, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
 
-If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrometeorology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrometeorology/pulls). If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrology/pulls). If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 Data Retrieval
 --------------
 
-**Hydrological data (surface water/groundwater quantity and quality)**
+**Hydrological data sources (surface water/groundwater quantity and quality)**
 
 -   <pkg>dataRetrieval</pkg> Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services. 
 
@@ -93,9 +93,9 @@ Data Analysis
 
 -  <pkg>EGRETci</pkg> A bootstrap method for estimating uncertainty of water quality trends
 
--   <pkg>FAdist</pkg> Probability distributions that are sometimes useful in hydrology. 
+-  <pkg>FAdist</pkg> Probability distributions that are sometimes useful in hydrology. 
 
--   <pkg>FlowScreen</pkg> Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics. 
+-  <pkg>FlowScreen</pkg> Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics. 
 
 -   <pkg>hydrostats</pkg> Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
