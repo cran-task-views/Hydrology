@@ -1,5 +1,5 @@
 if(!require("stringr")) install.packages("stringr", repos="http://cran.rstudio.com")
-template <- readLines("hydrometeorology.ctv")
+template <- readLines("hydrology.ctv")
 pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
 pkgs <- stringr::str_extract_all(out, pattern)[[1]]
@@ -11,7 +11,7 @@ pkgs <- pkgs[ !pkgs %in% priority] # remove priority packages
 pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 
 c(paste0('<CRANTaskView>
-  <name>hydrometeorology</name>
+  <name>hydrology</name>
   <topic>Water Science</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
   <version>',Sys.Date(),'</version>'), 
@@ -34,4 +34,4 @@ c(paste0('<CRANTaskView>
   '  </links>',
   '</CRANTaskView>')
 
-writeLines(output, "hydrometeorology.ctv")
+writeLines(output, "hydrology.ctv")
