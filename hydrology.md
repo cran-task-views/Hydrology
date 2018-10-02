@@ -117,6 +117,9 @@ Data Analysis
 
 -   <pkg>qmap</pkg> Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
+-   <github>USGS-R/Rainmaker</github> Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities.
+
+
 **Other**
 
 -   <pkg>berryFunctions</pkg> Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions. 
