@@ -20,9 +20,9 @@ Data Retrieval
  
 -   <pkg>hydroscoper</pkg>  R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/). It covers Hydroscope's data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles). 
 
--   <github>rywhale/kiwisR</github> Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
+-   <github>rywhale/kiwisR</github> Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API. GitHub only package. 
 
--   <pkg>rnrfa</pkg> Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.                
+-   <pkg>rnrfa</pkg> Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.      
 
 -   <pkg>sbtools</pkg> Tools for interacting with [U.S. Geological Survey ScienceBase](https://www.sciencebase.gov) data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.            
 
@@ -34,7 +34,7 @@ Data Retrieval
 
 -   <pkg>WaterML</pkg> Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. ('CUAHSI') Water Data Center 'WaterOneFlow' web services and read any 'WaterML' hydrological time series data file. 
 
-**Meteorological data (precipitation, radiation, temperature, etc including both measurements and reanalysis)**
+**Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
 -   <pkg>bomrang</pkg>. Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files. 
 
@@ -44,7 +44,7 @@ Data Retrieval
 
 -   <pkg>GSODR</pkg> Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R. 
 
--   <pkg>MODISTools</pkg>. Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of 'MODIS' time series.
+-   <pkg>MODISTools</pkg> Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of 'MODIS' time series.
 
 -   <pkg>rdwd</pkg> Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
 
@@ -70,7 +70,7 @@ Data Analysis
 
 -   <pkg>driftR</pkg> A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS). 
 
--   <github>bcgov/fasstr</github> Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
+-   <github>bcgov/fasstr</github> Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats. GitHub only package. 
 
 -   <pkg>climdex.pcic</pkg> PCIC Implementation of Climdex Routines PCIC's implementation of Climdex routines for computation of extreme climate indices.
 
@@ -87,7 +87,7 @@ Data Analysis
 
 -   <pkg>ecoval</pkg> Functions for evaluating and visualizing ecological assessment procedures for surface waters containing physical, chemical and biological assessments in the form of value functions. 
 
--   <github>USGS-R/EflowStats</github> Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data.
+-   <github>USGS-R/EflowStats</github> Calculates a suite of ecological flow statistics and fundamental properties of daily streamflow for a given set of data. GitHub only package. 
 
 -   <pkg>EGRET</pkg> Exploration and Graphics for RivEr Trends (EGRET): analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS).
 
@@ -117,7 +117,7 @@ Data Analysis
 
 -   <pkg>qmap</pkg> Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
--   <github>USGS-R/Rainmaker</github> Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities.
+-   <github>USGS-R/Rainmaker</github> Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities. GitHub only package. 
 
 
 **Other**
@@ -130,7 +130,7 @@ Data Analysis
 
 -   <pkg>kitagawa</pkg> Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989). 
 
--  <github>leppott/MBSStools</github> Suite of tools for data manipulation and calculations for Maryland DNR MBSS program.
+-  <github>leppott/MBSStools</github> Suite of tools for data manipulation and calculations for Maryland DNR MBSS program. GitHub only package. 
 
 -   <pkg>MODIStsp</pkg> Suite of tools to automate the Download and Preprocessing of MODIS Land Products Data
 Allows automating the creation of time series of rasters derived from MODIS Satellite Land Products data. It performs several typical preprocessing steps such as download, mosaicking, reprojection and resize of data acquired on a specified time period.
@@ -147,7 +147,7 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <pkg>hydrolinks</pkg> Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers. 
 
--  <github>tpilz/lumpR</github> Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW).
+-  <github>tpilz/lumpR</github> Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package. 
 
 -   <pkg>lakemorpho</pkg> Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The 'lakemorpho' package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon. 
 
@@ -176,13 +176,13 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>geotopbricks</pkg> An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop. 
 
--  <github>floybix/hydromad</github> Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org) 
+-  <github>floybix/hydromad</github> Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org). GitHub only package. 
 
 -  <pkg>hydroPSO</pkg> Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine. 
 
 -  <pkg>kwb.hantush</pkg> Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
--  <github>USGS-R/loadflex</github> Models and Tools for Watershed Flux Estimates see [paper](http://dx.doi.org/10.1890/ES14-00517.1).
+-  <github>USGS-R/loadflex</github> Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1). GitHub only package. 
 
 -  <pkg>reservoir</pkg> Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient. 
 
@@ -190,9 +190,9 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>RSAlgaeR</pkg> Builds Empirical Remote Sensing Models of Water Quality Variables and Analyzes Long-Term Trends. Assists in processing reflectance data, developing empirical models using stepwise regression and a generalized linear modeling approach, cross- validation, and analysis of trends in water quality conditions (specifically chl-a) and climate conditions using the Theil-Sen estimator. 
 
--  <github>szipper/streamDepletr</github> Package for assessing the impacts of groundwater pumping on streams. 
+-  <github>szipper/streamDepletr</github> Package for assessing the impacts of groundwater pumping on streams. GitHub only package.  
 
--  <github>USGS-R/streamMetabolizer</github> Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. 
+-  <github>USGS-R/streamMetabolizer</github> Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. GitHub only package.
 
 -  <pkg>SWATmodel</pkg> The Soil and Water Assessment Tool is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
 
@@ -214,7 +214,7 @@ The <view>Environmetrics</view> Task View gives an overview of packages used in 
 
 -   <rforge>dream</rforge> DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces.
 
-  - <github>cvitolo/fuse</github> An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/) 
+  - <github>cvitolo/fuse</github> An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub only package.
 
 -   <pkg>hydroApps</pkg> Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
 
