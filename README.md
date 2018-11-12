@@ -107,6 +107,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [lfstat](http://cran.rstudio.com/web/packages/lfstat/index.html): Functions to compute and plot statistics described in the “Manual on Low-flow Estimation and Prediction”, published by the World Meteorological Organisation (WMO).
 
+  - [<span class="GitHub">L4Discharge</span>](https://github.com/NEONScience/NEON-stream-discharge/tree/master/L4Discharge): NEON Stage-Discharge Rating Curve. Calculates the Stage-Discharge Rating Curve for a Site and Water Year, developed using a Bayesian modeling technique. GitHub only package.
+
 **Meteorology (functions for working with meteorological and climate data)**
 
   - [Evapotranspiration](http://cran.rstudio.com/web/packages/Evapotranspiration/index.html): Functions to calculate potential evapotranspiration (PET) and actual evapotranspiration (AET) from 21 different formulations including Penman, Penman-Monteith FAO 56, Priestley-Taylor and Morton models.
