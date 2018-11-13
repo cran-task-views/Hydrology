@@ -267,6 +267,12 @@
       : Functions to compute and plot statistics described in the “Manual on Low-flow Estimation and Prediction”, published by the World Meteorological Organisation (WMO).
     </p>
   </li>
+  <li>
+    <p>
+      <github>NEONScience/NEON-stream-discharge</github>
+      : NEON Stage-Discharge Rating Curve. Calculates the Stage-Discharge Rating Curve for a Site and Water Year, developed using a Bayesian modeling technique. GitHub only package.
+    </p>
+  </li>
 </ul>
 <p><strong>Meteorology (functions for working with meteorological and climate data)</strong></p>
 <ul>
