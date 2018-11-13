@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2018-10-25                                  |
+| **Version:**    | 2018-11-13                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=hydrology> |
 
 <div>

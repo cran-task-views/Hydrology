@@ -1,5 +1,6 @@
 if(!require("stringr")) install.packages("stringr", repos="http://cran.rstudio.com")
 template <- readLines("hydrology.ctv")
+template <- str_replace_all(template,"<li>" , "<li> \n")
 pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
 pkgs <- stringr::str_extract_all(out, pattern)[[1]]
