@@ -44,5 +44,5 @@ print.url_check <- function(x, ...) {
     invisible(x)
 }
 
-u <- extract_urls("hydrometeo.md")
+u <- extract_urls("hydrology.md")
 print(ch <- check_urls(u))
