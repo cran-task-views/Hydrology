@@ -34,7 +34,7 @@ diff:
 	rm -r ./ctv
 
 svn:
-	svn checkout svn+ssh://schamber789@svn.r-forge.r-project.org/svnroot/ctv/
+	svn checkout svn+ssh://boshek@svn.r-forge.r-project.org/svnroot/ctv/
 	cp hydrology.ctv ./ctv/pkg/inst/ctv/
 	cd ./ctv
 	svn status
