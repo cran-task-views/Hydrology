@@ -105,7 +105,8 @@
 <p><pkg>rtop</pkg>: Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.</p></li><li> 
 <p><pkg>SCI</pkg>: Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).</p></li><li> 
 <p><pkg>soilwater</pkg>: Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.</p></li><li> 
-<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li></ul>
+<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li><li> 
+<p><pkg>swmmr</pkg>: Functions to connect the widely used <a href="https://www.epa.gov/water-research/storm-water-management-model-swmm">Storm Water Management Model (SWMM)</a> of the United States Environmental Protection Agency (US EPA) to R.</p></li></ul>
   </info>
   <packagelist>
     <pkg priority="core">EcoHydRology</pkg>
@@ -181,6 +182,7 @@
     <pkg>soilwater</pkg>
     <pkg>SPEI</pkg>
     <pkg>SWATmodel</pkg>
+    <pkg>swmmr</pkg>
     <pkg>tidyhydat</pkg>
     <pkg>topmodel</pkg>
     <pkg>TUWmodel</pkg>

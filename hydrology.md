@@ -239,3 +239,5 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 -   <pkg>soilwater</pkg>: Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
 
 -   <pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
+
+-   <pkg>swmmr</pkg>: Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.

@@ -245,6 +245,8 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html): A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
 
+  - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html): Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.
+
 </div>
 
 ### CRAN packages:
@@ -322,6 +324,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html)
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html)
   - [SWATmodel](http://cran.rstudio.com/web/packages/SWATmodel/index.html)
+  - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
