@@ -43,6 +43,8 @@ Data Retrieval
 
 -   <pkg>MODISTools</pkg>: Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of 'MODIS' time series.
 
+-   <pkg>prism</pkg>: Download and visualize data from the [Oregon State PRISM climate data project](http://www.prism.oregonstate.edu/). PRISM provides temperature, precipitation, and vapor pressure data for the contiguous United States.
+
 -   <pkg>rdwd</pkg>: Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
 
 -   <pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
