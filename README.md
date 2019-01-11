@@ -1,17 +1,17 @@
-## CRAN Task View: Water Science
+## CRAN Task View: Hydrological Data and Modeling
 
 |                 |                                             |
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2019-01-09                                  |
-| **URL:**        | <https://CRAN.R-project.org/view=hydrology> |
+| **Version:**    | 2019-01-10                                  |
+| **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
 
 This Task View contains information about packages broadly relevant to *hydrology* , defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
 
-If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/hydrology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/hydrology/pulls). If you can’t contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls). If you can’t contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 ## Data Retrieval
 
@@ -52,8 +52,6 @@ If you have any comments or suggestions for additions or improvements for this T
   - [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html): Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.
 
   - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html): Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of ‘MODIS’ time series.
-
-  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): Download and visualize data from the [Oregon State PRISM climate data project](http://www.prism.oregonstate.edu/). PRISM provides temperature, precipitation, and vapor pressure data for the contiguous United States.
 
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD ([‘Deutscher Wetterdienst’](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)).
 
@@ -307,7 +305,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [MODIStsp](http://cran.rstudio.com/web/packages/MODIStsp/index.html)
   - [musica](http://cran.rstudio.com/web/packages/musica/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
-  - [prism](http://cran.rstudio.com/web/packages/prism/index.html)
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html)
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html)
   - [reservoir](http://cran.rstudio.com/web/packages/reservoir/index.html)

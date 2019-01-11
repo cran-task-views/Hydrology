@@ -12,8 +12,8 @@ pkgs <- pkgs[ !pkgs %in% priority] # remove priority packages
 pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 
 c(paste0('<CRANTaskView>
-  <name>hydrology</name>
-  <topic>Water Science</topic>
+  <name>Hydrology</name>
+  <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
   <version>',Sys.Date(),'</version>'), 
   '  <info>',

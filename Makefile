@@ -1,14 +1,14 @@
 all: README.md
 
-hydrology.ctv: hydrology.md buildxml.R
-	pandoc -w html --wrap=none -o hydrology.ctv hydrology.md
+Hydrology.ctv: Hydrology.md buildxml.R
+	pandoc -w html --wrap=none -o Hydrology.ctv Hydrology.md
 	R -e 'source("buildxml.R")'
 
-hydrology.html: hydrology.ctv
-	R -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); ctv::ctv2html("hydrology.ctv")'
+Hydrology.html: Hydrology.ctv
+	R -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); ctv::ctv2html("Hydrology.ctv")'
 
-README.md: hydrology.html
-	pandoc -w gfm --wrap=none -o README.md hydrology.html
+README.md: Hydrology.html
+	pandoc -w gfm --wrap=none -o README.md Hydrology.html
 	sed -i.tmp -e 's|( \[|(\[|g' README.md
 	sed -i.tmp -e 's| : |: |g' README.md
 	sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
@@ -17,7 +17,7 @@ README.md: hydrology.html
 	rm *.tmp
 
 check:
-	R -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); print(ctv::check_ctv_packages("hydrology.ctv", repos = "http://cran.rstudio.com/"))'
+	R -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
 
 checkurls:
 	R -e 'source("checkurls.R")'
@@ -28,19 +28,19 @@ README.html: README.md
 diff:
 	git pull
 	svn checkout svn://svn.r-forge.r-project.org/svnroot/ctv/pkg/inst/ctv
-	cp ./ctv/hydrology.ctv hydrology.ctv
-	git diff hydrology.ctv > cran.diff
-	git checkout -- hydrology.ctv
+	cp ./ctv/Hydrology.ctv Hydrology.ctv
+	git diff Hydrology.ctv > cran.diff
+	git checkout -- Hydrology.ctv
 	rm -r ./ctv
 
 svn:
 	svn checkout svn+ssh://boshek@svn.r-forge.r-project.org/svnroot/ctv/
-	cp hydrology.ctv ./ctv/pkg/inst/ctv/
+	cp Hydrology.ctv ./ctv/pkg/inst/ctv/
 	cd ./ctv
 	svn status
 
 release:
 	cd ./ctv
-	svn commit --message "update hydrology"
+	svn commit --message "update Hydrology"
 	cd ../
 	rm -r ./ctv
