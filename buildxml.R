@@ -1,5 +1,5 @@
 if(!require("stringr")) install.packages("stringr", repos="http://cran.rstudio.com")
-template <- readLines("hydrology.ctv")
+template <- readLines("Hydrology.ctv")
 template <- str_replace_all(template,"<li>" , "<li> \n")
 pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
@@ -43,4 +43,4 @@ c(paste0('<CRANTaskView>
   '  </links>',
   '</CRANTaskView>')
 
-writeLines(output, "hydrology.ctv")
+writeLines(output, "Hydrology.ctv")
