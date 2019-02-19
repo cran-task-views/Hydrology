@@ -6,7 +6,7 @@ Thanks for your contribution!
 
 * R
 * `make`
-* [`pandoc`](http://johnmacfarlane.net/pandoc/installing.html)
+* [`pandoc`](http://johnmacfarlane.net/pandoc/installing.html) (>= 2)
 
 If you don't want to or can't install these things, then just edit the `hydrology.md` file, and submit a pull request.
 
