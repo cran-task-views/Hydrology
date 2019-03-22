@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
-  <version>2019-02-16</version>
+  <version>2019-03-21</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samuelczipper@gmail.com">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.</p></li><li> 
@@ -10,15 +10,16 @@
 <p><pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.</p></li><li> 
 <p><pkg>hydrolinks</pkg>: Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.</p></li><li> 
 <p><pkg>hydroscoper</pkg>: R interface to the <a href="http://www.hydroscope.gr/">Greek National Data Bank for Hydrological and Meteorological Information</a>. It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).</p></li><li> 
-<p><github>rywhale/kiwisR</github>: Wrapper for retrieving data from <a href="https://www.kisters.net/NA/products/wiski/">KISTERS WISKI databases</a> via the KiWIS API. GitHub only package.</p></li><li> 
+<p><pkg>kiwisR</pkg>: Wrapper for retrieving data from <a href="https://www.kisters.net/NA/products/wiski/">KISTERS WISKI databases</a> via the KiWIS API.</p></li><li> 
 <p><pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the <a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">NHD</a> and <a href="http://www.horizon-systems.com/nhdplus">NHDPlus</a> datasets.</p></li><li> 
 <p><pkg>rnrfa</pkg>: Utility functions to retrieve data from the <a href="http://nrfa.ceh.ac.uk/">UK National River Flow Archive</a>. There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.</p></li><li> 
 <p><pkg>sbtools</pkg>: Tools for interacting with <a href="https://www.sciencebase.gov">U.S. Geological Survey ScienceBase</a> data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.</p></li><li> 
 <p><pkg>tidyhydat</pkg>: Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources (<a href="http://dd.weather.gc.ca/hydrometric/csv/" class="uri">http://dd.weather.gc.ca/hydrometric/csv/</a> and <a href="http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/" class="uri">http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/</a>) and then applies tidy data principles.</p></li><li> 
 <p><pkg>washdata</pkg>: Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.</p></li><li> 
 <p><pkg>waterData</pkg>: Imports U.S. Geological Survey (USGS) daily hydrologic data from <a href="https://waterservices.usgs.gov/">USGS web services</a>, plots the data, addresses some common data problems, and calculates and plots anomalies.</p></li><li> 
-<p><pkg>WaterML</pkg>: Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.</p></li></ul><p><strong>Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)</strong></p><ul><li> 
+<p><pkg>WaterML</pkg>: Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.</p></li></ul><p><strong>Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)</strong></p><ul><li> 
 <p><pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.</p></li><li> 
+<p><pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <a href="https://cliflo.niwa.co.nz/" class="uri">https://cliflo.niwa.co.nz/</a> for more information.</p></li><li> 
 <p><pkg>countyweather</pkg>: Interacts with NOAA data sources (including the <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">NCDC API</a> and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.</p></li><li> 
 <p><pkg>getMet</pkg>: Functions for sourcing, formatting, and editing meteorological data for hydrologic models.</p></li><li> 
 <p><pkg>GSODR</pkg>: Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.</p></li><li> 
@@ -73,7 +74,7 @@
 <p><pkg>bigleaf</pkg>: Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.</p></li><li> 
 <p><pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).</p></li><li> 
 <p><pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.</p></li><li> 
-<p><pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See <a href="http://doi.org/10.1002/hyp.10953">Souza et al. (2016)</a>.</p></li><li> 
+<p><pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See <a href="http://doi.org/10.1002/hyp.10953">Souza et al. (2016)</a>.</p></li><li> 
 <p><pkg>EcoHydRology</pkg>: Flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.</p></li><li> 
 <p><pkg>geotopbricks</pkg>: An R Plug-in for the Distributed Hydrological Model <a href="https://github.com/geotopmodel">GEOtop</a>. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.</p></li><li> 
 <p><github>floybix/hydromad</github>: Hydrological Model Assessment and Development - <a href="http://hydromad.catchment.org">website</a>. GitHub only package.</p></li><li> 
@@ -86,6 +87,7 @@
 <p><github>szipper/streamDepletr</github>: Package for assessing the impacts of groundwater pumping on streams. GitHub only package.</p></li><li> 
 <p><github>USGS-R/streamMetabolizer</github>: Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. GitHub only package.</p></li><li> 
 <p><pkg>SWATmodel</pkg>: The Soil and Water Assessment Tool (SWAT) is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.</p></li><li> 
+<p><pkg>swmmr</pkg>: Functions to connect the widely used <a href="https://www.epa.gov/water-research/storm-water-management-model-swmm">Storm Water Management Model (SWMM)</a> of the United States Environmental Protection Agency (US EPA) to R.</p></li><li> 
 <p><pkg>topmodel</pkg>: Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also <pkg>dynatopmodel</pkg>.</p></li><li> 
 <p><pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.</p></li><li> 
 <p><pkg>wasim</pkg>: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.</p></li><li> 
@@ -107,8 +109,7 @@
 <p><pkg>rtop</pkg>: Interpolation of Data with Variable Spatial Support Geostatistical interpolation of data with irregular spatial support such as runoff related data or data from administrative units.</p></li><li> 
 <p><pkg>SCI</pkg>: Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).</p></li><li> 
 <p><pkg>soilwater</pkg>: Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.</p></li><li> 
-<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li><li> 
-<p><pkg>swmmr</pkg>: Functions to connect the widely used <a href="https://www.epa.gov/water-research/storm-water-management-model-swmm">Storm Water Management Model (SWMM)</a> of the United States Environmental Protection Agency (US EPA) to R.</p></li></ul>
+<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li></ul>
   </info>
   <packagelist>
     <pkg priority="core">EcoHydRology</pkg>
@@ -122,6 +123,7 @@
     <pkg>bomrang</pkg>
     <pkg>boussinesq</pkg>
     <pkg>CityWaterBalance</pkg>
+    <pkg>clifro</pkg>
     <pkg>climatol</pkg>
     <pkg>climdex.pcic</pkg>
     <pkg>countyweather</pkg>
@@ -153,6 +155,7 @@
     <pkg>hyfo</pkg>
     <pkg>IDF</pkg>
     <pkg>kitagawa</pkg>
+    <pkg>kiwisR</pkg>
     <pkg>kwb.hantush</pkg>
     <pkg>lakemorpho</pkg>
     <pkg>lfstat</pkg>
