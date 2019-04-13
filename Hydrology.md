@@ -170,6 +170,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).
 
+-  <github>pschmidtwalter/brook90r</github> and <github>rkronen/Brook90_R</github>: to different packages to run the 1D-SVAT model LWF-BROOK90. GitHub only package. 
+
 -  <pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.
 
 -  <pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
