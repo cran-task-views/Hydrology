@@ -3,15 +3,15 @@
 |                 |                                             |
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
-| **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2019-04-13                                  |
+| **Contact:**    | samzipper at ku.edu                         |
+| **Version:**    | 2019-05-12                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
 
 This Task View contains information about packages broadly relevant to *hydrology* , defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
 
-If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues) , or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls) . If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samuelczipper@gmail.com) . If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues) , or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls) . If you can't contribute on GitHub, [send Sam Zipper an email](mailto:samzipper@ku.edu) . If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 ## Data Retrieval
 
@@ -199,7 +199,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [RSAlgaeR](http://cran.rstudio.com/web/packages/RSAlgaeR/index.html): Builds Empirical Remote Sensing Models of Water Quality Variables and Analyzes Long-Term Trends. Assists in processing reflectance data, developing empirical models using stepwise regression and a generalized linear modeling approach, cross- validation, and analysis of trends in water quality conditions (specifically chl-a) and climate conditions using the Theil-Sen estimator.
 
-  - [<span class="GitHub">streamDepletr</span>](https://github.com/szipper/streamDepletr/): Package for assessing the impacts of groundwater pumping on streams. GitHub only package.
+  - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html): Analytical depletion functions used to calculate the impacts of groundwater pumping on one or more streams.
 
   - [<span class="GitHub">streamMetabolizer</span>](https://github.com/USGS-R/streamMetabolizer/): Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. GitHub only package.
 
