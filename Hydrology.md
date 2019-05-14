@@ -125,6 +125,8 @@ Data Analysis
 
 -   <pkg>berryFunctions</pkg>: Draw horizontal histograms, color scattered points by 3rd dimension, enhance date- and log-axis plots, zoom in X11 graphics, trace errors and warnings, use the unit hydrograph in a linear storage cascade, convert lists to data.frames and arrays, fit multiple functions.
 
+-   <github>eheisman/dssrip</github>: rJava wrapper to [HEC-DSSVue](https://www.hec.usace.army.mil/software/hec-dssvue/) to read hydrologic timeseries from HEC-DSS files.  Github and Windows only package, due to dependency on HEC-DSS libraries.
+
 -   <pkg>GWSDAT</pkg>: Shiny application for the analysis of groundwater monitoring data, designed to work with simple time-series data for solute concentration and ground water elevation, but can also plot non-aqueous phase liquid (NAPL) thickness if required.
 
 -   <pkg>hydrogeo</pkg>: Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
