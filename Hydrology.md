@@ -220,6 +220,8 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 
 -  <pkg>CityWaterBalance</pkg>: Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies <pkg>geoknife</pkg> and <pkg>dataRetrieval</pkg>.
 
+-  <pkg>CoSMoS</pkg>: is an implementation of [Papalexiou 2018](https://doi.org/10.1016/j.advwatres.2018.02.013). CoSMoS makes time series generation with desired properties extremely easy. The generated time series preserve any probability distribution and any linear autocorrelation structure. Users can generate as many and as long time series from processes such as precipitation, wind, temperature, relative humidity etc.
+
 -   <rforge>dream</rforge>: DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces. R-Forge only package.
 
   - <github>cvitolo/fuse</github>: An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub only package.
