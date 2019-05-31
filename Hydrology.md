@@ -155,6 +155,8 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
+-   <pkg>somspace</pkg>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
+
 -   <pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.
 
 Modeling
