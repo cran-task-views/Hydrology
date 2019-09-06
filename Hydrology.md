@@ -11,7 +11,9 @@ Data Retrieval
 
 -   <pkg>dbhydroR</pkg>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
 
-  - <pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
+-   <pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources. 
+
+-   <pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
 
 -   <pkg>hydrolinks</pkg>: Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
  
@@ -116,6 +118,8 @@ Data Analysis
 
 -   <pkg>musica</pkg>: Multiscale Climate Model Assessment. Provides function to compare and analyse time series.
 
+-   <pkg>openair</pkg>: Tools to analyse, interpret and understand air pollution data. Many functions can also be applied to other data, including meteorological and traffic data.
+
 -   <pkg>qmap</pkg>: Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
 -   <github>USGS-R/Rainmaker</github>: Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities. GitHub only package.
@@ -209,6 +213,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>topmodel</pkg>: Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also <pkg>dynatopmodel</pkg>.
 
 -  <pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
+
+-  <pkg>VICmodel</pkg>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
 -  <pkg>wasim</pkg>: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 

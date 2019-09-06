@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2019-05-30                                  |
+| **Version:**    | 2019-09-05                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -20,6 +20,8 @@ If you have any comments or suggestions for additions or improvements for this T
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
   - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+
+  - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html): Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.
 
   - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
 
@@ -123,6 +125,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [musica](http://cran.rstudio.com/web/packages/musica/index.html): Multiscale Climate Model Assessment. Provides function to compare and analyse time series.
 
+  - [openair](http://cran.rstudio.com/web/packages/openair/index.html): Tools to analyse, interpret and understand air pollution data. Many functions can also be applied to other data, including meteorological and traffic data.
+
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html): Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
   - [<span class="GitHub">Rainmaker</span>](https://github.com/USGS-R/Rainmaker/): Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities. GitHub only package.
@@ -215,6 +219,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html): Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
 
+  - [VICmodel](http://cran.rstudio.com/web/packages/VICmodel/index.html): Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
+
   - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html): Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 
   - [water](http://cran.rstudio.com/web/packages/water/index.html): Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
@@ -289,6 +295,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [EGRETci](http://cran.rstudio.com/web/packages/EGRETci/index.html)
   - [Evapotranspiration](http://cran.rstudio.com/web/packages/Evapotranspiration/index.html)
   - [FAdist](http://cran.rstudio.com/web/packages/FAdist/index.html)
+  - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html)
   - [FlowScreen](http://cran.rstudio.com/web/packages/FlowScreen/index.html)
   - [geoknife](http://cran.rstudio.com/web/packages/geoknife/index.html)
   - [geotopbricks](http://cran.rstudio.com/web/packages/geotopbricks/index.html)
@@ -323,6 +330,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [musica](http://cran.rstudio.com/web/packages/musica/index.html)
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
+  - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html)
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html)
   - [reservoir](http://cran.rstudio.com/web/packages/reservoir/index.html)
@@ -348,6 +356,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
+  - [VICmodel](http://cran.rstudio.com/web/packages/VICmodel/index.html)
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html)
   - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
