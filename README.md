@@ -59,6 +59,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html): Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of ‘MODIS’ time series.
 
+  - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html): Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov). Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
+
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD ([‘Deutscher Wetterdienst’](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)).
 
   - [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
@@ -328,6 +330,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html)
   - [MODIStsp](http://cran.rstudio.com/web/packages/MODIStsp/index.html)
   - [musica](http://cran.rstudio.com/web/packages/musica/index.html)
+  - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html)
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
