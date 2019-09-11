@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
-  <version>2019-09-05</version>
+  <version>2019-09-10</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samzipper@ku.edu">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.</p></li><li> 
@@ -14,11 +14,9 @@
 <p><pkg>kiwisR</pkg>: Wrapper for retrieving data from <a href="https://www.kisters.net/NA/products/wiski/">KISTERS WISKI databases</a> via the KiWIS API.</p></li><li> 
 <p><pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the <a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">NHD</a> and <a href="http://www.horizon-systems.com/nhdplus">NHDPlus</a> datasets.</p></li><li> 
 <p><pkg>rnrfa</pkg>: Utility functions to retrieve data from the <a href="http://nrfa.ceh.ac.uk/">UK National River Flow Archive</a>. There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.</p></li><li> 
-<p><pkg>sbtools</pkg>: Tools for interacting with <a href="https://www.sciencebase.gov">U.S. Geological Survey ScienceBase</a> data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.</p></li><li> 
 <p><pkg>tidyhydat</pkg>: Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources (<a href="http://dd.weather.gc.ca/hydrometric/csv/" class="uri">http://dd.weather.gc.ca/hydrometric/csv/</a> and <a href="http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/" class="uri">http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/</a>) and then applies tidy data principles.</p></li><li> 
 <p><pkg>washdata</pkg>: Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.</p></li><li> 
-<p><pkg>waterData</pkg>: Imports U.S. Geological Survey (USGS) daily hydrologic data from <a href="https://waterservices.usgs.gov/">USGS web services</a>, plots the data, addresses some common data problems, and calculates and plots anomalies.</p></li><li> 
-<p><pkg>WaterML</pkg>: Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.</p></li></ul><p><strong>Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)</strong></p><ul><li> 
+<p><pkg>waterData</pkg>: Imports U.S. Geological Survey (USGS) daily hydrologic data from <a href="https://waterservices.usgs.gov/">USGS web services</a>, plots the data, addresses some common data problems, and calculates and plots anomalies.</p></li></ul><p><strong>Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)</strong></p><ul><li> 
 <p><pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.</p></li><li> 
 <p><pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <a href="https://cliflo.niwa.co.nz/" class="uri">https://cliflo.niwa.co.nz/</a> for more information.</p></li><li> 
 <p><pkg>countyweather</pkg>: Interacts with NOAA data sources (including the <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">NCDC API</a> and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.</p></li><li> 
@@ -194,7 +192,6 @@
     <pkg>rsoi</pkg>
     <pkg>rtop</pkg>
     <pkg>rwunderground</pkg>
-    <pkg>sbtools</pkg>
     <pkg>SCI</pkg>
     <pkg>smapr</pkg>
     <pkg>soilwater</pkg>
@@ -211,7 +208,6 @@
     <pkg>wasim</pkg>
     <pkg>water</pkg>
     <pkg>waterData</pkg>
-    <pkg>WaterML</pkg>
     <pkg>Watersheds</pkg>
     <pkg>weathercan</pkg>
     <pkg>worldmet</pkg>

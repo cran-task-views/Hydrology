@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2019-09-05                                  |
+| **Version:**    | 2019-09-10                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -35,15 +35,11 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [rnrfa](http://cran.rstudio.com/web/packages/rnrfa/index.html): Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 
-  - [sbtools](http://cran.rstudio.com/web/packages/sbtools/index.html): Tools for interacting with [U.S. Geological Survey ScienceBase](https://www.sciencebase.gov) data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.
-
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html): Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources ( <http://dd.weather.gc.ca/hydrometric/csv/> and <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.
 
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html): Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
 
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html): Imports U.S. Geological Survey (USGS) daily hydrologic data from [USGS web services](https://waterservices.usgs.gov/), plots the data, addresses some common data problems, and calculates and plots anomalies.
-
-  - [WaterML](http://cran.rstudio.com/web/packages/WaterML/index.html): Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (‘CUAHSI’) Water Data Center ‘WaterOneFlow’ web services and read any ‘WaterML’ hydrological time series data file.
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
@@ -347,7 +343,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [rsoi](http://cran.rstudio.com/web/packages/rsoi/index.html)
   - [rtop](http://cran.rstudio.com/web/packages/rtop/index.html)
   - [rwunderground](http://cran.rstudio.com/web/packages/rwunderground/index.html)
-  - [sbtools](http://cran.rstudio.com/web/packages/sbtools/index.html)
   - [SCI](http://cran.rstudio.com/web/packages/SCI/index.html)
   - [smapr](http://cran.rstudio.com/web/packages/smapr/index.html)
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html)
@@ -364,7 +359,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
-  - [WaterML](http://cran.rstudio.com/web/packages/WaterML/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)
   - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html)
   - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html)

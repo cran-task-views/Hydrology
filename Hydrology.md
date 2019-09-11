@@ -25,15 +25,11 @@ Data Retrieval
 
 -   <pkg>rnrfa</pkg>: Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 
--   <pkg>sbtools</pkg>: Tools for interacting with [U.S. Geological Survey ScienceBase](https://www.sciencebase.gov) data cataloging and collaborative data management platform. Functions included for querying ScienceBase, and creating and fetching datasets.
-
 -   <pkg>tidyhydat</pkg>: Provides functions to access historical and real-time national 'hydrometric' data from Water Survey of Canada data sources (<http://dd.weather.gc.ca/hydrometric/csv/> and <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.
 
 -   <pkg>washdata</pkg>: Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
 
 -   <pkg>waterData</pkg>: Imports U.S. Geological Survey (USGS) daily hydrologic data from [USGS web services](https://waterservices.usgs.gov/), plots the data, addresses some common data problems, and calculates and plots anomalies.
-
--   <pkg>WaterML</pkg>: Lets you connect to any of the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. ('CUAHSI') Water Data Center 'WaterOneFlow' web services and read any 'WaterML' hydrological time series data file.
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
