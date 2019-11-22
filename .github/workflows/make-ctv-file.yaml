@@ -23,22 +23,22 @@ jobs:
     - name: Make README
       run: pandoc -w gfm --wrap=none -o README.md Hydrology.html
     - name: sed1
-      run: sed -i.tmp -e 's|( \[|(\[|g' README.md
-    - name: sed2
-      run: sed -i.tmp -e 's| : |: |g' README.md
+      run: |
+        sed -i.tmp -e 's|( \[|(\[|g' README.md
+        sed -i.tmp -e 's| : |: |g' README.md
     - name: sed3
       run: sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
     - name: sed4
       run: rm *.tmp
     - name: check
-    run: Rscript -e 'print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
-    - name: check urls
-    run: Rscript -e 'source("checkurls.R")'
+      run: Rscript -e 'print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
+    - name: check-urls
+      run: Rscript -e 'source("checkurls.R")'
     - name: Create README.md
-    run: pandoc --from=gfm -o README.html README.md
+      run: pandoc --from=gfm -o README.html README.md
     - name: Commit results
-    run: |
-      git commit README.md -m 'Re-build README.md'
-      git commit Hydrology.ctv -m 'Re-build Hydrology.ctv'
-      git commit Hydrology.html -m 'Re-build Hydrology.html'
-      git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:master
+      run: |
+        git commit README.md -m 'Re-build README.md'
+        git commit Hydrology.ctv -m 'Re-build Hydrology.ctv'
+        git commit Hydrology.html -m 'Re-build Hydrology.html'
+        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:master
