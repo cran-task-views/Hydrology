@@ -11,6 +11,8 @@ Data Retrieval
 
 -   <pkg>dbhydroR</pkg>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
 
+-   <pkg>echor</pkg>: An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online ('ECHO')](https://echo.epa.gov/). Provides functions to locate facilities with discharge permits and download discharge records.
+
 -   <pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources. 
 
 -   <pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
