@@ -1,8 +1,4 @@
-on:
-  push:
-    paths:
-      - Hydrology.md
-      - make-ctv-file.yaml
+on: [push, pull_request]
 
 name: Make CTV file
 
@@ -22,14 +18,12 @@ jobs:
       run: Rscript -e 'install.packages("ctv"); ctv::ctv2html("Hydrology.ctv")'
     - name: Make README
       run: pandoc -w gfm --wrap=none -o README.md Hydrology.html
-    - name: sed1
+    - name: sed
       run: |
         sed -i.tmp -e 's|( \[|(\[|g' README.md
         sed -i.tmp -e 's| : |: |g' README.md
-    - name: sed3
-      run: sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
-    - name: sed4
-      run: rm *.tmp
+        sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
+        rm *.tmp
     - name: check
       run: Rscript -e 'print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
     - name: check urls
@@ -38,7 +32,6 @@ jobs:
       run: pandoc --from=gfm -o README.html README.md
     - name: Commit results
       run: |
-        git commit README.md -m 'Re-build README.md'
-        git commit Hydrology.ctv -m 'Re-build Hydrology.ctv'
-        git commit Hydrology.html -m 'Re-build Hydrology.html'
+        git add README.md Hydrology.ctv Hydrology.html
+        git commit -m 'Re-build from Hydrology.md'
         git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:master
