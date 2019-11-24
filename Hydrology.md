@@ -83,6 +83,7 @@ Data Analysis
 
 
 **Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)**
+
 -   <pkg>baseflow</pkg>: Computes hydrograph separation using the conceptual automated process from Pelletier and Andreassian (2019).
 
 -   <pkg>biotic</pkg>: Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI.
