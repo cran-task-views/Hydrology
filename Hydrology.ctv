@@ -7,6 +7,7 @@
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samzipper@ku.edu">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.</p></li><li> 
 <p><pkg>dbhydroR</pkg>: Client for programmatic access to the South Florida Water Management District’s <a href="https://www.sfwmd.gov/science-data/dbhydro">DBHYDRO database</a>, with functions for accessing hydrologic and water quality data.</p></li><li> 
+<p><pkg>echor</pkg>: An R interface to <a href="https://echo.epa.gov/">United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)</a>. Provides functions to locate facilities with discharge permits and download discharge records.</p></li><li> 
 <p><pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.</p></li><li> 
 <p><pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.</p></li><li> 
 <p><pkg>hydrolinks</pkg>: Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.</p></li><li> 
@@ -138,6 +139,7 @@
     <pkg>dbhydroR</pkg>
     <pkg>driftR</pkg>
     <pkg>dynatopmodel</pkg>
+    <pkg>echor</pkg>
     <pkg>Ecohydmod</pkg>
     <pkg>ecoval</pkg>
     <pkg>EGRET</pkg>

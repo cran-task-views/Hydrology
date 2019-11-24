@@ -21,6 +21,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro) , with functions for accessing hydrologic and water quality data.
 
+  - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/) . Provides functions to locate facilities with discharge permits and download discharge records.
+
   - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html): Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.
 
   - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
@@ -286,6 +288,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html)
   - [driftR](http://cran.rstudio.com/web/packages/driftR/index.html)
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html)
+  - [echor](http://cran.rstudio.com/web/packages/echor/index.html)
   - [Ecohydmod](http://cran.rstudio.com/web/packages/Ecohydmod/index.html)
   - [EcoHydRology](http://cran.rstudio.com/web/packages/EcoHydRology/index.html) (core)
   - [ecoval](http://cran.rstudio.com/web/packages/ecoval/index.html)
