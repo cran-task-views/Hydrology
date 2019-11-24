@@ -12,10 +12,12 @@ jobs:
     - uses: r-lib/actions/setup-pandoc@v1
     - name: Convert to ctv
       run: pandoc -w html --wrap=none -o Hydrology.ctv Hydrology.md
+    - name: Install Packages
+      run: Rscript -e 'install.packages(c("stringr","ctv", "httr"))'
     - name: Build XML
       run: Rscript -e 'source("buildxml.R")'
-    - name: Install packages and convert to html
-      run: Rscript -e 'install.packages("ctv"); ctv::ctv2html("Hydrology.ctv")'
+    - name: Convert to html
+      run: Rscript -e 'ctv::ctv2html("Hydrology.ctv")'
     - name: Make README
       run: pandoc -w gfm --wrap=none -o README.md Hydrology.html
     - name: sed
