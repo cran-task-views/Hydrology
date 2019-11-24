@@ -89,7 +89,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [getMet](http://cran.rstudio.com/web/packages/getMet/index.html): Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
 
-**Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)**
+**Hydrograph analysis (functions for working with streamflow data, e.g. flow statistics, trends, biological indices, etc.)** - [baseflow](http://cran.rstudio.com/web/packages/baseflow/index.html): Computes hydrograph separation using the conceptual automated process from Pelletier and Andreassian (2019).
 
   - [biotic](http://cran.rstudio.com/web/packages/biotic/index.html): Calculates a range of UK freshwater invertebrate biotic indices including BMWP, Whalley, WHPT, Habitat-specific BMWP, AWIC, LIFE and PSI.
 
@@ -273,6 +273,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html)
   - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html)
+  - [baseflow](http://cran.rstudio.com/web/packages/baseflow/index.html)
   - [berryFunctions](http://cran.rstudio.com/web/packages/berryFunctions/index.html)
   - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html)
   - [biotic](http://cran.rstudio.com/web/packages/biotic/index.html)
