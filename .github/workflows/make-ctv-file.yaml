@@ -13,7 +13,7 @@ jobs:
     - name: Convert to ctv
       run: pandoc -w html --wrap=none -o Hydrology.ctv Hydrology.md
     - name: Install Packages
-      run: Rscript -e 'install.packages(c("stringr","ctv", "httr"))'
+      run: Rscript -e 'install.packages(c("stringr","ctv", "httr", "XML"))'
     - name: Build XML
       run: Rscript -e 'source("buildxml.R")'
     - name: Convert to html
