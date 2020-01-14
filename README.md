@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2019-11-26                                  |
+| **Version:**    | 2020-01-14                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -81,8 +81,6 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [driftR](http://cran.rstudio.com/web/packages/driftR/index.html): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS) .
 
-  - [<span class="GitHub">fasstr</span>](https://github.com/bcgov/fasstr/) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats. GitHub only package.
-
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html): PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
 
   - [climatol](http://cran.rstudio.com/web/packages/climatol/index.html): Functions for the quality control, homogenization and missing data infilling of climatological series and to obtain climatological summaries and grids from the results. Also functions to draw wind-roses and Walter\&Lieth climate diagrams.
@@ -106,6 +104,8 @@ If you have any comments or suggestions for additions or improvements for this T
   - [EGRETci](http://cran.rstudio.com/web/packages/EGRETci/index.html): A bootstrap method for estimating uncertainty of water quality trends.
 
   - [FAdist](http://cran.rstudio.com/web/packages/FAdist/index.html): Probability distributions that are sometimes useful in hydrology.
+
+  - [fasstr](http://cran.rstudio.com/web/packages/fasstr/index.html) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
 
   - [FlowScreen](http://cran.rstudio.com/web/packages/FlowScreen/index.html): Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
 
@@ -299,6 +299,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [EGRETci](http://cran.rstudio.com/web/packages/EGRETci/index.html)
   - [Evapotranspiration](http://cran.rstudio.com/web/packages/Evapotranspiration/index.html)
   - [FAdist](http://cran.rstudio.com/web/packages/FAdist/index.html)
+  - [fasstr](http://cran.rstudio.com/web/packages/fasstr/index.html)
   - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html)
   - [FlowScreen](http://cran.rstudio.com/web/packages/FlowScreen/index.html)
   - [geoknife](http://cran.rstudio.com/web/packages/geoknife/index.html)
