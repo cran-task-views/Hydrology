@@ -73,8 +73,6 @@ Data Analysis
 
 -   <pkg>driftR</pkg>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
 
--   <github>bcgov/fasstr</github> Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats. GitHub only package.
-
 -   <pkg>climdex.pcic</pkg>: PCIC Implementation of Climdex Routines PCIC's implementation of Climdex routines for computation of extreme climate indices.
 
 -   <pkg>climatol</pkg>: Functions for the quality control, homogenization and missing data infilling of climatological series and to obtain climatological summaries and grids from the results. Also functions to draw wind-roses and Walter&Lieth climate diagrams.
@@ -99,6 +97,8 @@ Data Analysis
 -  <pkg>EGRETci</pkg>: A bootstrap method for estimating uncertainty of water quality trends.
 
 -  <pkg>FAdist</pkg>: Probability distributions that are sometimes useful in hydrology.
+
+-  <pkg>fasstr</pkg> Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
 
 -  <pkg>FlowScreen</pkg>: Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
 
