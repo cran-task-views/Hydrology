@@ -37,6 +37,8 @@ Data Retrieval
 
 -   <pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
 
+-   <pkg>climate</pkg>: Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
+
 -   <pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <https://cliflo.niwa.co.nz/> for more information. 
 
 -   <pkg>countyweather</pkg>: Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the 'rnoaa' package to obtain and compile weather time series for U.S. counties.
