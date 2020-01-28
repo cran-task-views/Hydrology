@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-01-14                                  |
+| **Version:**    | 2020-01-28                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -46,6 +46,8 @@ If you have any comments or suggestions for additions or improvements for this T
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
   - [bomrang](http://cran.rstudio.com/web/packages/bomrang/index.html): Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
+
+  - [climate](http://cran.rstudio.com/web/packages/climate/index.html): Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
 
   - [clifro](http://cran.rstudio.com/web/packages/clifro/index.html): A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <https://cliflo.niwa.co.nz/> for more information.
 
@@ -283,6 +285,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [boussinesq](http://cran.rstudio.com/web/packages/boussinesq/index.html)
   - [CityWaterBalance](http://cran.rstudio.com/web/packages/CityWaterBalance/index.html)
   - [clifro](http://cran.rstudio.com/web/packages/clifro/index.html)
+  - [climate](http://cran.rstudio.com/web/packages/climate/index.html)
   - [climatol](http://cran.rstudio.com/web/packages/climatol/index.html)
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html)
   - [CoSMoS](http://cran.rstudio.com/web/packages/CoSMoS/index.html)
