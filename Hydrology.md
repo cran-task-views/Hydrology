@@ -63,6 +63,8 @@ Data Retrieval
 
 -  <pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.
 
+-  <pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a 'tibble' for the exact range of years requested.
+
 -   <pkg>weathercan</pkg>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
 -   <pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
