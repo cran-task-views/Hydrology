@@ -73,6 +73,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [smapr](http://cran.rstudio.com/web/packages/smapr/index.html): Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.
 
+  - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html): Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
+
   - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html): Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html) . Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
   - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd) .
@@ -358,6 +360,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html)
   - [somspace](http://cran.rstudio.com/web/packages/somspace/index.html)
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html)
+  - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html)
   - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html)
   - [SWATmodel](http://cran.rstudio.com/web/packages/SWATmodel/index.html)
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)

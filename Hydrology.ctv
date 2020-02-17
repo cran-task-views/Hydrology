@@ -32,6 +32,7 @@
 <p><pkg>rpdo</pkg>: Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.</p></li><li> 
 <p><pkg>rwunderground</pkg>: Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.</p></li><li> 
 <p><pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.</p></li><li> 
+<p><pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.</p></li><li> 
 <p><pkg>weathercan</pkg>: Provides means for downloading historical weather data from the <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">Environment and Climate Change Canada website</a>. Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.</p></li><li> 
 <p><pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) <a href="https://www.ncdc.noaa.gov/isd">Integrated Surface Database (ISD)</a>.</p></li></ul><h2 id="data-analysis">Data Analysis</h2><p><strong>Data tidying (gap-filling, data organization, QA/QC, etc)</strong></p><ul><li> 
 <p><pkg>driftR</pkg>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from <a href="http://doi.org/10.7936/K7N014KS">Hasenmueller (2011)</a>.</p></li><li> 
@@ -204,6 +205,7 @@
     <pkg>soilwater</pkg>
     <pkg>somspace</pkg>
     <pkg>SPEI</pkg>
+    <pkg>stationaRy</pkg>
     <pkg>streamDepletr</pkg>
     <pkg>SWATmodel</pkg>
     <pkg>swmmr</pkg>
