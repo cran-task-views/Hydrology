@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-02-17                                  |
+| **Version:**    | 2020-02-18                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -32,6 +32,8 @@ If you have any comments or suggestions for additions or improvements for this T
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html): R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/) . It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
   - [kiwisR](http://cran.rstudio.com/web/packages/kiwisR/index.html): Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
+
+  - [AWAPer](http://cran.rstudio.com/web/packages/AWAPer/index.html): AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).
 
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html): Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
@@ -279,6 +281,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html)
   - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html)
+  - [AWAPer](http://cran.rstudio.com/web/packages/AWAPer/index.html)
   - [baseflow](http://cran.rstudio.com/web/packages/baseflow/index.html)
   - [berryFunctions](http://cran.rstudio.com/web/packages/berryFunctions/index.html)
   - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html)
