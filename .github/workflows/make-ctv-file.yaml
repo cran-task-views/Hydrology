@@ -1,0 +1,41 @@
+on: 
+ push:
+   branches: master
+
+name: Make CTV file
+
+jobs:
+  render:
+    name: Make CTV file
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: r-lib/actions/setup-r@v1
+    - uses: r-lib/actions/setup-pandoc@v1
+    - name: Convert to ctv
+      run: pandoc -w html --wrap=none -o Hydrology.ctv Hydrology.md
+    - name: Install Packages
+      run: Rscript -e 'install.packages(c("stringr","ctv", "httr", "XML"))'
+    - name: Build XML
+      run: Rscript -e 'source("buildxml.R")'
+    - name: Convert to html
+      run: Rscript -e 'ctv::ctv2html("Hydrology.ctv")'
+    - name: Make README
+      run: pandoc -w gfm --wrap=none -o README.md Hydrology.html
+    - name: sed
+      run: |
+        sed -i.tmp -e 's|( \[|(\[|g' README.md
+        sed -i.tmp -e 's| : |: |g' README.md
+        sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
+        rm *.tmp
+    - name: check
+      run: Rscript -e 'print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
+    - name: check urls
+      run: Rscript -e 'source("checkurls.R")'
+    - name: Create README.md
+      run: pandoc --from=gfm -o README.html README.md
+    - name: Commit results
+      run: |
+        git add README.md Hydrology.ctv Hydrology.html
+        git commit -m 'Re-build from Hydrology.md'
+        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:master
