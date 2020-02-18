@@ -35,7 +35,7 @@ jobs:
         run: pandoc --from=gfm -o README.html README.md
       - name: Commit results
         run: |
-          git add README.md Hydrology.ctv Hydrology.html
+          git add .
           git commit -m 'Re-build from Hydrology.md'
       - uses: r-lib/actions/pr-push@master
         with:
