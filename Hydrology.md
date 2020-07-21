@@ -5,7 +5,9 @@ If you have any comments or suggestions for additions or improvements for this T
 Data Retrieval
 --------------
 
-**Hydrological data sources (surface water/groundwater quantity and quality)**
+**Hydrological data sources (surface water/groundwater quantity and quality)** 
+
+-   <pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton's) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
@@ -21,9 +23,9 @@ Data Retrieval
  
 -   <pkg>hydroscoper</pkg>: R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/). It covers Hydroscope's data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
--   <pkg>kiwisR</pkg>: Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API. 
+-   <pkg>kiwisR</pkg>: Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
 
--   <pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton's) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).
+-   <pkg>metScanR</pkg>: A tool for locating, mapping, and gathering environmental data and metadata from > 157,000 environmental monitoring stations among 219 countries/territories and >20 networks/organizations,
 
 -   <pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
