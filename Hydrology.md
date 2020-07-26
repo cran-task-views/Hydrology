@@ -25,7 +25,7 @@ Data Retrieval
 
 -   <pkg>kiwisR</pkg>: Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
 
--   <pkg>metScanR</pkg>: A tool for locating, mapping, and gathering environmental data and metadata from > 157,000 environmental monitoring stations among 219 countries/territories and >20 networks/organizations,
+-   <pkg>metScanR</pkg>: A tool for locating, mapping, and gathering environmental data and metadata from over 157,000 environmental monitoring stations among 219 countries/territories and >20 networks/organizations,
 
 -   <pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
