@@ -61,6 +61,8 @@ Data Retrieval
 
 -  <pkg>rnoaa</pkg>: Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface  NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository ('HOMR'), storm data via 'IBTrACS', tornado data via the NOAA storm prediction center, and more.
 
+-  <pkg>RNRCS</pkg>: Package to download Natural Resources Conservation Service (NRCS) soil and snow data including SCAN, SNOTEL, and SNOLITE. Also can get meta-data for sites in NRCS air and water database.
+
 -  <pkg>rpdo</pkg>: Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
 
 -  <pkg>rwunderground</pkg>: Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.
