@@ -11,7 +11,7 @@ Data Retrieval
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
--   <pkg>dbhydroR</pkg>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+-   <github>dbhydroR</github>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
 
 -   <pkg>echor</pkg>: An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online ('ECHO')](https://echo.epa.gov/). Provides functions to locate facilities with discharge permits and download discharge records.
 
@@ -71,7 +71,7 @@ Data Retrieval
 
 -  <pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a 'tibble' for the exact range of years requested.
 
--   <pkg>weathercan</pkg>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
+-   <github>weathercan</github>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
 -   <pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
@@ -81,7 +81,7 @@ Data Analysis
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
--   <pkg>driftR</pkg>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
+-   <github>driftR</github>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
 
 -   <pkg>climdex.pcic</pkg>: PCIC Implementation of Climdex Routines PCIC's implementation of Climdex routines for computation of extreme climate indices.
 
@@ -171,7 +171,7 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
--   <pkg>somspace</pkg>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
+-   <github>somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
 
 -   <pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.
 
@@ -218,15 +218,13 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <github>USGS-R/streamMetabolizer</github>: Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. GitHub only package.
 
--  <pkg>SWATmodel</pkg>: The Soil and Water Assessment Tool (SWAT) is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
-
 -   <pkg>swmmr</pkg>: Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.
 
 -  <pkg>topmodel</pkg>: Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also <pkg>dynatopmodel</pkg>.
 
 -  <pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
 
--  <pkg>VICmodel</pkg>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
+-  <github>VICmodel</github>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
 -  <pkg>wasim</pkg>: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 
@@ -254,8 +252,6 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 
 -   <pkg>hyfo</pkg>: Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
 
-- <pkg>IDF</pkg>: Functions to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
-  
 - <github>NEONScience/NEON-stream-discharge</github>: NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.
   
 -   <pkg>LPM</pkg>: Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
