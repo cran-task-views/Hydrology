@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-08-20                                  |
+| **Version:**    | 2020-08-21                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -21,7 +21,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
-  - [<span class="GitHub">NA</span>](https://github.com/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+  - [<span class="GitHub">NA</span>](https://github.com/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro) , with functions for accessing hydrologic and water quality data.
 
   - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/) . Provides functions to locate facilities with discharge permits and download discharge records.
 
