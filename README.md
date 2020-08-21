@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-08-19                                  |
+| **Version:**    | 2020-08-20                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -21,7 +21,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
-  - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+  - [<span class="GitHub">NA</span>](https://github.com/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
 
   - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/). Provides functions to locate facilities with discharge permits and download discharge records.
 
@@ -81,7 +81,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html): Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
 
-  - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html): Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
+  - [<span class="GitHub">NA</span>](https://github.com/weathercan/): Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
   - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
@@ -89,7 +89,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
-  - [driftR](http://cran.rstudio.com/web/packages/driftR/index.html): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
+  - [<span class="GitHub">NA</span>](https://github.com/driftR/): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
 
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html): PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
 
@@ -177,7 +177,7 @@ The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be u
 
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html): Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
-  - [somspace](http://cran.rstudio.com/web/packages/somspace/index.html): somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
+  - [<span class="GitHub">NA</span>](https://github.com/somspace/): somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
 
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html): Methods for watersheds aggregation and spatial drainage network analysis.
 
@@ -223,15 +223,13 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [<span class="GitHub">streamMetabolizer</span>](https://github.com/USGS-R/streamMetabolizer/): Estimate aquatic photosynthesis and respiration (collectively, metabolism) from time series data on dissolved oxygen, water temperature, depth, and light via inverse modeling. The package assists with data preparation, handles data gaps during modeling, and provides tabular and graphical reports of model outputs. GitHub only package.
 
-  - [SWATmodel](http://cran.rstudio.com/web/packages/SWATmodel/index.html): The Soil and Water Assessment Tool (SWAT) is a river basin or watershed scale model developed by Dr. Jeff Arnold for the USDA-ARS.
-
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html): Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.
 
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html): Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html).
 
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html): Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
 
-  - [VICmodel](http://cran.rstudio.com/web/packages/VICmodel/index.html): Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
+  - [<span class="GitHub">NA</span>](https://github.com/VICmodel/): Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
   - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html): Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 
@@ -258,8 +256,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [HydroMe](http://cran.rstudio.com/web/packages/HydroMe/index.html): Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.
 
   - [hyfo](http://cran.rstudio.com/web/packages/hyfo/index.html): Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
-
-  - [IDF](http://cran.rstudio.com/web/packages/IDF/index.html): Functions to read precipitation data from German weather service (DWD) files and Berlin station data from and additionally Intensity-duration-frequency (IDF) parameters can be estimated from a given data.frame containing a precipitation time series. IDF parameters are estimated on the basis of a duration-dependent generalised extreme value distribution and IDF curves based on these estimated parameters can be plotted.
 
   - [<span class="GitHub">NEON-stream-discharge</span>](https://github.com/NEONScience/NEON-stream-discharge/): NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.
 
@@ -300,8 +296,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [CoSMoS](http://cran.rstudio.com/web/packages/CoSMoS/index.html)
   - [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html)
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
-  - [dbhydroR](http://cran.rstudio.com/web/packages/dbhydroR/index.html)
-  - [driftR](http://cran.rstudio.com/web/packages/driftR/index.html)
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html)
   - [echor](http://cran.rstudio.com/web/packages/echor/index.html)
   - [Ecohydmod](http://cran.rstudio.com/web/packages/Ecohydmod/index.html)
@@ -331,7 +325,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [hydrostats](http://cran.rstudio.com/web/packages/hydrostats/index.html)
   - [hydroTSM](http://cran.rstudio.com/web/packages/hydroTSM/index.html) (core)
   - [hyfo](http://cran.rstudio.com/web/packages/hyfo/index.html)
-  - [IDF](http://cran.rstudio.com/web/packages/IDF/index.html)
   - [kitagawa](http://cran.rstudio.com/web/packages/kitagawa/index.html)
   - [kiwisR](http://cran.rstudio.com/web/packages/kiwisR/index.html)
   - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html)
@@ -367,22 +360,18 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [SCI](http://cran.rstudio.com/web/packages/SCI/index.html)
   - [smapr](http://cran.rstudio.com/web/packages/smapr/index.html)
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html)
-  - [somspace](http://cran.rstudio.com/web/packages/somspace/index.html)
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html)
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html)
   - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html)
-  - [SWATmodel](http://cran.rstudio.com/web/packages/SWATmodel/index.html)
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
-  - [VICmodel](http://cran.rstudio.com/web/packages/VICmodel/index.html)
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html)
   - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)
-  - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html)
   - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html)
   - [wql](http://cran.rstudio.com/web/packages/wql/index.html)
   - [WRSS](http://cran.rstudio.com/web/packages/WRSS/index.html)
