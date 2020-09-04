@@ -71,7 +71,7 @@ Data Retrieval
 
 -  <pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a 'tibble' for the exact range of years requested.
 
--   <github>weathercan</github>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
+-   <pkg>weathercan</pkg>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
 -   <pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
@@ -171,7 +171,7 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
--   <github>somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
+-   <github>imarkonis/somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
 
 -   <pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.
 
@@ -224,7 +224,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
 
--  <github>VICmodel</github>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
+-  <github>Sibada/VICmodel</github>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
 -  <pkg>wasim</pkg>: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 
