@@ -180,7 +180,7 @@ Modeling
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
 
-See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge.
+See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [HESSD](https://hess.copernicus.org/preprints/hess-2020-498/) paper discussing R packages for Hydrology modelling.
 
 -  <pkg>airGR</pkg>: Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
