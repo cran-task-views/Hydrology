@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-09-04                                  |
+| **Version:**    | 2020-10-23                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -185,7 +185,7 @@ The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be u
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
 
-See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge.
+See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [HESSD](https://hess.copernicus.org/preprints/hess-2020-498/) paper discussing R packages for Hydrology modelling.
 
   - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html): Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
@@ -389,3 +389,4 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [RHydro project](https://r-forge.r-project.org/R/?group_id=411)
   - [Riccardo Rigon blog post about R resources for hydrologists](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
   - [USGS-R community](https://owi.usgs.gov/R/)
+  - [WaterProgramming blog post about data retrieval and statistical analysis in R](https://waterprogramming.wordpress.com/2019/07/08/packages-for-hydrological-data-retrieval-and-statistical-analysis/)
