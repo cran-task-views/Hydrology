@@ -40,6 +40,7 @@ c(paste0('<CRANTaskView>
  # '     <a href="https://cran.r-project.org/view=WebTechnologies">WebTechnologies TaskView</a>',
   '     <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon blog post about R resources for hydrologists</a>', 
   '     <a href="https://owi.usgs.gov/R/">USGS-R community</a>',
+  ' <a href="https://waterprogramming.wordpress.com/2019/07/08/packages-for-hydrological-data-retrieval-and-statistical-analysis/">WaterProgramming blog post about data retrieval and statistical analysis in R</a>',
   '  </links>',
   '</CRANTaskView>')
 
