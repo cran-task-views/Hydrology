@@ -11,7 +11,7 @@ Data Retrieval
 
 -   <pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
--   <github>dbhydroR</github>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+-   <github>ropensci/dbhydroR</github>: Client for programmatic access to the South Florida Water Management District's [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
 
 -   <pkg>echor</pkg>: An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online ('ECHO')](https://echo.epa.gov/). Provides functions to locate facilities with discharge permits and download discharge records.
 
@@ -81,7 +81,7 @@ Data Analysis
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
--   <github>driftR</github>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
+-   <github>shaughnessyar/driftR</github>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
 
 -   <pkg>climdex.pcic</pkg>: PCIC Implementation of Climdex Routines PCIC's implementation of Climdex routines for computation of extreme climate indices.
 
@@ -207,6 +207,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
 -  <github>USGS-R/loadflex</github>: Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1). GitHub only package.
+
+-  <pkg>RavenR</pkg>: Utilities for processing input and output files associated with the Raven Hydrological Modelling Framework. Includes various plotting functions, model diagnostics, reading output files into xts format, and support for writing Raven input files (rvt, rvh, rvc, etc.).
 
 -  <pkg>reservoir</pkg>: Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient.
 
