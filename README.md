@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2020-10-26                                  |
+| **Version:**    | 2021-02-04                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -21,7 +21,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
-  - [<span class="GitHub">NA</span>](https://github.com/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro) , with functions for accessing hydrologic and water quality data.
+  - [<span class="GitHub">dbhydroR</span>](https://github.com/ropensci/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro) , with functions for accessing hydrologic and water quality data.
 
   - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/) . Provides functions to locate facilities with discharge permits and download discharge records.
 
@@ -89,7 +89,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
-  - [<span class="GitHub">NA</span>](https://github.com/driftR/): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS) .
+  - [<span class="GitHub">driftR</span>](https://github.com/shaughnessyar/driftR/): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS) .
 
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html): PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
 
@@ -212,6 +212,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
   - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
   - [<span class="GitHub">loadflex</span>](https://github.com/USGS-R/loadflex/): Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1) . GitHub only package.
+
+  - [RavenR](http://cran.rstudio.com/web/packages/RavenR/index.html): Utilities for processing input and output files associated with the Raven Hydrological Modelling Framework. Includes various plotting functions, model diagnostics, reading output files into xts format, and support for writing Raven input files (rvt, rvh, rvc, etc.).
 
   - [reservoir](http://cran.rstudio.com/web/packages/reservoir/index.html): Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient.
 
@@ -344,6 +346,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html)
+  - [RavenR](http://cran.rstudio.com/web/packages/RavenR/index.html)
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html)
   - [reservoir](http://cran.rstudio.com/web/packages/reservoir/index.html)
   - [RHMS](http://cran.rstudio.com/web/packages/RHMS/index.html)
