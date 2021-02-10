@@ -206,7 +206,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
-- <pkg>LWFBrook90R</pkg>: Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023).
+-  <pkg>LWFBrook90R</pkg>: Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023).
 
 -  <github>USGS-R/loadflex</github>: Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1). GitHub only package.
 
