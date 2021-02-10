@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
-  <version>2021-02-04</version>
+  <version>2021-02-10</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samzipper@ku.edu">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).</p></li><li> 
@@ -83,7 +83,7 @@
 <p><pkg>airGRteaching</pkg>: Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.</p></li><li> 
 <p><pkg>bigleaf</pkg>: Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.</p></li><li> 
 <p><pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).</p></li><li> 
-<p><github>pschmidtwalter/brook90r</github> and <github>rkronen/Brook90_R</github>: to different packages to run the 1D-SVAT model LWF-BROOK90. GitHub only package.</p></li><li> 
+<p><github>rkronen/Brook90_R</github>: an R implementation of the 1D-SVAT model Brook90. GitHub only package.</p></li><li> 
 <p><pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.</p></li><li> 
 <p><pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See <a href="http://doi.org/10.1002/hyp.10953">Souza et al. (2016)</a>.</p></li><li> 
 <p><pkg>EcoHydRology</pkg>: Flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.</p></li><li> 
@@ -91,6 +91,7 @@
 <p><github>floybix/hydromad</github>: Hydrological Model Assessment and Development - <a href="http://hydromad.catchment.org">website</a>. GitHub only package.</p></li><li> 
 <p><pkg>hydroPSO</pkg>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.</p></li><li> 
 <p><pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the <a href="http://doi.org/10.1029/WR003i001p00227">Hantush (1967)</a> equation. The correct implementation is shown with a verification example based on a USGS report ( <a href="http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf">page 25</a> ).</p></li><li> 
+<p><pkg>LWFBrook90R</pkg>: Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper <a href="https://doi.org/10.1016/j.agrformet.2020.108023">Schmidt-Walter et al. (2020)</a>.</p></li><li> 
 <p><github>USGS-R/loadflex</github>: Models and Tools for Watershed Flux Estimates. See <a href="http://dx.doi.org/10.1890/ES14-00517.1">paper</a>. GitHub only package.</p></li><li> 
 <p><pkg>RavenR</pkg>: Utilities for processing input and output files associated with the Raven Hydrological Modelling Framework. Includes various plotting functions, model diagnostics, reading output files into xts format, and support for writing Raven input files (rvt, rvh, rvc, etc.).</p></li><li> 
 <p><pkg>reservoir</pkg>: Tools for Analysis, Design, and Operation of Water Supply Storages. Measure single-storage water supply system performance using resilience, reliability, and vulnerability metrics; assess storage-yield-reliability relationships; determine no-fail storage with sequent peak analysis; optimize release decisions for water supply, hydropower, and multi-objective reservoirs using deterministic and stochastic dynamic programming; generate inflow replicates using parametric and non-parametric models; evaluate inflow persistence using the Hurst coefficient.</p></li><li> 
@@ -177,6 +178,7 @@
     <pkg>lfstat</pkg>
     <pkg>LPM</pkg>
     <pkg>lulcc</pkg>
+    <pkg>LWFBrook90R</pkg>
     <pkg>MBC</pkg>
     <pkg>meteo</pkg>
     <pkg>meteoland</pkg>

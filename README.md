@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2021-02-04                                  |
+| **Version:**    | 2021-02-10                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -195,7 +195,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [boussinesq](http://cran.rstudio.com/web/packages/boussinesq/index.html): Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).
 
-  - [<span class="GitHub">brook90r</span>](https://github.com/pschmidtwalter/brook90r/) and [<span class="GitHub">Brook90\_R</span>](https://github.com/rkronen/Brook90_R/): to different packages to run the 1D-SVAT model LWF-BROOK90. GitHub only package.
+  - [<span class="GitHub">Brook90\_R</span>](https://github.com/rkronen/Brook90_R/): an R implementation of the 1D-SVAT model Brook90. GitHub only package.
 
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html): Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html).
 
@@ -210,6 +210,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html): Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
 
   - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
+
+  - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html): Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023) .
 
   - [<span class="GitHub">loadflex</span>](https://github.com/USGS-R/loadflex/): Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1) . GitHub only package.
 
@@ -334,6 +336,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [lfstat](http://cran.rstudio.com/web/packages/lfstat/index.html)
   - [LPM](http://cran.rstudio.com/web/packages/LPM/index.html)
   - [lulcc](http://cran.rstudio.com/web/packages/lulcc/index.html)
+  - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html)
   - [MBC](http://cran.rstudio.com/web/packages/MBC/index.html)
   - [meteo](http://cran.rstudio.com/web/packages/meteo/index.html)
   - [meteoland](http://cran.rstudio.com/web/packages/meteoland/index.html)
