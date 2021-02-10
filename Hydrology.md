@@ -190,7 +190,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).
 
--  <github>pschmidtwalter/brook90r</github> and <github>rkronen/Brook90_R</github>: to different packages to run the 1D-SVAT model LWF-BROOK90. GitHub only package. 
+-  <github>rkronen/Brook90_R</github>: an R implementation of the 1D-SVAT model Brook90. GitHub only package. 
 
 -  <pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.
 
@@ -205,6 +205,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>hydroPSO</pkg>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
 
 -  <pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
+
+- <pkg>LWFBrook90R</pkg>: Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023).
 
 -  <github>USGS-R/loadflex</github>: Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1). GitHub only package.
 
