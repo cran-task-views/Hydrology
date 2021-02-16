@@ -184,6 +184,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <pkg>airGR</pkg>: Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
+ - <pkg>airGRdatassim</pkg>: Add-on to the 'airGR' package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390).
+
 -  <pkg>airGRteaching</pkg>: Add-on package to the 'airGR' package that simplifies its use and is aimed at being used for teaching hydrology.
 
 -  <pkg>bigleaf</pkg>: Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a 'big-leaf' and return bulk ecosystem/canopy variables.
