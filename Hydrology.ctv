@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
-  <version>2021-02-10</version>
+  <version>2021-02-16</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samzipper@ku.edu">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).</p></li><li> 
@@ -80,6 +80,7 @@
 <p><github>imarkonis/somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.</p></li><li> 
 <p><pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.</p></li></ul><h2 id="modeling">Modeling</h2><p><strong>Process-based modeling (scripts for preparing inputs/outputs and running process-based models)</strong></p><p>See also the <a href="https://r-forge.r-project.org/R/?group_id=411">RHydro project</a> on R-forge and the <a href="https://hess.copernicus.org/preprints/hess-2020-498/">HESSD</a> paper discussing R packages for Hydrology modelling.</p><ul><li> 
 <p><pkg>airGR</pkg>: Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.</p></li><li> 
+<p><pkg>airGRdatassim</pkg>: Add-on to the ‘airGR’ package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in <a href="http://doi.org/10.1029/2020WR028390">Piazzi et al. (2021)</a>.</p></li><li> 
 <p><pkg>airGRteaching</pkg>: Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.</p></li><li> 
 <p><pkg>bigleaf</pkg>: Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.</p></li><li> 
 <p><pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).</p></li><li> 
@@ -129,6 +130,7 @@
     <pkg priority="core">hydroTSM</pkg>
     <pkg priority="core">hydroGOF</pkg>
     <pkg>airGR</pkg>
+    <pkg>airGRdatassim</pkg>
     <pkg>airGRteaching</pkg>
     <pkg>AWAPer</pkg>
     <pkg>baseflow</pkg>
