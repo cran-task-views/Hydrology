@@ -274,4 +274,6 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 
 -   <pkg>soilwater</pkg>: Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
 
+-   <pkg>synthesis</pkg>: Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.
+
 -   <pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
