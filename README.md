@@ -3,8 +3,8 @@
 |                 |                                             |
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
-| **Contact:**    | samzipper at ku.edu                  |
-| **Version:**    | 2021-02-16                                  |
+| **Contact:**    | samuelczipper at gmail.com                  |
+| **Version:**    | 2021-04-02                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -279,6 +279,8 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html): Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
 
+  - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html): Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.
+
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html): A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
 
 </div>
@@ -373,6 +375,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html)
   - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html)
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)
+  - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html)
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
