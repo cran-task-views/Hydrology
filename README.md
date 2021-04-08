@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
 | **Contact:**    | samuelczipper at gmail.com                  |
-| **Version:**    | 2021-04-02                                  |
+| **Version:**    | 2021-04-08                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -28,8 +28,6 @@ If you have any comments or suggestions for additions or improvements for this T
   - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html): Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.
 
   - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
-
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html): Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
 
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html): R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/) . It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
@@ -169,8 +167,6 @@ If you have any comments or suggestions for additions or improvements for this T
 
 The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Listing](https://github.com/ropensci/maptools) .
 
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html): Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
-
   - [<span class="GitHub">lumpR</span>](https://github.com/tpilz/lumpR/): Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package.
 
   - [lakemorpho](http://cran.rstudio.com/web/packages/lakemorpho/index.html): Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.
@@ -236,8 +232,6 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html): Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
 
   - [<span class="GitHub">VICmodel</span>](https://github.com/Sibada/VICmodel/): Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
-
-  - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html): Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
 
   - [water](http://cran.rstudio.com/web/packages/water/index.html): Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
 
@@ -327,7 +321,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [hydroApps](http://cran.rstudio.com/web/packages/hydroApps/index.html)
   - [hydrogeo](http://cran.rstudio.com/web/packages/hydrogeo/index.html)
   - [hydroGOF](http://cran.rstudio.com/web/packages/hydroGOF/index.html) (core)
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html)
   - [HydroMe](http://cran.rstudio.com/web/packages/HydroMe/index.html)
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html)
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html)
@@ -380,7 +373,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html)
-  - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)

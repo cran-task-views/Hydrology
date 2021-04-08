@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="samuelczipper@gmail.com">Sam Zipper, Sam Albers, Ilaria Prosdocimi</maintainer>
-  <version>2021-04-02</version>
+  <version>2021-04-08</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:samzipper@ku.edu">send Sam Zipper an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).</p></li><li> 
@@ -11,7 +11,6 @@
 <p><pkg>echor</pkg>: An R interface to <a href="https://echo.epa.gov/">United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)</a>. Provides functions to locate facilities with discharge permits and download discharge records.</p></li><li> 
 <p><pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.</p></li><li> 
 <p><pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.</p></li><li> 
-<p><pkg>hydrolinks</pkg>: Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.</p></li><li> 
 <p><pkg>hydroscoper</pkg>: R interface to the <a href="http://www.hydroscope.gr/">Greek National Data Bank for Hydrological and Meteorological Information</a>. It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).</p></li><li> 
 <p><pkg>kiwisR</pkg>: Wrapper for retrieving data from <a href="https://www.kisters.net/NA/products/wiski/">KISTERS WISKI databases</a> via the KiWIS API.</p></li><li> 
 <p><pkg>metScanR</pkg>: A tool for locating, mapping, and gathering environmental data and metadata from over 157,000 environmental monitoring stations among 219 countries/territories and &gt;20 networks/organizations,</p></li><li> 
@@ -73,7 +72,6 @@
 <p><pkg>lulcc</pkg>: Classes and methods for spatially explicit land use change modelling.</p></li><li> 
 <p><pkg>wql</pkg>: Functions to assist in the processing and exploration of data from environmental monitoring programs. Intended for programs that sample approximately monthly, quarterly or annually at discrete stations, a feature of many legacy data sets. Most of the functions should be useful for analysis of similar-frequency time series regardless of the subject matter.</p></li><li> 
 <p><pkg>WRTDStidal</pkg>: An adaptation for estuaries (tidal waters) of weighted regression on time, discharge, and season to evaluate trends in water quality time series.</p></li></ul><p><strong>Spatial data processing</strong></p><p>The CRAN <view>Spatial</view> Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci <a href="https://github.com/ropensci/maptools">MapTools Listing</a>.</p><ul><li> 
-<p><pkg>hydrolinks</pkg>: Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.</p></li><li> 
 <p><github>tpilz/lumpR</github>: Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package.</p></li><li> 
 <p><pkg>lakemorpho</pkg>: Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.</p></li><li> 
 <p><pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the <a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">NHD</a> and <a href="http://www.horizon-systems.com/nhdplus">NHDPlus</a> datasets.</p></li><li> 
@@ -104,7 +102,6 @@
 <p><pkg>topmodel</pkg>: Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also <pkg>dynatopmodel</pkg>.</p></li><li> 
 <p><pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.</p></li><li> 
 <p><github>Sibada/VICmodel</github>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)</p></li><li> 
-<p><pkg>wasim</pkg>: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.</p></li><li> 
 <p><pkg>water</pkg>: Tools and functions to calculate actual Evapotranspiration using surface energy balance models.</p></li><li> 
 <p><pkg>WRSS</pkg>: Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. ‘WRSS’ proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).</p></li></ul><p><strong>Statistical modeling (hydrology-related statistical models)</strong></p><p>The <view>Environmetrics</view>: Task View gives an overview of packages used in the analysis of environmental data, encompassing hydrological data, including many statistical approaches used in the ecological sciences. Additionally, packages that help model datasets with extreme values are discussed in the <view>ExtremeValue</view> Task View.</p><ul><li> 
 <p><pkg>CityWaterBalance</pkg>: Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies <pkg>geoknife</pkg> and <pkg>dataRetrieval</pkg>.</p></li><li> 
@@ -168,7 +165,6 @@
     <pkg>humidity</pkg>
     <pkg>hydroApps</pkg>
     <pkg>hydrogeo</pkg>
-    <pkg>hydrolinks</pkg>
     <pkg>HydroMe</pkg>
     <pkg>hydroPSO</pkg>
     <pkg>hydroscoper</pkg>
@@ -220,7 +216,6 @@
     <pkg>topmodel</pkg>
     <pkg>TUWmodel</pkg>
     <pkg>washdata</pkg>
-    <pkg>wasim</pkg>
     <pkg>water</pkg>
     <pkg>waterData</pkg>
     <pkg>Watersheds</pkg>
