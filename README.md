@@ -29,8 +29,6 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html): Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
 
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html): Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
-
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html): R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/) . It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
   - [kiwisR](http://cran.rstudio.com/web/packages/kiwisR/index.html): Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
@@ -169,8 +167,6 @@ If you have any comments or suggestions for additions or improvements for this T
 
 The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Listing](https://github.com/ropensci/maptools) .
 
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html): Tools to link geographic data with hydrologic network, including lakes, streams and rivers. Includes automated download of U.S. National Hydrography Network and other hydrolayers.
-
   - [<span class="GitHub">lumpR</span>](https://github.com/tpilz/lumpR/): Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package.
 
   - [lakemorpho](http://cran.rstudio.com/web/packages/lakemorpho/index.html): Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.
@@ -237,8 +233,6 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [<span class="GitHub">VICmodel</span>](https://github.com/Sibada/VICmodel/): Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
-  - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html): Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
-
   - [water](http://cran.rstudio.com/web/packages/water/index.html): Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
 
   - [WRSS](http://cran.rstudio.com/web/packages/WRSS/index.html): Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. ‘WRSS’ proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).
@@ -278,6 +272,8 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [SCI](http://cran.rstudio.com/web/packages/SCI/index.html): Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).
 
   - [soilwater](http://cran.rstudio.com/web/packages/soilwater/index.html): Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.
+
+  - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html): Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.
 
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html): A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
 
@@ -325,7 +321,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [hydroApps](http://cran.rstudio.com/web/packages/hydroApps/index.html)
   - [hydrogeo](http://cran.rstudio.com/web/packages/hydrogeo/index.html)
   - [hydroGOF](http://cran.rstudio.com/web/packages/hydroGOF/index.html) (core)
-  - [hydrolinks](http://cran.rstudio.com/web/packages/hydrolinks/index.html)
   - [HydroMe](http://cran.rstudio.com/web/packages/HydroMe/index.html)
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html)
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html)
@@ -373,11 +368,11 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html)
   - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html)
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)
+  - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html)
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html)
-  - [wasim](http://cran.rstudio.com/web/packages/wasim/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)
