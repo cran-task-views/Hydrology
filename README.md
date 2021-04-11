@@ -2,8 +2,8 @@
 
 |                 |                                             |
 | --------------- | ------------------------------------------- |
-| **Maintainer:** | Sam Zipper, Sam Albers, Ilaria Prosdocimi   |
-| **Contact:**    | samuelczipper at gmail.com                  |
+| **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
+| **Contact:**    | sam.albers at gmail.com                     |
 | **Version:**    | 2021-04-11                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
