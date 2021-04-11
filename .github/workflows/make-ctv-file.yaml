@@ -32,6 +32,13 @@ jobs:
       run: Rscript -e 'print(ctv::check_ctv_packages("Hydrology.ctv", repos = "http://cran.rstudio.com/"))'
     - name: check urls
       run: Rscript -e 'source("checkurls.R")'
+    - name: Check CRAN
+      run: |
+        svn checkout svn://svn.r-forge.r-project.org/svnroot/ctv/pkg/inst/ctv
+        cp ./ctv/Hydrology.ctv Hydrology.ctv
+        git diff Hydrology.ctv
+        git checkout -- Hydrology.ctv
+        rm -r ./ctv
     - name: Create README.md
       run: pandoc --from=gfm -o README.html README.md
     - name: Commit results
