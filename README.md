@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-04-11                                  |
+| **Version:**    | 2021-04-29                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -227,6 +227,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html): Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.
 
+  - [telemac](http://cran.rstudio.com/web/packages/telemac/index.html): An R interface to the TELEMAC suite for modelling of free surface flow. This includes methods for model initialisation, simulation, and visualisation. So far only the TELEMAC-2D module for 2-dimensional hydrodynamic modelling is implemented.
+
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html): Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html).
 
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html): Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
@@ -369,6 +371,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [streamDepletr](http://cran.rstudio.com/web/packages/streamDepletr/index.html)
   - [swmmr](http://cran.rstudio.com/web/packages/swmmr/index.html)
   - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html)
+  - [telemac](http://cran.rstudio.com/web/packages/telemac/index.html)
   - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html)
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
