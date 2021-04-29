@@ -222,6 +222,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -   <pkg>swmmr</pkg>: Functions to connect the widely used [Storm Water Management Model (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm) of the United States Environmental Protection Agency (US EPA) to R.
 
+-   <pkg>telemac</pkg>: An R interface to the TELEMAC suite for modelling of free surface flow. This includes methods for model initialisation, simulation, and visualisation. So far only the TELEMAC-2D module for 2-dimensional hydrodynamic modelling is implemented.
+
 -  <pkg>topmodel</pkg>: Set of hydrological functions including the hydrological model TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. From version 0.7.0, the package is put into maintenance mode. See also <pkg>dynatopmodel</pkg>.
 
 -  <pkg>TUWmodel</pkg>: Lumped Hydrological Model for Education Purposes: a lumped conceptual rainfall-runoff model, following the structure of the HBV model. The model runs on a daily or shorter time step and consists of a snow routine, a soil moisture routine and a flow routing routine.
