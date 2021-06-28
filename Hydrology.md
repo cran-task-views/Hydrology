@@ -171,6 +171,8 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.
 
+-   <pkg>nhdplusTools</pkg>: Tools for accessing and working with the NHDPlus. Offers utilities for calculating NHDPlus attributes, network navigation, and indexing data to any hydrographic network.
+
 Modeling
 --------
 
