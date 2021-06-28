@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-05-04                                  |
+| **Version:**    | 2021-06-28                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -177,6 +177,8 @@ The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be u
 
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html): Methods for watersheds aggregation and spatial drainage network analysis.
 
+  - [nhdplusTools](http://cran.rstudio.com/web/packages/nhdplusTools/index.html): Tools for accessing and working with the NHDPlus. Offers utilities for calculating NHDPlus attributes, network navigation, and indexing data to any hydrographic network.
+
 ## Modeling
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
@@ -345,6 +347,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [MODIStsp](http://cran.rstudio.com/web/packages/MODIStsp/index.html)
   - [musica](http://cran.rstudio.com/web/packages/musica/index.html)
   - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html)
+  - [nhdplusTools](http://cran.rstudio.com/web/packages/nhdplusTools/index.html)
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
