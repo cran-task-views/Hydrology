@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-06-28                                  |
+| **Version:**    | 2021-08-04                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -183,13 +183,13 @@ The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be u
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
 
-See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [HESSD](https://hess.copernicus.org/preprints/hess-2020-498/) paper discussing R packages for Hydrology modelling.
+See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021/) paper discussing R packages for Hydrology modelling.
 
-  - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html): Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
+  - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html): Hydrological modelling tools developed at INRAE-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR5H, GR4J, GR5J, GR6J, GR2M, GR1A) that can be applied either on a lumped or semi-distributed way. A snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
   - [airGRdatassim](http://cran.rstudio.com/web/packages/airGRdatassim/index.html): Add-on to the ‘airGR’ package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390) .
 
-  - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html): Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.
+  - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html): Add-on to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology. A Shiny GUI is embedded into the package (demo available on [sunshine.irstea.fr](https://sunshine.irstea.fr/) .
 
   - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html): Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.
 
