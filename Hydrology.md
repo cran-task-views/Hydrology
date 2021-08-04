@@ -180,9 +180,9 @@ Modeling
 
 See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021/) paper discussing R packages for Hydrology modelling.
 
--  <pkg>airGR</pkg>: Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
+-  <pkg>airGR</pkg>: Hydrological modelling tools developed at INRAE-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR5H, GR4J, GR5J, GR6J, GR2M, GR1A) that can be applied either on a lumped or semi-distributed way. A snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
- - <pkg>airGRdatassim</pkg>: Add-on to the 'airGR' package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390).
+- <pkg>airGRdatassim</pkg>: Add-on to the 'airGR' package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390).
 
 -  <pkg>airGRteaching</pkg>: Add-on package to the 'airGR' package that simplifies its use and is aimed at being used for teaching hydrology.
 
