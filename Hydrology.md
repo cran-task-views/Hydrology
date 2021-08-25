@@ -37,13 +37,10 @@ Data Retrieval
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
--   <pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
 
 -   <pkg>climate</pkg>: Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
 
 -   <pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <https://cliflo.niwa.co.nz/> for more information. 
-
--   <pkg>countyweather</pkg>: Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the 'rnoaa' package to obtain and compile weather time series for U.S. counties.
 
 -   <pkg>getMet</pkg>: Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
 
@@ -52,6 +49,9 @@ Data Retrieval
 -   <pkg>MODISTools</pkg>: Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of 'MODIS' time series.
 
 -   <pkg>nasapower</pkg>: Client for NASA's Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov). Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
+
+-   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
+of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
 
 -   <pkg>rdwd</pkg>: Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
 
@@ -68,8 +68,6 @@ Data Retrieval
 -  <pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.
 
 -  <pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a 'tibble' for the exact range of years requested.
-
--   <pkg>weathercan</pkg>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
 -   <pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
@@ -129,9 +127,6 @@ Data Analysis
 -   <pkg>musica</pkg>: Multiscale Climate Model Assessment. Provides function to compare and analyse time series.
 
 -   <pkg>openair</pkg>: Tools to analyse, interpret and understand air pollution data. Many functions can also be applied to other data, including meteorological and traffic data.
-
--   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
-of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
 
 -   <pkg>qmap</pkg>: Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
