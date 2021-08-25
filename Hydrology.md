@@ -1,4 +1,4 @@
-This Task View contains information about packages broadly relevant to *hydrology*, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
+This Task View contains information about packages broadly relevant to *hydrology*, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources. Some Python related resources can be found [here](https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html) and [here](https://github.com/raoulcollenteur/Python-Hydrology-Tools)
 
 If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls). If you can't contribute on GitHub, [send Sam Albers an email](mailto:sam.albers@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -37,13 +37,10 @@ Data Retrieval
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
--   <pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
 
 -   <pkg>climate</pkg>: Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
 
 -   <pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <https://cliflo.niwa.co.nz/> for more information. 
-
--   <pkg>countyweather</pkg>: Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the 'rnoaa' package to obtain and compile weather time series for U.S. counties.
 
 -   <pkg>getMet</pkg>: Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
 
@@ -53,7 +50,10 @@ Data Retrieval
 
 -   <pkg>nasapower</pkg>: Client for NASA's Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov). Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
 
--   <pkg>rdwd</pkg>: Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
+-   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
+of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
+
+-   <pkg>rdwd</pkg>: Handle climate data from the German DWD ('Deutscher Wetterdienst'). 
 
 -   <pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
 
@@ -68,8 +68,6 @@ Data Retrieval
 -  <pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.
 
 -  <pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a 'tibble' for the exact range of years requested.
-
--   <pkg>weathercan</pkg>: Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
 
 -   <pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
@@ -145,6 +143,8 @@ Data Analysis
 
 -   <pkg>hydrogeo</pkg>: Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
 
+-   <pkg>hydrotoolbox</pkg>: Read, plot, manipulate and process hydro-meteorological data records (with special features for Argentina and Chile data-sets). 
+
 -   <pkg>kitagawa</pkg>: Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
 
 -  <github>leppott/MBSStools</github>: Suite of tools for data manipulation and calculations for Maryland DNR MBSS program. GitHub only package.
@@ -203,6 +203,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <github>floybix/hydromad</github>: Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org). GitHub only package. 
 
 -  <pkg>hydroPSO</pkg>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
+
+- <pkg>HBV.IANIGLA</pkg>: This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See [Toum et al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
 
 -  <pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 

@@ -4,12 +4,12 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-08-04                                  |
+| **Version:**    | 2021-08-24                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
 
-This Task View contains information about packages broadly relevant to *hydrology* , defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources.
+This Task View contains information about packages broadly relevant to *hydrology* , defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources. Some Python related resources can be found [here](https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html) and [here](https://github.com/raoulcollenteur/Python-Hydrology-Tools)
 
 If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues) , or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls) . If you can’t contribute on GitHub, [send Sam Albers an email](mailto:sam.albers@gmail.com) . If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
@@ -47,13 +47,9 @@ If you have any comments or suggestions for additions or improvements for this T
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
-  - [bomrang](http://cran.rstudio.com/web/packages/bomrang/index.html): Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
-
   - [climate](http://cran.rstudio.com/web/packages/climate/index.html): Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
 
   - [clifro](http://cran.rstudio.com/web/packages/clifro/index.html): A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <https://cliflo.niwa.co.nz/> for more information.
-
-  - [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html): Interacts with NOAA data sources (including the [NCDC API](http://www.ncdc.noaa.gov/cdo-web/webservices/v2) and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.
 
   - [getMet](http://cran.rstudio.com/web/packages/getMet/index.html): Functions for sourcing, formatting, and editing meteorological data for hydrologic models.
 
@@ -63,7 +59,9 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html): Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov) . Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
 
-  - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD ([‘Deutscher Wetterdienst’](https://www.dwd.de/EN/climate_environment/cdc/cdc.html) ).
+  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
+
+  - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD (‘Deutscher Wetterdienst’).
 
   - [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
 
@@ -79,9 +77,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html): Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
 
-  - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html): Provides means for downloading historical weather data from the [Environment and Climate Change Canada website](http://climate.weather.gc.ca/historical_data/search_historic_data_e.html) . Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
+  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
-  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd) .
 
 ## Data Analysis
 
@@ -151,6 +148,8 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [hydrogeo](http://cran.rstudio.com/web/packages/hydrogeo/index.html): Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
 
+  - [hydrotoolbox](http://cran.rstudio.com/web/packages/hydrotoolbox/index.html): Read, plot, manipulate and process hydro-meteorological data records (with special features for Argentina and Chile data-sets).
+
   - [kitagawa](http://cran.rstudio.com/web/packages/kitagawa/index.html): Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
 
   - [<span class="GitHub">MBSStools</span>](https://github.com/leppott/MBSStools/): Suite of tools for data manipulation and calculations for Maryland DNR MBSS program. GitHub only package.
@@ -209,7 +208,9 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html): Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
 
-  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
+  - [HBV.IANIGLA](http://cran.rstudio.com/web/packages/HBV.IANIGLA/index.html): This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See [Toum et al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
+
+  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)).
 
   - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html): Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023) .
 
@@ -293,7 +294,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [berryFunctions](http://cran.rstudio.com/web/packages/berryFunctions/index.html)
   - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html)
   - [biotic](http://cran.rstudio.com/web/packages/biotic/index.html)
-  - [bomrang](http://cran.rstudio.com/web/packages/bomrang/index.html)
   - [boussinesq](http://cran.rstudio.com/web/packages/boussinesq/index.html)
   - [CityWaterBalance](http://cran.rstudio.com/web/packages/CityWaterBalance/index.html)
   - [clifro](http://cran.rstudio.com/web/packages/clifro/index.html)
@@ -301,7 +301,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [climatol](http://cran.rstudio.com/web/packages/climatol/index.html)
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html)
   - [CoSMoS](http://cran.rstudio.com/web/packages/CoSMoS/index.html)
-  - [countyweather](http://cran.rstudio.com/web/packages/countyweather/index.html)
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html)
   - [dynatopmodel](http://cran.rstudio.com/web/packages/dynatopmodel/index.html)
   - [echor](http://cran.rstudio.com/web/packages/echor/index.html)
@@ -320,6 +319,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [getMet](http://cran.rstudio.com/web/packages/getMet/index.html)
   - [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html)
   - [GWSDAT](http://cran.rstudio.com/web/packages/GWSDAT/index.html)
+  - [HBV.IANIGLA](http://cran.rstudio.com/web/packages/HBV.IANIGLA/index.html)
   - [hddtools](http://cran.rstudio.com/web/packages/hddtools/index.html)
   - [humidity](http://cran.rstudio.com/web/packages/humidity/index.html)
   - [hydroApps](http://cran.rstudio.com/web/packages/hydroApps/index.html)
@@ -329,6 +329,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html)
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html)
   - [hydrostats](http://cran.rstudio.com/web/packages/hydrostats/index.html)
+  - [hydrotoolbox](http://cran.rstudio.com/web/packages/hydrotoolbox/index.html)
   - [hydroTSM](http://cran.rstudio.com/web/packages/hydroTSM/index.html) (core)
   - [hyfo](http://cran.rstudio.com/web/packages/hyfo/index.html)
   - [kitagawa](http://cran.rstudio.com/web/packages/kitagawa/index.html)
@@ -351,6 +352,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
+  - [prism](http://cran.rstudio.com/web/packages/prism/index.html)
   - [qmap](http://cran.rstudio.com/web/packages/qmap/index.html)
   - [RavenR](http://cran.rstudio.com/web/packages/RavenR/index.html)
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html)
@@ -382,7 +384,6 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)
-  - [weathercan](http://cran.rstudio.com/web/packages/weathercan/index.html)
   - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html)
   - [wql](http://cran.rstudio.com/web/packages/wql/index.html)
   - [WRSS](http://cran.rstudio.com/web/packages/WRSS/index.html)

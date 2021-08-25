@@ -6,11 +6,11 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <meta name="citation_title" content="CRAN Task View: Hydrological Data and Modeling" />
   <meta name="citation_author" content="Sam Albers, Sam Zipper,  Ilaria Prosdocimi" />
-  <meta name="citation_publication_date" content="2021-08-04" />
+  <meta name="citation_publication_date" content="2021-08-24" />
   <meta name="citation_public_url" content="https://CRAN.R-project.org/view=Hydrology" />
   <meta name="DC.title" content="CRAN Task View: Hydrological Data and Modeling" />
   <meta name="DC.creator" content="Sam Albers, Sam Zipper,  Ilaria Prosdocimi" />
-  <meta name="DC.issued" content="2021-08-04" />
+  <meta name="DC.issued" content="2021-08-24" />
   <meta name="DC.identifier" content="https://CRAN.R-project.org/view=Hydrology" />
 </head>
 
@@ -19,7 +19,8 @@
   <table summary="Hydrology task view information">
     <tr><td valign="top"><b>Maintainer:</b></td><td>Sam Albers, Sam Zipper,  Ilaria Prosdocimi</td></tr>
     <tr><td valign="top"><b>Contact:</b></td><td>&#x73;&#x61;&#x6d;&#x2e;&#x61;&#x6c;&#x62;&#x65;&#x72;&#x73;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</td></tr>
-    <tr><td valign="top"><b>Version:</b></td><td>2021-08-04</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2021-08-24</td></tr>
+
     <tr><td valign="top"><b>URL:</b></td><td><a href="https://CRAN.R-project.org/view=Hydrology">https://CRAN.R-project.org/view=Hydrology</a></td></tr>
   </table>
 
@@ -32,7 +33,14 @@
         <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">
           Riccardo Rigon’s excellent list
         </a>
-        of hydrology-related R tools and resources.
+        of hydrology-related R tools and resources. Some Python related resources can be found
+        <a href="https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html">
+          here
+        </a>
+        and
+        <a href="https://github.com/raoulcollenteur/Python-Hydrology-Tools">
+          here
+        </a>
       </p>
       <p>
         If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and
@@ -168,11 +176,6 @@
       <ul>
         <li>
           <p>
-<a href="../packages/bomrang/index.html">bomrang</a>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.
-          </p>
-        </li>
-        <li>
-          <p>
 <a href="../packages/climate/index.html">climate</a>: Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T
           </p>
         </li>
@@ -183,15 +186,6 @@
               https://cliflo.niwa.co.nz/
             </a>
             for more information.
-          </p>
-        </li>
-        <li>
-          <p>
-<a href="../packages/countyweather/index.html">countyweather</a>: Interacts with NOAA data sources (including the
-            <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">
-              NCDC API
-            </a>
-            and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.
           </p>
         </li>
         <li>
@@ -222,10 +216,15 @@
         </li>
         <li>
           <p>
-<a href="../packages/rdwd/index.html">rdwd</a>: Handle climate data from the German DWD (
-            <a href="https://www.dwd.de/EN/climate_environment/cdc/cdc.html">
-              ‘Deutscher Wetterdienst’
-            </a>).
+<a href="../packages/prism/index.html">prism</a>: This package allows users to access and visualize data from the
+            <a href="https://prism.nacse.org">
+              Oregon State PRISM project
+            </a>. Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
+          </p>
+        </li>
+        <li>
+          <p>
+<a href="../packages/rdwd/index.html">rdwd</a>: Handle climate data from the German DWD (‘Deutscher Wetterdienst’).
           </p>
         </li>
         <li>
@@ -274,14 +273,6 @@
         <li>
           <p>
 <a href="../packages/stationaRy/index.html">stationaRy</a>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
-          </p>
-        </li>
-        <li>
-          <p>
-<a href="../packages/weathercan/index.html">weathercan</a>: Provides means for downloading historical weather data from the
-            <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">
-              Environment and Climate Change Canada website
-            </a>. Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.
           </p>
         </li>
         <li>
@@ -478,6 +469,11 @@
         </li>
         <li>
           <p>
+<a href="../packages/hydrotoolbox/index.html">hydrotoolbox</a>: Read, plot, manipulate and process hydro-meteorological data records (with special features for Argentina and Chile data-sets).
+          </p>
+        </li>
+        <li>
+          <p>
 <a href="../packages/kitagawa/index.html">kitagawa</a>: Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
           </p>
         </li>
@@ -654,6 +650,14 @@
         <li>
           <p>
 <a href="../packages/hydroPSO/index.html">hydroPSO</a>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
+          </p>
+        </li>
+        <li>
+          <p>
+<a href="../packages/HBV.IANIGLA/index.html">HBV.IANIGLA</a>: This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See
+            <a href="https://journal.r-project.org/archive/2021/RJ-2021-059/index.html">
+              Toum et al. 2021
+            </a>
           </p>
         </li>
         <li>
@@ -879,7 +883,6 @@
     <li><a href="../packages/berryFunctions/index.html">berryFunctions</a></li>
     <li><a href="../packages/bigleaf/index.html">bigleaf</a></li>
     <li><a href="../packages/biotic/index.html">biotic</a></li>
-    <li><a href="../packages/bomrang/index.html">bomrang</a></li>
     <li><a href="../packages/boussinesq/index.html">boussinesq</a></li>
     <li><a href="../packages/CityWaterBalance/index.html">CityWaterBalance</a></li>
     <li><a href="../packages/clifro/index.html">clifro</a></li>
@@ -887,7 +890,6 @@
     <li><a href="../packages/climatol/index.html">climatol</a></li>
     <li><a href="../packages/climdex.pcic/index.html">climdex.pcic</a></li>
     <li><a href="../packages/CoSMoS/index.html">CoSMoS</a></li>
-    <li><a href="../packages/countyweather/index.html">countyweather</a></li>
     <li><a href="../packages/dataRetrieval/index.html">dataRetrieval</a></li>
     <li><a href="../packages/dynatopmodel/index.html">dynatopmodel</a></li>
     <li><a href="../packages/echor/index.html">echor</a></li>
@@ -906,6 +908,7 @@
     <li><a href="../packages/getMet/index.html">getMet</a></li>
     <li><a href="../packages/GSODR/index.html">GSODR</a></li>
     <li><a href="../packages/GWSDAT/index.html">GWSDAT</a></li>
+    <li><a href="../packages/HBV.IANIGLA/index.html">HBV.IANIGLA</a></li>
     <li><a href="../packages/hddtools/index.html">hddtools</a></li>
     <li><a href="../packages/humidity/index.html">humidity</a></li>
     <li><a href="../packages/hydroApps/index.html">hydroApps</a></li>
@@ -915,6 +918,7 @@
     <li><a href="../packages/hydroPSO/index.html">hydroPSO</a></li>
     <li><a href="../packages/hydroscoper/index.html">hydroscoper</a></li>
     <li><a href="../packages/hydrostats/index.html">hydrostats</a></li>
+    <li><a href="../packages/hydrotoolbox/index.html">hydrotoolbox</a></li>
     <li><a href="../packages/hydroTSM/index.html">hydroTSM</a> (core)</li>
     <li><a href="../packages/hyfo/index.html">hyfo</a></li>
     <li><a href="../packages/kitagawa/index.html">kitagawa</a></li>
@@ -937,6 +941,7 @@
     <li><a href="../packages/nhdR/index.html">nhdR</a></li>
     <li><a href="../packages/nsRFA/index.html">nsRFA</a></li>
     <li><a href="../packages/openair/index.html">openair</a></li>
+    <li><a href="../packages/prism/index.html">prism</a></li>
     <li><a href="../packages/qmap/index.html">qmap</a></li>
     <li><a href="../packages/RavenR/index.html">RavenR</a></li>
     <li><a href="../packages/rdwd/index.html">rdwd</a></li>
@@ -968,7 +973,6 @@
     <li><a href="../packages/water/index.html">water</a></li>
     <li><a href="../packages/waterData/index.html">waterData</a></li>
     <li><a href="../packages/Watersheds/index.html">Watersheds</a></li>
-    <li><a href="../packages/weathercan/index.html">weathercan</a></li>
     <li><a href="../packages/worldmet/index.html">worldmet</a></li>
     <li><a href="../packages/wql/index.html">wql</a></li>
     <li><a href="../packages/WRSS/index.html">WRSS</a></li>
