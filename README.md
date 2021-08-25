@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-08-24                                  |
+| **Version:**    | 2021-08-25                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -59,7 +59,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html): Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov) . Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
 
-  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
+  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org) . Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
 
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD (‘Deutscher Wetterdienst’).
 
@@ -77,8 +77,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html): Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
 
-  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
-
+  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd) .
 
 ## Data Analysis
 
@@ -210,7 +209,7 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [HBV.IANIGLA](http://cran.rstudio.com/web/packages/HBV.IANIGLA/index.html): This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See [Toum et al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
 
-  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)).
+  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
   - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html): Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023) .
 
