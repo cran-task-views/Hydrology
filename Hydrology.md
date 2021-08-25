@@ -145,6 +145,8 @@ Data Analysis
 
 -   <pkg>hydrogeo</pkg>: Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.
 
+-   <pkg>hydrotoolbox</pkg>: Read, plot, manipulate and process hydro-meteorological data records (with special features for Argentina and Chile data-sets). 
+
 -   <pkg>kitagawa</pkg>: Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
 
 -  <github>leppott/MBSStools</github>: Suite of tools for data manipulation and calculations for Maryland DNR MBSS program. GitHub only package.
@@ -201,6 +203,8 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <github>floybix/hydromad</github>: Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org). GitHub only package. 
 
 -  <pkg>hydroPSO</pkg>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
+
+- <pkg>HBV.IANIGLA</pkg>: This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See [Toum et al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
 
 -  <pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ( [page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
