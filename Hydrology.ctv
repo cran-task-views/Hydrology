@@ -2,9 +2,9 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="sam.albers@gmail.com">Sam Albers, Sam Zipper,  Ilaria Prosdocimi</maintainer>
-  <version>2021-05-03</version>
+  <version>2021-08-24</version>
   <info>
-    <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources.</p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:sam.albers@gmail.com">send Sam Albers an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
+    <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources. Some Python related resources can be found <a href="https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html">here</a> and <a href="https://github.com/raoulcollenteur/Python-Hydrology-Tools">here</a></p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:sam.albers@gmail.com">send Sam Albers an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).</p></li><li> 
 <p><pkg>dataRetrieval</pkg>: Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.</p></li><li> 
 <p><github>ropensci/dbhydroR</github>: Client for programmatic access to the South Florida Water Management District’s <a href="https://www.sfwmd.gov/science-data/dbhydro">DBHYDRO database</a>, with functions for accessing hydrologic and water quality data.</p></li><li> 
@@ -19,15 +19,14 @@
 <p><pkg>tidyhydat</pkg>: Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources (<a href="http://dd.weather.gc.ca/hydrometric/csv/" class="uri">http://dd.weather.gc.ca/hydrometric/csv/</a> and <a href="http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/" class="uri">http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/</a>) and then applies tidy data principles.</p></li><li> 
 <p><pkg>washdata</pkg>: Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.</p></li><li> 
 <p><pkg>waterData</pkg>: Imports U.S. Geological Survey (USGS) daily hydrologic data from <a href="https://waterservices.usgs.gov/">USGS web services</a>, plots the data, addresses some common data problems, and calculates and plots anomalies.</p></li></ul><p><strong>Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)</strong></p><ul><li> 
-<p><pkg>bomrang</pkg>: Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, historical and current weather data from stations, agriculture bulletin data, BOM 0900 or 1500 weather bulletins or a raster stack object of satellite imagery from GeoTIFF files.</p></li><li> 
 <p><pkg>climate</pkg>: Automatize downloading of meteorological and hydrological data from publicly available repositories: OGIMET, University of Wyoming - atmospheric vertical profiling data, and Polish Institute of Meterology and Water Management - National Research Institute. T</p></li><li> 
 <p><pkg>clifro</pkg>: A web portal to the New Zealand National Climate Database of around 6,500 climate stations. See <a href="https://cliflo.niwa.co.nz/" class="uri">https://cliflo.niwa.co.nz/</a> for more information.</p></li><li> 
-<p><pkg>countyweather</pkg>: Interacts with NOAA data sources (including the <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">NCDC API</a> and ISD data) using functions from the ‘rnoaa’ package to obtain and compile weather time series for U.S. counties.</p></li><li> 
 <p><pkg>getMet</pkg>: Functions for sourcing, formatting, and editing meteorological data for hydrologic models.</p></li><li> 
 <p><pkg>GSODR</pkg>: Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.</p></li><li> 
 <p><pkg>MODISTools</pkg>: Programmatic Interface to the MODIS Land Products Subsets <a href="https://modis.ornl.gov/data/modis_webservice.html">Web Services</a>. Allows for easy downloads of ‘MODIS’ time series.</p></li><li> 
 <p><pkg>nasapower</pkg>: Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API <a href="https://power.larc.nasa.gov">Web Services</a>. Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.</p></li><li> 
-<p><pkg>rdwd</pkg>: Handle climate data from the German DWD (<a href="https://www.dwd.de/EN/climate_environment/cdc/cdc.html">‘Deutscher Wetterdienst’</a>).</p></li><li> 
+<p><pkg>prism</pkg>: This package allows users to access and visualize data from the <a href="https://prism.nacse.org">Oregon State PRISM project</a>. Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.</p></li><li> 
+<p><pkg>rdwd</pkg>: Handle climate data from the German DWD (‘Deutscher Wetterdienst’).</p></li><li> 
 <p><pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html">NCEP/NCAR Reanalysis</a> and <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html">NCEP/DOE Reanalysis II</a> datasets.</p></li><li> 
 <p><pkg>rnoaa</pkg>: Client for many NOAA data sources including the <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">NCDC climate API</a>, with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.</p></li><li> 
 <p><pkg>RNRCS</pkg>: Package to download Natural Resources Conservation Service (NRCS) soil and snow data including SCAN, SNOTEL, and SNOLITE. Also can get meta-data for sites in NRCS air and water database.</p></li><li> 
@@ -35,7 +34,6 @@
 <p><pkg>rwunderground</pkg>: Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.</p></li><li> 
 <p><pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.</p></li><li> 
 <p><pkg>stationaRy</pkg>: Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.</p></li><li> 
-<p><pkg>weathercan</pkg>: Provides means for downloading historical weather data from the <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">Environment and Climate Change Canada website</a>. Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.</p></li><li> 
 <p><pkg>worldmet</pkg>: Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) <a href="https://www.ncdc.noaa.gov/isd">Integrated Surface Database (ISD)</a>.</p></li></ul><h2 id="data-analysis">Data Analysis</h2><p><strong>Data tidying (gap-filling, data organization, QA/QC, etc)</strong></p><ul><li> 
 <p><github>shaughnessyar/driftR</github>: A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from <a href="http://doi.org/10.7936/K7N014KS">Hasenmueller (2011)</a>.</p></li><li> 
 <p><pkg>climdex.pcic</pkg>: PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.</p></li><li> 
@@ -66,6 +64,7 @@
 <p><github>eheisman/dssrip</github>: rJava wrapper to <a href="https://www.hec.usace.army.mil/software/hec-dssvue/">HEC-DSSVue</a> to read hydrologic timeseries from HEC-DSS files. Github and Windows only package, due to dependency on HEC-DSS libraries.</p></li><li> 
 <p><pkg>GWSDAT</pkg>: Shiny application for the analysis of groundwater monitoring data, designed to work with simple time-series data for solute concentration and ground water elevation, but can also plot non-aqueous phase liquid (NAPL) thickness if required.</p></li><li> 
 <p><pkg>hydrogeo</pkg>: Contains one function for drawing Piper diagrams (also called Piper-Hill diagrams) of water analyses for major ions.</p></li><li> 
+<p><pkg>hydrotoolbox</pkg>: Read, plot, manipulate and process hydro-meteorological data records (with special features for Argentina and Chile data-sets).</p></li><li> 
 <p><pkg>kitagawa</pkg>: Provides tools to calculate the theoretical hydrodynamic response of an aquifer undergoing harmonic straining or pressurization. There are two classes of models here: (1) for sealed wells, based on the model of Kitagawa et al (2011), and (2) for open wells, based on the models of Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).</p></li><li> 
 <p><github>leppott/MBSStools</github>: Suite of tools for data manipulation and calculations for Maryland DNR MBSS program. GitHub only package.</p></li><li> 
 <p><pkg>MODIStsp</pkg>: Suite of tools to automate the Download and Preprocessing of MODIS Land Products Data. Allows automating the creation of time series of rasters derived from MODIS Satellite Land Products data. It performs several typical preprocessing steps such as download, mosaicking, reprojection and resize of data acquired on a specified time period.</p></li><li> 
@@ -89,6 +88,7 @@
 <p><pkg>geotopbricks</pkg>: An R Plug-in for the Distributed Hydrological Model <a href="https://github.com/geotopmodel">GEOtop</a>. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.</p></li><li> 
 <p><github>floybix/hydromad</github>: Hydrological Model Assessment and Development - <a href="http://hydromad.catchment.org">website</a>. GitHub only package.</p></li><li> 
 <p><pkg>hydroPSO</pkg>: Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.</p></li><li> 
+<p><pkg>HBV.IANIGLA</pkg>: This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See <a href="https://journal.r-project.org/archive/2021/RJ-2021-059/index.html">Toum et al. 2021</a></p></li><li> 
 <p><pkg>kwb.hantush</pkg>: Calculation groundwater mounding beneath an infiltration basin based on the <a href="http://doi.org/10.1029/WR003i001p00227">Hantush (1967)</a> equation. The correct implementation is shown with a verification example based on a USGS report ( <a href="http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf">page 25</a> ).</p></li><li> 
 <p><pkg>LWFBrook90R</pkg>: Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper <a href="https://doi.org/10.1016/j.agrformet.2020.108023">Schmidt-Walter et al. (2020)</a>.</p></li><li> 
 <p><github>USGS-R/loadflex</github>: Models and Tools for Watershed Flux Estimates. See <a href="http://dx.doi.org/10.1890/ES14-00517.1">paper</a>. GitHub only package.</p></li><li> 
@@ -136,7 +136,6 @@
     <pkg>berryFunctions</pkg>
     <pkg>bigleaf</pkg>
     <pkg>biotic</pkg>
-    <pkg>bomrang</pkg>
     <pkg>boussinesq</pkg>
     <pkg>CityWaterBalance</pkg>
     <pkg>clifro</pkg>
@@ -144,7 +143,6 @@
     <pkg>climatol</pkg>
     <pkg>climdex.pcic</pkg>
     <pkg>CoSMoS</pkg>
-    <pkg>countyweather</pkg>
     <pkg>dataRetrieval</pkg>
     <pkg>dynatopmodel</pkg>
     <pkg>echor</pkg>
@@ -162,6 +160,7 @@
     <pkg>getMet</pkg>
     <pkg>GSODR</pkg>
     <pkg>GWSDAT</pkg>
+    <pkg>HBV.IANIGLA</pkg>
     <pkg>hddtools</pkg>
     <pkg>humidity</pkg>
     <pkg>hydroApps</pkg>
@@ -170,6 +169,7 @@
     <pkg>hydroPSO</pkg>
     <pkg>hydroscoper</pkg>
     <pkg>hydrostats</pkg>
+    <pkg>hydrotoolbox</pkg>
     <pkg>hyfo</pkg>
     <pkg>kitagawa</pkg>
     <pkg>kiwisR</pkg>
@@ -190,6 +190,7 @@
     <pkg>nhdR</pkg>
     <pkg>nsRFA</pkg>
     <pkg>openair</pkg>
+    <pkg>prism</pkg>
     <pkg>qmap</pkg>
     <pkg>RavenR</pkg>
     <pkg>rdwd</pkg>
@@ -221,7 +222,6 @@
     <pkg>water</pkg>
     <pkg>waterData</pkg>
     <pkg>Watersheds</pkg>
-    <pkg>weathercan</pkg>
     <pkg>worldmet</pkg>
     <pkg>wql</pkg>
     <pkg>WRSS</pkg>

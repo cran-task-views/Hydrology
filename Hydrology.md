@@ -53,7 +53,7 @@ Data Retrieval
 -   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
 of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
 
--   <pkg>rdwd</pkg>: Handle climate data from the German DWD (['Deutscher Wetterdienst'](https://www.dwd.de/EN/climate_environment/cdc/cdc.html)). 
+-   <pkg>rdwd</pkg>: Handle climate data from the German DWD ('Deutscher Wetterdienst'). 
 
 -   <pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
 
