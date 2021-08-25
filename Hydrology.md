@@ -130,6 +130,9 @@ Data Analysis
 
 -   <pkg>openair</pkg>: Tools to analyse, interpret and understand air pollution data. Many functions can also be applied to other data, including meteorological and traffic data.
 
+-   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
+of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
+
 -   <pkg>qmap</pkg>: Empirical adjustment of the distribution of variables originating from (regional) climate model simulations using quantile mapping.
 
 -   <github>USGS-R/Rainmaker</github>: Instantaneous rainfall data processing for defining event periods, determination of antecedent rainfall conditions and X-hr intensities. GitHub only package.
