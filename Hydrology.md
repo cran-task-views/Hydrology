@@ -108,6 +108,8 @@ Data Analysis
 
 -  <pkg>FlowScreen</pkg>: Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
 
+-   <pkg>hydropeak</pkg>: Detect and characterize sub-daily flow fluctuations based on a framework introduced in [Greimel et al. (2016)](https://doi.org/10.1002/hyp.10773).
+
 -   <pkg>hydrostats</pkg>: Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
 -   <pkg>hydroTSM</pkg>: Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.
