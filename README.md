@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-08-25                                  |
+| **Version:**    | 2021-10-13                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -112,6 +112,8 @@ If you have any comments or suggestions for additions or improvements for this T
   - [fasstr](http://cran.rstudio.com/web/packages/fasstr/index.html) Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.
 
   - [FlowScreen](http://cran.rstudio.com/web/packages/FlowScreen/index.html): Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
+
+  - [hydropeak](http://cran.rstudio.com/web/packages/hydropeak/index.html): Detect and characterize sub-daily flow fluctuations based on a framework introduced in [Greimel et al. (2016)](https://doi.org/10.1002/hyp.10773) .
 
   - [hydrostats](http://cran.rstudio.com/web/packages/hydrostats/index.html): Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
@@ -325,6 +327,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [hydrogeo](http://cran.rstudio.com/web/packages/hydrogeo/index.html)
   - [hydroGOF](http://cran.rstudio.com/web/packages/hydroGOF/index.html) (core)
   - [HydroMe](http://cran.rstudio.com/web/packages/HydroMe/index.html)
+  - [hydropeak](http://cran.rstudio.com/web/packages/hydropeak/index.html)
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html)
   - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html)
   - [hydrostats](http://cran.rstudio.com/web/packages/hydrostats/index.html)
