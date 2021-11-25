@@ -11,23 +11,23 @@
 
 This Task View contains information about packages broadly relevant to *hydrology* , defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also [Riccardo Rigon’s excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html) of hydrology-related R tools and resources. Some Python related resources can be found [here](https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html) and [here](https://github.com/raoulcollenteur/Python-Hydrology-Tools)
 
-If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues), or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls). If you can’t contribute on GitHub, [send Sam Albers an email](mailto:sam.albers@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and [submit an issue](https://github.com/ropensci/Hydrology/issues) , or make some changes and [submit a pull request](https://github.com/ropensci/Hydrology/pulls) . If you can’t contribute on GitHub, [send Sam Albers an email](mailto:sam.albers@gmail.com) . If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
 
 ## Data Retrieval
 
 **Hydrological data sources (surface water/groundwater quantity and quality)**
 
-  - [AWAPer](http://cran.rstudio.com/web/packages/AWAPer/index.html): AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).
+  - [AWAPer](http://cran.rstudio.com/web/packages/AWAPer/index.html): AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).
 
   - [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html): Collection of functions to help retrieve U.S. Geological Survey (USGS) and U.S. Environmental Protection Agency (EPA) water quality and hydrology data from web services.
 
-  - [<span class="GitHub">dbhydroR</span>](https://github.com/ropensci/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro), with functions for accessing hydrologic and water quality data.
+  - [<span class="GitHub">dbhydroR</span>](https://github.com/ropensci/dbhydroR/): Client for programmatic access to the South Florida Water Management District’s [DBHYDRO database](https://www.sfwmd.gov/science-data/dbhydro) , with functions for accessing hydrologic and water quality data.
 
-  - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/). Provides functions to locate facilities with discharge permits and download discharge records.
+  - [echor](http://cran.rstudio.com/web/packages/echor/index.html): An R interface to [United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)](https://echo.epa.gov/) . Provides functions to locate facilities with discharge permits and download discharge records.
 
   - [FedData](http://cran.rstudio.com/web/packages/FedData/index.html): Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.
 
-  - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html): R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/). It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
+  - [hydroscoper](http://cran.rstudio.com/web/packages/hydroscoper/index.html): R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/) . It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
   - [kiwisR](http://cran.rstudio.com/web/packages/kiwisR/index.html): Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
 
@@ -35,13 +35,13 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html): Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
 
-  - [rnrfa](http://cran.rstudio.com/web/packages/rnrfa/index.html): Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/). There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
+  - [rnrfa](http://cran.rstudio.com/web/packages/rnrfa/index.html): Utility functions to retrieve data from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/) . There are functions to retrieve stations falling in a bounding box, to generate a map and extracting time series and general information.
 
-  - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html): Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources ( <http://dd.weather.gc.ca/hydrometric/csv/> and <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/>) and then applies tidy data principles.
+  - [tidyhydat](http://cran.rstudio.com/web/packages/tidyhydat/index.html): Provides functions to access historical and real-time national ‘hydrometric’ data from Water Survey of Canada data sources ( <http://dd.weather.gc.ca/hydrometric/csv/> and <http://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/> ) and then applies tidy data principles.
 
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html): Urban water and sanitation survey dataset from survey conducted in Dhaka, Bangladesh, part of a series of surveys to be conducted in various cities including Accra, Ghana; Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and, Lusaka, Zambia.
 
-  - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html): Imports U.S. Geological Survey (USGS) daily hydrologic data from [USGS web services](https://waterservices.usgs.gov/), plots the data, addresses some common data problems, and calculates and plots anomalies.
+  - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html): Imports U.S. Geological Survey (USGS) daily hydrologic data from [USGS web services](https://waterservices.usgs.gov/) , plots the data, addresses some common data problems, and calculates and plots anomalies.
 
 **Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)**
 
@@ -53,19 +53,19 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [GSODR](http://cran.rstudio.com/web/packages/GSODR/index.html): Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.
 
-  - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html): Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html). Allows for easy downloads of ‘MODIS’ time series.
+  - [MODISTools](http://cran.rstudio.com/web/packages/MODISTools/index.html): Programmatic Interface to the MODIS Land Products Subsets [Web Services](https://modis.ornl.gov/data/modis_webservice.html) . Allows for easy downloads of ‘MODIS’ time series.
 
-  - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html): Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov). Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
+  - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html): Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov) . Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
 
   - [metR](http://cran.rstudio.com/web/packages/metR/index.html): `metR` packages several functions and utilities that make R better for handling meteorological data in the tidy data paradigm. Extends ‘ggplot2’ for better plotting of scalar and vector fields and provides commonly used analysis methods in the atmospheric sciences.
 
-  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
+  - [prism](http://cran.rstudio.com/web/packages/prism/index.html): This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org) . Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.
 
   - [rdwd](http://cran.rstudio.com/web/packages/rdwd/index.html): Handle climate data from the German DWD (‘Deutscher Wetterdienst’).
 
   - [RNCEP](http://cran.rstudio.com/web/packages/RNCEP/index.html): Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
 
-  - [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.
+  - [rnoaa](http://cran.rstudio.com/web/packages/rnoaa/index.html): Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) , with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.
 
   - [rpdo](http://cran.rstudio.com/web/packages/rpdo/index.html): Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also [rsoi](http://cran.rstudio.com/web/packages/rsoi/index.html) for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
 
@@ -75,13 +75,13 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [stationaRy](http://cran.rstudio.com/web/packages/stationaRy/index.html): Acquire hourly meteorological data from stations located all over the world. The available data is automatically downloaded from a data repository and processed into a ‘tibble’ for the exact range of years requested.
 
-  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
+  - [worldmet](http://cran.rstudio.com/web/packages/worldmet/index.html): Functions to import data from more than 30,000 surface meteorological sites around the world managed by the National Oceanic and Atmospheric Administration (NOAA) [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd) .
 
 ## Data Analysis
 
 **Data tidying (gap-filling, data organization, QA/QC, etc)**
 
-  - [<span class="GitHub">driftR</span>](https://github.com/shaughnessyar/driftR/): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
+  - [<span class="GitHub">driftR</span>](https://github.com/shaughnessyar/driftR/): A tidy implementation of equations that correct for instrumental drift in continuous water quality monitoring data using one or two standard reference values. The equations implemented are from [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS) .
 
   - [climdex.pcic](http://cran.rstudio.com/web/packages/climdex.pcic/index.html): PCIC Implementation of Climdex Routines PCIC’s implementation of Climdex routines for computation of extreme climate indices.
 
@@ -111,7 +111,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
   - [FlowScreen](http://cran.rstudio.com/web/packages/FlowScreen/index.html): Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.
 
-  - [hydropeak](http://cran.rstudio.com/web/packages/hydropeak/index.html): Detect and characterize sub-daily flow fluctuations based on a framework introduced in [Greimel et al. (2016)](https://doi.org/10.1002/hyp.10773).
+  - [hydropeak](http://cran.rstudio.com/web/packages/hydropeak/index.html): Detect and characterize sub-daily flow fluctuations based on a framework introduced in [Greimel et al. (2016)](https://doi.org/10.1002/hyp.10773) .
 
   - [hydrostats](http://cran.rstudio.com/web/packages/hydrostats/index.html): Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
 
@@ -163,7 +163,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
 **Spatial data processing**
 
-The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Listing](https://github.com/ropensci/maptools).
+The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be used in R to read, visualise, and analyse spatial data. See also the ROpenSci [MapTools Listing](https://github.com/ropensci/maptools) .
 
   - [<span class="GitHub">lumpR</span>](https://github.com/tpilz/lumpR/): Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package.
 
@@ -179,13 +179,13 @@ The CRAN [Spatial](Spatial.html) Task View gives an overview of packages to be u
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
 
-See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021) paper discussing R packages for Hydrology modelling.
+See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021) paper discussing R packages for Hydrology modelling.
 
   - [airGR](http://cran.rstudio.com/web/packages/airGR/index.html): Hydrological modelling tools developed at INRAE-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR5H, GR4J, GR5J, GR6J, GR2M, GR1A) that can be applied either on a lumped or semi-distributed way. A snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
-  - [airGRdatassim](http://cran.rstudio.com/web/packages/airGRdatassim/index.html): Add-on to the ‘airGR’ package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390).
+  - [airGRdatassim](http://cran.rstudio.com/web/packages/airGRdatassim/index.html): Add-on to the ‘airGR’ package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in [Piazzi et al. (2021)](http://doi.org/10.1029/2020WR028390) .
 
-  - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html): Add-on to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology. A Shiny GUI is embedded into the package (demo available on [sunshine.irstea.fr](https://sunshine.irstea.fr/).
+  - [airGRteaching](http://cran.rstudio.com/web/packages/airGRteaching/index.html): Add-on to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology. A Shiny GUI is embedded into the package (demo available on [sunshine.irstea.fr](https://sunshine.irstea.fr/) .
 
   - [bigleaf](http://cran.rstudio.com/web/packages/bigleaf/index.html): Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.
 
@@ -193,23 +193,23 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
   - [<span class="GitHub">Brook90\_R</span>](https://github.com/rkronen/Brook90_R/): an R implementation of the 1D-SVAT model Brook90. GitHub only package.
 
-  - [Ecohydmod](http://cran.rstudio.com/web/packages/Ecohydmod/index.html): Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
+  - [Ecohydmod](http://cran.rstudio.com/web/packages/Ecohydmod/index.html): Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953) .
 
   - [EcoHydRology](http://cran.rstudio.com/web/packages/EcoHydRology/index.html): Flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.
 
-  - [geotopbricks](http://cran.rstudio.com/web/packages/geotopbricks/index.html): An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel). The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.
+  - [geotopbricks](http://cran.rstudio.com/web/packages/geotopbricks/index.html): An R Plug-in for the Distributed Hydrological Model [GEOtop](https://github.com/geotopmodel) . The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.
 
-  - [<span class="GitHub">hydromad</span>](https://github.com/floybix/hydromad/): Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org). GitHub only package.
+  - [<span class="GitHub">hydromad</span>](https://github.com/floybix/hydromad/): Hydrological Model Assessment and Development - [website](http://hydromad.catchment.org) . GitHub only package.
 
   - [hydroPSO](http://cran.rstudio.com/web/packages/hydroPSO/index.html): Particle Swarm Optimisation (PSO) algorithm for the calibration of environmental and other real-world models that need to be executed from the system console. hydroPSO is model-independent, allowing the user to easily interface any computer simulation model with the PSO calibration engine.
 
   - [HBV.IANIGLA](http://cran.rstudio.com/web/packages/HBV.IANIGLA/index.html): This package contains the HBV hydrological model but in modules, allowing the user to build his/her own HBV model. HBV.IANIGLA incorporates routines for clean and debris covered glacier melt simulations. See [Toum et al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
 
-  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)).
+  - [kwb.hantush](http://cran.rstudio.com/web/packages/kwb.hantush/index.html): Calculation groundwater mounding beneath an infiltration basin based on the [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation. The correct implementation is shown with a verification example based on a USGS report ([page 25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf) ).
 
-  - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html): Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023).
+  - [LWFBrook90R](http://cran.rstudio.com/web/packages/LWFBrook90R/index.html): Simulate Evapotranspiration and Soil Moisture with the SVAT Model LWF-Brook90. See paper [Schmidt-Walter et al. (2020)](https://doi.org/10.1016/j.agrformet.2020.108023) .
 
-  - [<span class="GitHub">loadflex</span>](https://github.com/USGS-R/loadflex/): Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1). GitHub only package.
+  - [<span class="GitHub">loadflex</span>](https://github.com/USGS-R/loadflex/): Models and Tools for Watershed Flux Estimates. See [paper](http://dx.doi.org/10.1890/ES14-00517.1) . GitHub only package.
 
   - [RavenR](http://cran.rstudio.com/web/packages/RavenR/index.html): Utilities for processing input and output files associated with the Raven Hydrological Modelling Framework. Includes various plotting functions, model diagnostics, reading output files into xts format, and support for writing Raven input files (rvt, rvh, rvc, etc.).
 
@@ -243,11 +243,11 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [CityWaterBalance](http://cran.rstudio.com/web/packages/CityWaterBalance/index.html): Retrieves data and estimates unmeasured flows of water through the urban network. Any city may be modeled with preassembled data, but data for US cities can be gathered via web services using this package and dependencies [geoknife](http://cran.rstudio.com/web/packages/geoknife/index.html) and [dataRetrieval](http://cran.rstudio.com/web/packages/dataRetrieval/index.html).
 
-  - [CoSMoS](http://cran.rstudio.com/web/packages/CoSMoS/index.html): is an implementation of [Papalexiou 2018](https://doi.org/10.1016/j.advwatres.2018.02.013). CoSMoS generates univariate/multivariate non-Gaussian time series and random fields for environmental and hydroclimatic processes such as precipitation, streamflow, relative humidity, temperature and beyond.
+  - [CoSMoS](http://cran.rstudio.com/web/packages/CoSMoS/index.html): is an implementation of [Papalexiou 2018](https://doi.org/10.1016/j.advwatres.2018.02.013) . CoSMoS generates univariate/multivariate non-Gaussian time series and random fields for environmental and hydroclimatic processes such as precipitation, streamflow, relative humidity, temperature and beyond.
 
   - [<span class="Rforge">dream</span>](https://R-Forge.R-project.org/projects/dream/): DiffeRential Evolution Adaptive Metropolis (DREAM). Efficient global MCMC even in high-dimensional spaces. R-Forge only package.
 
-  - [<span class="GitHub">fuse</span>](https://github.com/cvitolo/fuse/): An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub only package.
+  - [<span class="GitHub">fuse</span>](https://github.com/cvitolo/fuse/): An R package implementing the Framework for Understanding Structural Errors [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/) . GitHub only package.
 
   - [hydroApps](http://cran.rstudio.com/web/packages/hydroApps/index.html): Package providing tools for hydrological applications and models developed for regional analysis in Northwestern Italy focused on Flood Frequency Analysis.
 
@@ -259,7 +259,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [<span class="GitHub">NEON-stream-discharge</span>](https://github.com/NEONScience/NEON-stream-discharge/): NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.
 
-  - [NPRED](http://cran.rstudio.com/web/packages/NPRED/index.html): Partial informational correlation (PIC) is used to identify the meaningful predictors to the response from a large set of potential predictors. Details of methodologies used in the package can be found in [Sharma & Mehrotra (2014)](https://doi.org/10.1002/2013WR013845), [Sharma et al. (2016)](https://doi.org/10.1016/j.envsoft.2016.05.021), and [Mehrotra & Sharma (2006)](https://doi.org/10.1016/j.advwatres.2005.08.007).
+  - [NPRED](http://cran.rstudio.com/web/packages/NPRED/index.html): Partial informational correlation (PIC) is used to identify the meaningful predictors to the response from a large set of potential predictors. Details of methodologies used in the package can be found in [Sharma & Mehrotra (2014)](https://doi.org/10.1002/2013WR013845) , [Sharma et al. (2016)](https://doi.org/10.1016/j.envsoft.2016.05.021) , and [Mehrotra & Sharma (2006)](https://doi.org/10.1016/j.advwatres.2005.08.007) .
 
   - [LPM](http://cran.rstudio.com/web/packages/LPM/index.html): Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
 
@@ -279,7 +279,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html): A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
 
-  - [WASP](http://cran.rstudio.com/web/packages/WASP/index.html): A wavelet-based variance transformation method is used for system modelling and prediction. It refines predictor spectral representation using Wavelet Theory, which leads to improved model specifications and prediction accuracy. Details of methodologies used in the package can be found in [Jiang, Sharma, et al. (2020)](https://doi.org/10.1029/2019WR026962), [Jiang, Rashid, et al. (2020)](https://doi.org/10.1016/j.envsoft.2020.104907), and [Jiang, Sharma, et al. (2021)](https://doi.org/10.1016/J.JHYDROL.2021.126816).
+  - [WASP](http://cran.rstudio.com/web/packages/WASP/index.html): A wavelet-based variance transformation method is used for system modelling and prediction. It refines predictor spectral representation using Wavelet Theory, which leads to improved model specifications and prediction accuracy. Details of methodologies used in the package can be found in [Jiang, Sharma, et al. (2020)](https://doi.org/10.1029/2019WR026962) , [Jiang, Rashid, et al. (2020)](https://doi.org/10.1016/j.envsoft.2020.104907) , and [Jiang, Sharma, et al. (2021)](https://doi.org/10.1016/J.JHYDROL.2021.126816) .
 
 </div>
 
