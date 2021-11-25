@@ -4,7 +4,7 @@
 | --------------- | ------------------------------------------- |
 | **Maintainer:** | Sam Albers, Sam Zipper, Ilaria Prosdocimi   |
 | **Contact:**    | sam.albers at gmail.com                     |
-| **Version:**    | 2021-10-13                                  |
+| **Version:**    | 2021-11-25                                  |
 | **URL:**        | <https://CRAN.R-project.org/view=Hydrology> |
 
 <div>
@@ -265,6 +265,8 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
 
   - [<span class="GitHub">NEON-stream-discharge</span>](https://github.com/NEONScience/NEON-stream-discharge/): NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.
 
+  - [NPRED](http://cran.rstudio.com/web/packages/NPRED/index.html): Partial informational correlation (PIC) is used to identify the meaningful predictors to the response from a large set of potential predictors. Details of methodologies used in the package can be found in [Sharma & Mehrotra (2014)](https://doi.org/10.1002/2013WR013845) , [Sharma et al. (2016)](https://doi.org/10.1016/j.envsoft.2016.05.021) , and [Mehrotra & Sharma (2006)](https://doi.org/10.1016/j.advwatres.2005.08.007) .
+
   - [LPM](http://cran.rstudio.com/web/packages/LPM/index.html): Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
 
   - [meteo](http://cran.rstudio.com/web/packages/meteo/index.html): Spatio-temporal geostatistical mapping of meteorological data.
@@ -282,6 +284,8 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [synthesis](http://cran.rstudio.com/web/packages/synthesis/index.html): Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.
 
   - [SPEI](http://cran.rstudio.com/web/packages/SPEI/index.html): A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
+
+  - [WASP](http://cran.rstudio.com/web/packages/WASP/index.html): A wavelet-based variance transformation method is used for system modelling and prediction. It refines predictor spectral representation using Wavelet Theory, which leads to improved model specifications and prediction accuracy. Details of methodologies used in the package can be found in [Jiang, Sharma, et al. (2020)](https://doi.org/10.1029/2019WR026962) , [Jiang, Rashid, et al. (2020)](https://doi.org/10.1016/j.envsoft.2020.104907) , and [Jiang, Sharma, et al. (2021)](https://doi.org/10.1016/J.JHYDROL.2021.126816) .
 
 </div>
 
@@ -352,6 +356,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [nasapower](http://cran.rstudio.com/web/packages/nasapower/index.html)
   - [nhdplusTools](http://cran.rstudio.com/web/packages/nhdplusTools/index.html)
   - [nhdR](http://cran.rstudio.com/web/packages/nhdR/index.html)
+  - [NPRED](http://cran.rstudio.com/web/packages/NPRED/index.html)
   - [nsRFA](http://cran.rstudio.com/web/packages/nsRFA/index.html)
   - [openair](http://cran.rstudio.com/web/packages/openair/index.html)
   - [prism](http://cran.rstudio.com/web/packages/prism/index.html)
@@ -383,6 +388,7 @@ The [Environmetrics](Environmetrics.html): Task View gives an overview of packag
   - [topmodel](http://cran.rstudio.com/web/packages/topmodel/index.html)
   - [TUWmodel](http://cran.rstudio.com/web/packages/TUWmodel/index.html)
   - [washdata](http://cran.rstudio.com/web/packages/washdata/index.html)
+  - [WASP](http://cran.rstudio.com/web/packages/WASP/index.html)
   - [water](http://cran.rstudio.com/web/packages/water/index.html)
   - [waterData](http://cran.rstudio.com/web/packages/waterData/index.html)
   - [Watersheds](http://cran.rstudio.com/web/packages/Watersheds/index.html)
