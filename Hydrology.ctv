@@ -2,7 +2,7 @@
   <name>Hydrology</name>
   <topic>Hydrological Data and Modeling</topic>
   <maintainer email="sam.albers@gmail.com">Sam Albers, Sam Zipper,  Ilaria Prosdocimi</maintainer>
-  <version>2021-08-24</version>
+  <version>2021-11-25</version>
   <info>
     <p>This Task View contains information about packages broadly relevant to <em>hydrology</em>, defined as the movement, distribution and quality of water and water resources over a broad spatial scale of landscapes. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. We also highlight other, existing resources that have related functions - for example, statistical analysis or spatial data processing. See also <a href="https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html">Riccardo Rigon’s excellent list</a> of hydrology-related R tools and resources. Some Python related resources can be found <a href="https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html">here</a> and <a href="https://github.com/raoulcollenteur/Python-Hydrology-Tools">here</a></p><p>If you have any comments or suggestions for additions or improvements for this Task View, go to GitHub and <a href="https://github.com/ropensci/Hydrology/issues">submit an issue</a>, or make some changes and <a href="https://github.com/ropensci/Hydrology/pulls">submit a pull request</a>. If you can’t contribute on GitHub, <a href="mailto:sam.albers@gmail.com">send Sam Albers an email</a>. If you have an issue with one of the packages discussed below, please contact the maintainer of that package.</p><h2 id="data-retrieval">Data Retrieval</h2><p><strong>Hydrological data sources (surface water/groundwater quantity and quality)</strong></p><ul><li> 
 <p><pkg>AWAPer</pkg>: AWAPer allows efficient extraction of daily catchment average precipitation, Tmin, Tmax, vapour pressure, solar radiation and then estimation of areal potential evaporation (Morton’s) for anywhere in Australia. Spatial measures are also derived (eg spatial daily variance). For technical details see Peterson et al. (2019).</p></li><li> 
@@ -10,7 +10,6 @@
 <p><github>ropensci/dbhydroR</github>: Client for programmatic access to the South Florida Water Management District’s <a href="https://www.sfwmd.gov/science-data/dbhydro">DBHYDRO database</a>, with functions for accessing hydrologic and water quality data.</p></li><li> 
 <p><pkg>echor</pkg>: An R interface to <a href="https://echo.epa.gov/">United States Environmental Protection Agency (EPA) Environmental Compliance History Online (‘ECHO’)</a>. Provides functions to locate facilities with discharge permits and download discharge records.</p></li><li> 
 <p><pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources.</p></li><li> 
-<p><pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.</p></li><li> 
 <p><pkg>hydroscoper</pkg>: R interface to the <a href="http://www.hydroscope.gr/">Greek National Data Bank for Hydrological and Meteorological Information</a>. It covers Hydroscope’s data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).</p></li><li> 
 <p><pkg>kiwisR</pkg>: Wrapper for retrieving data from <a href="https://www.kisters.net/NA/products/wiski/">KISTERS WISKI databases</a> via the KiWIS API.</p></li><li> 
 <p><pkg>metScanR</pkg>: A tool for locating, mapping, and gathering environmental data and metadata from over 157,000 environmental monitoring stations among 219 countries/territories and &gt;20 networks/organizations,</p></li><li> 
@@ -25,11 +24,11 @@
 <p><pkg>GSODR</pkg>: Provides automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI) for use in R.</p></li><li> 
 <p><pkg>MODISTools</pkg>: Programmatic Interface to the MODIS Land Products Subsets <a href="https://modis.ornl.gov/data/modis_webservice.html">Web Services</a>. Allows for easy downloads of ‘MODIS’ time series.</p></li><li> 
 <p><pkg>nasapower</pkg>: Client for NASA’s Prediction of Worldwide Energy Resource (POWER) project data API <a href="https://power.larc.nasa.gov">Web Services</a>. Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.</p></li><li> 
+<p><pkg>metR</pkg>: <code>metR</code> packages several functions and utilities that make R better for handling meteorological data in the tidy data paradigm. Extends ‘ggplot2’ for better plotting of scalar and vector fields and provides commonly used analysis methods in the atmospheric sciences.</p></li><li> 
 <p><pkg>prism</pkg>: This package allows users to access and visualize data from the <a href="https://prism.nacse.org">Oregon State PRISM project</a>. Data are all in the form of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals.</p></li><li> 
 <p><pkg>rdwd</pkg>: Handle climate data from the German DWD (‘Deutscher Wetterdienst’).</p></li><li> 
 <p><pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html">NCEP/NCAR Reanalysis</a> and <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html">NCEP/DOE Reanalysis II</a> datasets.</p></li><li> 
 <p><pkg>rnoaa</pkg>: Client for many NOAA data sources including the <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">NCDC climate API</a>, with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository (‘HOMR’), storm data via ‘IBTrACS’, tornado data via the NOAA storm prediction center, and more.</p></li><li> 
-<p><pkg>RNRCS</pkg>: Package to download Natural Resources Conservation Service (NRCS) soil and snow data including SCAN, SNOTEL, and SNOLITE. Also can get meta-data for sites in NRCS air and water database.</p></li><li> 
 <p><pkg>rpdo</pkg>: Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.</p></li><li> 
 <p><pkg>rwunderground</pkg>: Tools for getting historical weather information and forecasts from wunderground.com. Historical weather and forecast data includes, but is not limited to, temperature, humidity, windchill, wind speed, dew point, heat index. Additionally, the weather underground weather API also includes information on sunrise/sunset, tidal conditions, satellite/webcam imagery, weather alerts, hurricane alerts and historical high/low temperatures.</p></li><li> 
 <p><pkg>smapr</pkg>: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic access to search for, acquire, and extract NASA Soil Moisture Active Passive (SMAP) data.</p></li><li> 
@@ -49,6 +48,7 @@
 <p><pkg>FAdist</pkg>: Probability distributions that are sometimes useful in hydrology.</p></li><li> 
 <p><pkg>fasstr</pkg> Functions to tidy, summarize, analyze, trend, and visualize streamflow data. This package summarizes continuous daily mean streamflow data into various daily, monthly, annual, and long-term statistics, completes annual trends and frequency analyses, in both table and plot formats.</p></li><li> 
 <p><pkg>FlowScreen</pkg>: Screens daily streamflow time series for temporal trends and change-points. This package has been primarily developed for assessing the quality of daily streamflow time series. It also contains tools for plotting and calculating many different streamflow metrics.</p></li><li> 
+<p><pkg>hydropeak</pkg>: Detect and characterize sub-daily flow fluctuations based on a framework introduced in <a href="https://doi.org/10.1002/hyp.10773">Greimel et al. (2016)</a>.</p></li><li> 
 <p><pkg>hydrostats</pkg>: Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.</p></li><li> 
 <p><pkg>hydroTSM</pkg>: Functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. In particular, this package is highly oriented to hydrological modelling tasks.</p></li><li> 
 <p><pkg>lfstat</pkg>: Functions to compute and plot statistics described in the “Manual on Low-flow Estimation and Prediction”, published by the World Meteorological Organisation (WMO).</p></li></ul><p><strong>Meteorology (functions for working with meteorological and climate data)</strong></p><ul><li> 
@@ -75,14 +75,13 @@
 <p><pkg>lakemorpho</pkg>: Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The ‘lakemorpho’ package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.</p></li><li> 
 <p><pkg>nhdR</pkg>: Tools for working with the National Hydrography Dataset, with functions for querying, downloading, and networking both the <a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">NHD</a> and <a href="http://www.horizon-systems.com/nhdplus">NHDPlus</a> datasets.</p></li><li> 
 <p><github>imarkonis/somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.</p></li><li> 
-<p><pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.</p></li></ul><h2 id="modeling">Modeling</h2><p><strong>Process-based modeling (scripts for preparing inputs/outputs and running process-based models)</strong></p><p>See also the <a href="https://r-forge.r-project.org/R/?group_id=411">RHydro project</a> on R-forge and the <a href="https://hess.copernicus.org/preprints/hess-2020-498/">HESSD</a> paper discussing R packages for Hydrology modelling.</p><ul><li> 
-<p><pkg>airGR</pkg>: Hydrological modelling tools developed at Irstea-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR4J, GR5J, GR6J, GR2M, GR1A), a snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.</p></li><li> 
+<p><pkg>nhdplusTools</pkg>: Tools for accessing and working with the NHDPlus. Offers utilities for calculating NHDPlus attributes, network navigation, and indexing data to any hydrographic network.</p></li></ul><h2 id="modeling">Modeling</h2><p><strong>Process-based modeling (scripts for preparing inputs/outputs and running process-based models)</strong></p><p>See also the <a href="https://r-forge.r-project.org/R/?group_id=411">RHydro project</a> on R-forge and the <a href="https://doi.org/10.5194/hess-25-3937-2021">Astagneau et al. (2021) HESS</a> paper discussing R packages for Hydrology modelling.</p><ul><li> 
+<p><pkg>airGR</pkg>: Hydrological modelling tools developed at INRAE-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR5H, GR4J, GR5J, GR6J, GR2M, GR1A) that can be applied either on a lumped or semi-distributed way. A snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.</p></li><li> 
 <p><pkg>airGRdatassim</pkg>: Add-on to the ‘airGR’ package which provides the tools to assimilate observed discharges in daily GR hydrological models using the Ensemble Kalman filter or the Particle filter as described in <a href="http://doi.org/10.1029/2020WR028390">Piazzi et al. (2021)</a>.</p></li><li> 
-<p><pkg>airGRteaching</pkg>: Add-on package to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology.</p></li><li> 
+<p><pkg>airGRteaching</pkg>: Add-on to the ‘airGR’ package that simplifies its use and is aimed at being used for teaching hydrology. A Shiny GUI is embedded into the package (demo available on <a href="https://sunshine.irstea.fr/">sunshine.irstea.fr</a>.</p></li><li> 
 <p><pkg>bigleaf</pkg>: Calculation of physical (e.g. aerodynamic conductance, surface temperature), and physiological (e.g. canopy conductance, water-use efficiency) ecosystem properties from eddy covariance data and accompanying meteorological measurements. Calculations assume the land surface to behave like a ‘big-leaf’ and return bulk ecosystem/canopy variables.</p></li><li> 
 <p><pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).</p></li><li> 
 <p><github>rkronen/Brook90_R</github>: an R implementation of the 1D-SVAT model Brook90. GitHub only package.</p></li><li> 
-<p><pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.</p></li><li> 
 <p><pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See <a href="http://doi.org/10.1002/hyp.10953">Souza et al. (2016)</a>.</p></li><li> 
 <p><pkg>EcoHydRology</pkg>: Flexible foundation for scientists, engineers, and policy makers to base teaching exercises as well as for more applied use to model complex eco-hydrological interactions, including some SWAT calibration functions.</p></li><li> 
 <p><pkg>geotopbricks</pkg>: An R Plug-in for the Distributed Hydrological Model <a href="https://github.com/geotopmodel">GEOtop</a>. The package analyzes raster maps and other information as input/output files from the Hydrological Distributed Model GEOtop.</p></li><li> 
@@ -114,6 +113,7 @@
 <p><pkg>HydroMe</pkg>: Estimates the parameters in infiltration and water retention models by curve-fitting method. The models considered are those that are commonly used in soil science.</p></li><li> 
 <p><pkg>hyfo</pkg>: Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.</p></li><li> 
 <p><github>NEONScience/NEON-stream-discharge</github>: NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.</p></li><li> 
+<p><pkg>NPRED</pkg>: Partial informational correlation (PIC) is used to identify the meaningful predictors to the response from a large set of potential predictors. Details of methodologies used in the package can be found in <a href="https://doi.org/10.1002/2013WR013845">Sharma &amp; Mehrotra (2014)</a>, <a href="https://doi.org/10.1016/j.envsoft.2016.05.021">Sharma et al. (2016)</a>, and <a href="https://doi.org/10.1016/j.advwatres.2005.08.007">Mehrotra &amp; Sharma (2006)</a>.</p></li><li> 
 <p><pkg>LPM</pkg>: Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.</p></li><li> 
 <p><pkg>meteo</pkg>: Spatio-temporal geostatistical mapping of meteorological data.</p></li><li> 
 <p><pkg>nsRFA</pkg>: A collection of statistical tools for objective (non-supervised) applications of the Regional Frequency Analysis methods in hydrology.</p></li><li> 
@@ -122,7 +122,8 @@
 <p><pkg>SCI</pkg>: Functions for generating Standardized Climate Indices (SCI). SCI is a transformation of (smoothed) climate (or environmental) time series that removes seasonality and forces the data to take values of the standard normal distribution. SCI was originally developed for precipitation. In this case it is known as the Standardized Precipitation Index (SPI).</p></li><li> 
 <p><pkg>soilwater</pkg>: Implements parametric formulas of soil water retention or conductivity curve. At the moment, only Van Genuchten (for soil water retention curve) and Mualem (for hydraulic conductivity) were implemented.</p></li><li> 
 <p><pkg>synthesis</pkg>: Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.</p></li><li> 
-<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li></ul>
+<p><pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).</p></li><li> 
+<p><pkg>WASP</pkg>: A wavelet-based variance transformation method is used for system modelling and prediction. It refines predictor spectral representation using Wavelet Theory, which leads to improved model specifications and prediction accuracy. Details of methodologies used in the package can be found in <a href="https://doi.org/10.1029/2019WR026962">Jiang, Sharma, et al. (2020)</a>, <a href="https://doi.org/10.1016/j.envsoft.2020.104907">Jiang, Rashid, et al. (2020)</a>, and <a href="https://doi.org/10.1016/J.JHYDROL.2021.126816">Jiang, Sharma, et al. (2021)</a>.</p></li></ul>
   </info>
   <packagelist>
     <pkg priority="core">EcoHydRology</pkg>
@@ -161,11 +162,11 @@
     <pkg>GSODR</pkg>
     <pkg>GWSDAT</pkg>
     <pkg>HBV.IANIGLA</pkg>
-    <pkg>hddtools</pkg>
     <pkg>humidity</pkg>
     <pkg>hydroApps</pkg>
     <pkg>hydrogeo</pkg>
     <pkg>HydroMe</pkg>
+    <pkg>hydropeak</pkg>
     <pkg>hydroPSO</pkg>
     <pkg>hydroscoper</pkg>
     <pkg>hydrostats</pkg>
@@ -182,12 +183,15 @@
     <pkg>MBC</pkg>
     <pkg>meteo</pkg>
     <pkg>meteoland</pkg>
+    <pkg>metR</pkg>
     <pkg>metScanR</pkg>
     <pkg>MODISTools</pkg>
     <pkg>MODIStsp</pkg>
     <pkg>musica</pkg>
     <pkg>nasapower</pkg>
+    <pkg>nhdplusTools</pkg>
     <pkg>nhdR</pkg>
+    <pkg>NPRED</pkg>
     <pkg>nsRFA</pkg>
     <pkg>openair</pkg>
     <pkg>prism</pkg>
@@ -199,7 +203,6 @@
     <pkg>RMAWGEN</pkg>
     <pkg>RNCEP</pkg>
     <pkg>rnoaa</pkg>
-    <pkg>RNRCS</pkg>
     <pkg>rnrfa</pkg>
     <pkg>rpdo</pkg>
     <pkg>RSAlgaeR</pkg>
@@ -219,9 +222,9 @@
     <pkg>topmodel</pkg>
     <pkg>TUWmodel</pkg>
     <pkg>washdata</pkg>
+    <pkg>WASP</pkg>
     <pkg>water</pkg>
     <pkg>waterData</pkg>
-    <pkg>Watersheds</pkg>
     <pkg>worldmet</pkg>
     <pkg>wql</pkg>
     <pkg>WRSS</pkg>

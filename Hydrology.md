@@ -17,8 +17,6 @@ Data Retrieval
 
 -   <pkg>FedData</pkg>: Functions to Automate Downloading Geospatial Data Available from Several Federated Data Sources. 
 
--   <pkg>hddtools</pkg>: Hydrological Data Discovery Tools. Facilitates discovery and handling of hydrological data, access to catalogues and databases.
- 
 -   <pkg>hydroscoper</pkg>: R interface to the [Greek National Data Bank for Hydrological and Meteorological Information](http://www.hydroscope.gr/). It covers Hydroscope's data sources and provides functions to transliterate, translate and download them into tidy dataframes (tibbles).
 
 -   <pkg>kiwisR</pkg>: Wrapper for retrieving data from [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS API.
@@ -50,6 +48,8 @@ Data Retrieval
 
 -   <pkg>nasapower</pkg>: Client for NASA's Prediction of Worldwide Energy Resource (POWER) project data API [Web Services](https://power.larc.nasa.gov). Data available include daily meteorology, interannual and 30 year climatology. Functionality for specifying geolocation and downloading data, which have global coverage at 1/2 by 1/2 arc-degree gridded resolution from 1983 to near-current are provided. Over 140 different parameters are offered including temperature (max/min/mean/dew), relative humidity, precipitation, wind speed and more.
 
+-   <pkg>metR</pkg>: `metR` packages several functions and utilities that make R better for handling meteorological data in the tidy data paradigm. Extends 'ggplot2' for better plotting of scalar and vector fields and provides commonly used analysis methods in the atmospheric sciences.
+
 -   <pkg>prism</pkg>: This package allows users to access and visualize data from the [Oregon State PRISM project](https://prism.nacse.org). Data are all in the form
 of gridded rasters for the continental US at 4 different temporal scales: daily, monthly, annual, and 30 year normals. 
 
@@ -58,8 +58,6 @@ of gridded rasters for the continental US at 4 different temporal scales: daily,
 -   <pkg>RNCEP</pkg>: Contains functions to retrieve, organize, and visualize weather data from the [NCEP/NCAR Reanalysis](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html) and [NCEP/DOE Reanalysis II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) datasets.
 
 -  <pkg>rnoaa</pkg>: Client for many NOAA data sources including the [NCDC climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with functions for each of the API endpoints: data, data categories, data sets, data types, locations, location categories, and stations. Includes interface  NOAA sea ice data, severe weather inventory, Historical Observing Metadata Repository ('HOMR'), storm data via 'IBTrACS', tornado data via the NOAA storm prediction center, and more.
-
--  <pkg>RNRCS</pkg>: Package to download Natural Resources Conservation Service (NRCS) soil and snow data including SCAN, SNOTEL, and SNOLITE. Also can get meta-data for sites in NRCS air and water database.
 
 -  <pkg>rpdo</pkg>: Get Monthly Pacific Decadal Oscillation (PDO) index values from January 1900 to present. See also <pkg>rsoi</pkg> for downloading Southern Oscillation Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
 
@@ -171,8 +169,6 @@ The CRAN <view>Spatial</view> Task View gives an overview of packages to be used
 
 -   <github>imarkonis/somspace</github>: somspace is an R package for spatial classification of time series. somspace provides the tools to generate meaningful representations that capture the main spatial patterns of the analyzed time series.
 
--   <pkg>Watersheds</pkg>: Methods for watersheds aggregation and spatial drainage network analysis.
-
 -   <pkg>nhdplusTools</pkg>: Tools for accessing and working with the NHDPlus. Offers utilities for calculating NHDPlus attributes, network navigation, and indexing data to any hydrographic network.
 
 Modeling
@@ -180,7 +176,7 @@ Modeling
 
 **Process-based modeling (scripts for preparing inputs/outputs and running process-based models)**
 
-See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021/) paper discussing R packages for Hydrology modelling.
+See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and the [Astagneau et al. (2021) HESS](https://doi.org/10.5194/hess-25-3937-2021) paper discussing R packages for Hydrology modelling.
 
 -  <pkg>airGR</pkg>: Hydrological modelling tools developed at INRAE-Antony (HYCAR Research Unit, France). The package includes several conceptual rainfall-runoff models (GR4H, GR5H, GR4J, GR5J, GR6J, GR2M, GR1A) that can be applied either on a lumped or semi-distributed way. A snow accumulation and melt model (CemaNeige) and the associated functions for their calibration and evaluation.
 
@@ -193,8 +189,6 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 -  <pkg>boussinesq</pkg>: Collection of functions for the One-Dimensional Boussinesq Equation (ground-water).
 
 -  <github>rkronen/Brook90_R</github>: an R implementation of the 1D-SVAT model Brook90. GitHub only package. 
-
--  <pkg>dynatopmodel</pkg>: Implementation and enhancement of the Dynamic TOPMODEL semi-distributed hydrological model. Includes some preprocessing, utility and routines for displaying outputs. See also <pkg>topmodel</pkg>.
 
 -  <pkg>Ecohydmod</pkg>: Simulates the soil water balance (soil moisture, evapotranspiration, leakage and runoff), rainfall series by using the marked Poisson process and the vegetation growth through the normalized difference vegetation index (NDVI). See [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
 
