@@ -261,6 +261,8 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 -   <pkg>hyfo</pkg>: Focuses on data processing and visualization in hydrology and climate forecasting. Main function includes data extraction, data downscaling, data resampling, gap filler of precipitation, bias correction of forecasting data, flexible time series plot, and spatial map generation. It is a good pre- processing and post-processing tool for hydrological and hydraulic modellers.
 
 - <github>NEONScience/NEON-stream-discharge</github>: NEON Stage-Discharge Rating Curve. Instructions to set up a docker container which calculates the stage-discharge rating curve for a site and water year, developed using a Bayesian modeling technique. GitHub only package.
+
+-   <pkg>NPRED</pkg>: Partial informational correlation (PIC) is used to identify the meaningful predictors to the response from a large set of potential predictors. Details of methodologies used in the package can be found in [Sharma & Mehrotra (2014)](https://doi.org/10.1002/2013WR013845), [Sharma et al. (2016)](https://doi.org/10.1016/j.envsoft.2016.05.021), and [Mehrotra & Sharma (2006)](https://doi.org/10.1016/j.advwatres.2005.08.007).
   
 -   <pkg>LPM</pkg>: Apply Univariate Long Memory Models, Apply Multivariate Short Memory Models To Hydrological Dataset, Estimate Intensity Duration Frequency curve to rainfall series.
 
@@ -279,3 +281,5 @@ The <view>Environmetrics</view>: Task View gives an overview of packages used in
 -   <pkg>synthesis</pkg>: Generate synthetic time series from commonly used statistical models, including linear, nonlinear and chaotic systems.
 
 -   <pkg>SPEI</pkg>: A set of functions for computing potential evapotranspiration and several widely used drought indices including the Standardized Precipitation-Evapotranspiration Index (SPEI).
+
+-   <pkg>WASP</pkg>: A wavelet-based variance transformation method is used for system modelling and prediction. It refines predictor spectral representation using Wavelet Theory, which leads to improved model specifications and prediction accuracy. Details of methodologies used in the package can be found in [Jiang, Sharma, et al. (2020)](https://doi.org/10.1029/2019WR026962), [Jiang, Rashid, et al. (2020)](https://doi.org/10.1016/j.envsoft.2020.104907), and [Jiang, Sharma, et al. (2021)](https://doi.org/10.1016/J.JHYDROL.2021.126816).
