@@ -230,8 +230,6 @@ See also the [RHydro project](https://r-forge.r-project.org/R/?group_id=411) on 
 
 -  <github>Sibada/VICmodel</github>: Implementation of the Variable Infiltration Capacity (VIC) model, a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington (UW)
 
--  <pkg>water</pkg>: Tools and functions to calculate actual Evapotranspiration using surface energy balance models.
-
 -  <pkg>WRSS</pkg>: Water resources system simulator is a tool for simulation and analysis of large-scale water resources systems. 'WRSS' proposes functions and methods for construction, simulation and analysis of primary water resources features (e.g. reservoirs, aquifers, and etc.) based on Standard Operating Policy (SOP).
 
 **Statistical modeling (hydrology-related statistical models)**
