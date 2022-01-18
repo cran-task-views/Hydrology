@@ -4,38 +4,36 @@ topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Sam Zipper,  Ilaria Prosdocimi
 email: sam.albers@gmail.com
 version: 2022-01-10
-source: https://github.com/cran-task-views/Hydrology
+source: https://github.com/cran-task-views/Hydrology/
 ---
 
-This Task View contains information about packages broadly relevant to
+This task view contains information about packages broadly relevant to
 *hydrology* , defined as the movement, distribution and quality of water
 and water resources over a broad spatial scale of landscapes. Packages
 are broadly grouped according to their function; however, many have
 functionality that spans multiple categories. We also highlight other,
 existing resources that have related functions - for example,
-statistical analysis or spatial data processing. See also [Riccardo
-Rigon's excellent
-list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
-of hydrology-related R tools and resources. Some Python related
+statistical analysis or spatial data processing. See also
+[Riccardo Rigon's excellent list](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
+of hydrology-related R tools and resources. Some Python-related
 resources can be found
 [here](https://abouthydrology.blogspot.com/2016/11/python-resources-for-hydrologists.html)
-and [here](https://github.com/raoulcollenteur/Python-Hydrology-Tools)
+and [here](https://github.com/raoulcollenteur/Python-Hydrology-Tools).
 
 If you have any comments or suggestions for additions or improvements
-for this Task View, go to GitHub and [submit an
-issue](https://github.com/cran-task-views/Hydrology/issues), or make some
-changes and [submit a pull
-request](https://github.com/cran-task-views/pulls). If you can't
-contribute on GitHub, [send Sam Albers an
-email](mailto:sam.albers@gmail.com). If you have an issue with one of
-the packages discussed below, please contact the maintainer of that
-package.
+for this task view, go to GitHub and
+[submit an issue](https://github.com/cran-task-views/Hydrology/issues),
+or make some changes and
+[submit a pull request](https://github.com/cran-task-views/pulls).
+If you can't contribute on GitHub,
+[send Sam Albers an email](mailto:sam.albers@gmail.com).
+If you have an issue with one of the packages discussed below, please contact
+the maintainer of that package.
 
-Data Retrieval
---------------
 
-**Hydrological data sources (surface water/groundwater quantity and
-quality)**
+## Data retrieval
+
+### Hydrological data sources (surface water/groundwater quantity and quality)
 
 -   `r pkg("AWAPer")`: AWAPer allows efficient extraction of
     daily catchment average precipitation, Tmin, Tmax, vapour pressure,
@@ -70,14 +68,13 @@ quality)**
     download them into tidy dataframes (tibbles).
 
 -   `r pkg("kiwisR")`: Wrapper for retrieving data from
-    [KISTERS WISKI
-    databases](https://www.kisters.net/NA/products/wiski/) via the KiWIS
-    API.
+    [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/)
+    via the KiWIS API.
 
 -   `r pkg("metScanR")`: A tool for locating, mapping, and
     gathering environmental data and metadata from over 157,000
     environmental monitoring stations among 219 countries/territories
-    and \>20 networks/organizations,
+    and >20 networks/organizations,
 
 -   `r pkg("nhdR")`: Tools for working with the National
     Hydrography Dataset, with functions for querying, downloading, and
@@ -110,8 +107,8 @@ quality)**
     addresses some common data problems, and calculates and plots
     anomalies.
 
-**Meteorological data (precipitation, radiation, temperature, etc -
-including both measurements and reanalysis)**
+
+### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
 
 -   `r pkg("climate")`: Automatize downloading of
     meteorological and hydrological data from publicly available
@@ -207,8 +204,8 @@ including both measurements and reanalysis)**
     the National Oceanic and Atmospheric Administration (NOAA)
     [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
-Data Analysis
--------------
+
+## Data analysis
 
 ### Data tidying (gap-filling, data organization, QA/QC, etc)
 
@@ -230,8 +227,8 @@ Data Analysis
 -   `r pkg("getMet")`: Functions for sourcing, formatting,
     and editing meteorological data for hydrologic models.
 
-**Hydrograph analysis (functions for working with streamflow data,
-e.g. flow statistics, trends, biological indices, etc.)**
+
+### Hydrograph analysis (functions for working with streamflow data, e.g., flow statistics, trends, biological indices, etc.)
 
 -   `r pkg("baseflow")`: Computes hydrograph separation
     using the conceptual automated process from Pelletier and
@@ -297,8 +294,8 @@ e.g. flow statistics, trends, biological indices, etc.)**
     Prediction", published by the World Meteorological Organisation
     (WMO).
 
-**Meteorology (functions for working with meteorological and climate
-data)**
+
+### Meteorology (functions for working with meteorological and climate data)
 
 -   `r pkg("Evapotranspiration")`: Functions to calculate
     potential evapotranspiration (PET) and actual evapotranspiration
@@ -335,6 +332,7 @@ data)**
     data processing for defining event periods, determination of
     antecedent rainfall conditions and X-hr intensities. GitHub only
     package.
+
 
 ### Other
 
@@ -395,12 +393,12 @@ data)**
     (tidal waters) of weighted regression on time, discharge, and season
     to evaluate trends in water quality time series.
 
+
 ### Spatial data processing
 
-The CRAN `r view("Spatial")` Task View gives an overview of
+The CRAN `r view("Spatial")` task view gives an overview of
 packages to be used in R to read, visualise, and analyse spatial data.
-See also the ROpenSci [MapTools
-Listing](https://github.com/ropensci/maptools).
+See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
 
 -   `r github("tpilz/lumpR")`: Functions for a
     semi-automated approach of the delineation and description of
@@ -431,16 +429,13 @@ Listing](https://github.com/ropensci/maptools).
     attributes, network navigation, and indexing data to any
     hydrographic network.
 
-Modeling
---------
 
-**Process-based modeling (scripts for preparing inputs/outputs and
-running process-based models)**
+## Modeling
 
-See also the [RHydro
-project](https://r-forge.r-project.org/R/?group_id=411) on R-forge and
-the [Astagneau et al. (2021)
-HESS](https://doi.org/10.5194/hess-25-3937-2021) paper discussing R
+### Process-based modeling (scripts for preparing inputs/outputs and running process-based models)
+
+See also the `r rforge("r-hydro")` project on R-Forge and
+the [Astagneau et al. (2021, HESS)](https://doi.org/10.5194/hess-25-3937-2021) paper discussing R
 packages for Hydrology modelling.
 
 -   `r pkg("airGR")`: Hydrological modelling tools developed
@@ -600,14 +595,15 @@ packages for Hydrology modelling.
     (e.g. reservoirs, aquifers, and etc.) based on Standard Operating
     Policy (SOP).
 
+
 ### Statistical modeling (hydrology-related statistical models)
 
-The `r view("Environmetrics")`: Task View gives an overview
+The `r view("Environmetrics")` task view gives an overview
 of packages used in the analysis of environmental data, encompassing
 hydrological data, including many statistical approaches used in the
 ecological sciences. Additionally, packages that help model datasets
 with extreme values are discussed in the
-`r view("ExtremeValue")` Task View.
+`r view("ExtremeValue")` task view.
 
 -   `r pkg("CityWaterBalance")`: Retrieves data and
     estimates unmeasured flows of water through the urban network. Any
@@ -722,12 +718,8 @@ with extreme values are discussed in the
     
 
 ### Links
--   [rOpenSci MapTools Listing](https://github.com/ropensci/maptools)
--   [rOpenSci Open Data Listing](https://github.com/ropensci/opendata)
--   [RHydro project](https://r-forge.r-project.org/R/?group_id=411)
--   [Riccardo Rigon blog post about R resources for
-    hydrologists](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
+-   [rOpenSci MapTools listing](https://github.com/ropensci/maptools)
+-   [rOpenSci OpenData listing](https://github.com/ropensci/opendata)
+-   [Riccardo Rigon blog post about R resources for hydrologists](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
 -   [USGS-R community](https://owi.usgs.gov/R/)
--   [WaterProgramming blog post about data retrieval and statistical
-    analysis in
-    R](https://waterprogramming.wordpress.com/2019/07/08/packages-for-hydrological-data-retrieval-and-statistical-analysis/)
+-   [WaterProgramming blog post about data retrieval and statistical analysis in R](https://waterprogramming.wordpress.com/2019/07/08/packages-for-hydrological-data-retrieval-and-statistical-analysis/)
