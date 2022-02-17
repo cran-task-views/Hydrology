@@ -66,6 +66,11 @@ the maintainer of that package.
     Information](http://www.hydroscope.gr/). It covers Hydroscope's data
     sources and provides functions to transliterate, translate and
     download them into tidy dataframes (tibbles).
+    
+-    `r pkg("isoWater")`: R interface to the 
+    [Waterisotopes Database](http://waterisotopesDB.org). Provides 
+    functions to query and obtain stable H and O isotope data from water 
+    samples collected at >60,000 sites worldwide.
 
 -   `r pkg("kiwisR")`: Wrapper for retrieving data from
     [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/)
@@ -649,6 +654,11 @@ with extreme values are discussed in the
     flexible time series plot, and spatial map generation. It is a good
     pre- processing and post-processing tool for hydrological and
     hydraulic modellers.
+    
+-   `r pkg("isoWater")`: Bayesian inference of the source isotope 
+    composition or source mixing ratios for water samples that may have 
+    experienced evaporation, after 
+    [Bowen et al. 2018](https://doi.org/10.1007/s00442-018-4192-5).
 
 -   `r github("NEONScience/NEON-stream-discharge")`: NEON
     Stage-Discharge Rating Curve. Instructions to set up a docker
