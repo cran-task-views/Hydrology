@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Sam Zipper,  Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2022-01-10
+version: 2022-03-02
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -34,13 +34,6 @@ the maintainer of that package.
 ## Data retrieval
 
 ### Hydrological data sources (surface water/groundwater quantity and quality)
-
--   `r pkg("AWAPer")`: AWAPer allows efficient extraction of
-    daily catchment average precipitation, Tmin, Tmax, vapour pressure,
-    solar radiation and then estimation of areal potential evaporation
-    (Morton's) for anywhere in Australia. Spatial measures are also
-    derived (eg spatial daily variance). For technical details see
-    Peterson et al. (2019).
 
 -   `r pkg("dataRetrieval")`: Collection of functions to
     help retrieve U.S. Geological Survey (USGS) and U.S. Environmental
