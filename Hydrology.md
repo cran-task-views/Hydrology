@@ -278,9 +278,9 @@ the maintainer of that package.
     flow fluctuations based on a framework introduced in [Greimel et
     al. (2016)](https://doi.org/10.1002/hyp.10773).
     
--   `r pkg("hydroroute")`: Implements the "PeakTrace" method. Trace 
-    longitudinal hydropeaking waves based on an approach proposed and 
-    validated in [Greimel et al. (2022)](https://doi.org/TODO).
+-   `r pkg("hydroroute")`: Implements the "PeakTrace" method which 
+     allows to trace longitudinal hydropeaking waves based on an 
+     approach proposed and validated in [Greimel et al. (2022)](https://doi.org/TODO).
 
 -   `r pkg("hydrostats")`: Calculates a suite of hydrologic
     indices for daily time series data that are widely used in hydrology
