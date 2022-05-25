@@ -262,7 +262,7 @@ the maintainer of that package.
 -   `r pkg("FAdist")`: Probability distributions that are
     sometimes useful in hydrology.
 
--   `r pkg("fasstr")` Functions to tidy, summarize, analyze,
+-   `r pkg("fasstr")`: Functions to tidy, summarize, analyze,
     trend, and visualize streamflow data. This package summarizes
     continuous daily mean streamflow data into various daily, monthly,
     annual, and long-term statistics, completes annual trends and
@@ -273,6 +273,15 @@ the maintainer of that package.
     primarily developed for assessing the quality of daily streamflow
     time series. It also contains tools for plotting and calculating
     many different streamflow metrics.
+
+-   `r pkg("grwat")`: Automatic hydrograph separation and daily 
+    runoff time series analysis. This package provides various 
+    filters to separate baseflow and quickflow. Implements advanced 
+    separation technique by [Rets et al. (2022)](https://doi.org/10.1134/S0097807822010146)
+    which involves meteorological data to reveal genetic components 
+    of the runoff:  ground, rain, thaw, and spring (seasonal thaw). 
+    High-performance C++17 computation, annual statistics, and 
+    supplementary functions for plotting and generating reports.
 
 -   `r pkg("hydropeak")`: Detect and characterize sub-daily
     flow fluctuations based on a framework introduced in [Greimel et
