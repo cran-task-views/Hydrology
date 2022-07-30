@@ -203,6 +203,7 @@ the maintainer of that package.
     the National Oceanic and Atmospheric Administration (NOAA)
     [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
+-   `r github("AgRoMeteorologiaINTA/agromet")`: agrometeorological functions to calculate climatic and hydrological indices and statistics from tidy data. 
 
 ## Data analysis
 
