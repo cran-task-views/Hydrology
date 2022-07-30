@@ -105,6 +105,7 @@ the maintainer of that package.
     addresses some common data problems, and calculates and plots
     anomalies.
 
+-   `r pkg("frostr"): An API to Norway's 'Frost' [API](https://frost.met.no/index.html) to retrieve data as data frames. The 'Frost' API, and the underlying data, is made available by the Norwegian Meteorological Institute (MET Norway). 
 
 ### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
 
