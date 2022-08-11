@@ -138,6 +138,8 @@ the maintainer of that package.
     of Environmental Health Sciences (R00ES022631) and the National
     Science Foundation (1331399).
 
+-   `r pkg("frostr")`: An API to Norway's 'Frost' [API](https://frost.met.no/) to retrieve data as data frames. The 'Frost' API, and the underlying data, is made available by the Norwegian Meteorological Institute (MET Norway). 
+
 ### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
 
 -   `r pkg("climate")`: Automatize downloading of
@@ -234,6 +236,7 @@ the maintainer of that package.
     the National Oceanic and Atmospheric Administration (NOAA)
     [Integrated Surface Database (ISD)](https://www.ncdc.noaa.gov/isd).
 
+-   `r github("AgRoMeteorologiaINTA/agromet")`: agrometeorological functions to calculate climatic and hydrological indices and statistics from tidy data. 
 
 ## Data analysis
 
@@ -333,7 +336,7 @@ the maintainer of that package.
 -   `r pkg("FAdist")`: Probability distributions that are
     sometimes useful in hydrology.
 
--   `r pkg("fasstr")` Functions to tidy, summarize, analyze,
+-   `r pkg("fasstr")`: Functions to tidy, summarize, analyze,
     trend, and visualize streamflow data. This package summarizes
     continuous daily mean streamflow data into various daily, monthly,
     annual, and long-term statistics, completes annual trends and
@@ -345,9 +348,22 @@ the maintainer of that package.
     time series. It also contains tools for plotting and calculating
     many different streamflow metrics.
 
+-   `r pkg("grwat")`: Automatic hydrograph separation and daily 
+    runoff time series analysis. This package provides various 
+    filters to separate baseflow and quickflow. Implements advanced 
+    separation technique by [Rets et al. (2022)](https://doi.org/10.1134/S0097807822010146)
+    which involves meteorological data to reveal genetic components 
+    of the runoff:  ground, rain, thaw, and spring (seasonal thaw). 
+    High-performance C++17 computation, annual statistics, and 
+    supplementary functions for plotting and generating reports.
+
 -   `r pkg("hydropeak")`: Detect and characterize sub-daily
     flow fluctuations based on a framework introduced in [Greimel et
     al. (2016)](https://doi.org/10.1002/hyp.10773).
+    
+-   `r pkg("hydroroute")`: Implements the "PeakTrace" method which 
+     allows to trace longitudinal hydropeaking waves based on an 
+     approach proposed and validated in [Greimel et al. (2022)](https://doi.org/10.1002/rra.3978).
 
 -   `r pkg("hydrostats")`: Calculates a suite of hydrologic
     indices for daily time series data that are widely used in hydrology
