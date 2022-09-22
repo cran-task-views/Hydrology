@@ -381,7 +381,7 @@ the maintainer of that package.
 
 -   `r pkg("IDF")`: Intensity-duration-frequency (IDF) curves are a
     widely used analysis-tool in hydrology to assess extreme values
-    of precipitation [e.g. Mailhot et al., 2007, [doi:10.1016/j.jhydrol.2007.09.019](doi:10.1016/j.jhydrol.2007.09.019)].
+    of precipitation [e.g., Mailhot et al., 2007, [doi:10.1016/j.jhydrol.2007.09.019](doi:10.1016/j.jhydrol.2007.09.019)].
     The package 'IDF' provides functions to estimate IDF parameters
     for given precipitation time series on the basis of a
     duration-dependent generalized extreme value distribution
@@ -503,9 +503,9 @@ the maintainer of that package.
 -   `r pkg("kitagawa")`: Provides tools to calculate the
     theoretical hydrodynamic response of an aquifer undergoing harmonic
     straining or pressurization. There are two classes of models
-    here: (1) for sealed wells, based on the model of Kitagawa et al
-    (2011), and (2) for open wells, based on the models of Cooper et al
-    (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
+    here: (1) for sealed wells, based on the model of
+    Kitagawa et al (2011), and (2) for open wells, based on the models of
+    Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al (1989).
 
 -   `r github("leppott/MBSStools")`: Suite of tools for data
     manipulation and calculations for Maryland DNR MBSS program. GitHub
@@ -541,13 +541,11 @@ the maintainer of that package.
     [doi:10.1002/aic.690380502](doi:10.1002/aic.690380502)). Parameter
     estimation is simplified by exploiting the fact that residual and
     saturated water contents and saturated conductivity are
-    conditionally linear parameters (Bates, D. M.  and Watts, D. G.
-    (1988) "Nonlinear Regression Analysis and Its Applications"
-    [doi:10.1002/9780470316757](doi:10.1002/9780470316757)). Estimated
-    parameters are optionally constrained by the evaporation
-    characteristic length (Lehmann, P., Bickel, S., Wei, Z. and Or, D.
-    (2020) "Physical Constraints for Improved Soil Hydraulic Parameter
-    Estimation by Pedotransfer Functions" [doi:10.1029/2019WR025963](doi:10.1029/2019WR025963))
+    conditionally linear parameters
+    (Bates, D. M.  and Watts, D. G. (1988) "Nonlinear Regression Analysis and Its Applications" [doi:10.1002/9780470316757](doi:10.1002/9780470316757)).
+    Estimated parameters are optionally constrained by the evaporation
+    characteristic length
+    (Lehmann, P., Bickel, S., Wei, Z. and Or, D. (2020) "Physical Constraints for Improved Soil Hydraulic Parameter Estimation by Pedotransfer Functions" [doi:10.1029/2019WR025963](doi:10.1029/2019WR025963))
     to ensure that the estimated parameters are physically valid.
     Common S3 methods and further utility functions allow to process,
     explore and visualise estimation results.
@@ -625,9 +623,9 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     hydrology, ecology and epidemiology. See Carraro et al. (2020)
     [doi:10.1002/ece3.647](doi:10.1002/ece3.647). for a presentation
     of the package; Rinaldo et al. (2014) [doi:10.1073/pnas.1322700111](doi:10.1073/pnas.1322700111)
-    for a theoretical overview on the OCN concept; Furrer and Sain
-    (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10) for the
-    construct used.
+    for a theoretical overview on the OCN concept;
+    Furrer and Sain (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10)
+    for the construct used.
 
 -   `r pkg("SBN")`: Generate Stochastic Branching Networks ('SBNs').
     Used to model the branching structure of rivers.
@@ -635,7 +633,7 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
 -   `r pkg("gwavr")`: Provides methods to Get Water Attributes
     Visually in R ('gwavr'). This allows the user to point and click
     on areas within the United States and get back hydrological data,
-    e.g. flowlines, catchments, basin boundaries, comids, etc.
+    e.g., flowlines, catchments, basin boundaries, comids, etc.
 
 -   `r pkg("epanet2toolkit")`: Enables simulation of water piping
     networks using 'EPANET'. The package provides functions from the
@@ -676,8 +674,8 @@ packages for Hydrology modelling.
     infrastructures and their managements.
 
 -   `r pkg("bigleaf")`: Calculation of physical
-    (e.g. aerodynamic conductance, surface temperature), and
-    physiological (e.g. canopy conductance, water-use efficiency)
+    (e.g., aerodynamic conductance, surface temperature), and
+    physiological (e.g., canopy conductance, water-use efficiency)
     ecosystem properties from eddy covariance data and accompanying
     meteorological measurements. Calculations assume the land surface to
     behave like a 'big-leaf' and return bulk ecosystem/canopy variables.
@@ -811,7 +809,7 @@ packages for Hydrology modelling.
     tool for simulation and analysis of large-scale water resources
     systems. 'WRSS' proposes functions and methods for construction,
     simulation and analysis of primary water resources features
-    (e.g. reservoirs, aquifers, and etc.) based on Standard Operating
+    (e.g., reservoirs, aquifers, and etc.) based on Standard Operating
     Policy (SOP).
 
 -   `r pkg("DWBmodelUN")`: A tool to hydrologic modelling using the
@@ -821,11 +819,11 @@ packages for Hydrology modelling.
     calculate the water availability in basins and also some water
     fluxes represented by the structure of the model. See Zhang, L.,
     N., Potter, K., Hickel, Y., Zhang, Q., Shao (2008)
-    [DOI:10.1016/j.jhydrol.2008.07.021](DOI:10.1016/j.jhydrol.2008.07.021) "Water
+    [doi:10.1016/j.jhydrol.2008.07.021](doi:10.1016/j.jhydrol.2008.07.021) "Water
     balance modeling over variable time scales based on the Budyko
     framework - Model development and testing", Journal of Hydrology,
     360, 117–131. See Tolson, B., C., Shoemaker (2007)
-    [DOI:10.1029/2005WR004723](DOI:10.1029/2005WR004723) "Dynamically
+    [doi:10.1029/2005WR004723](doi:10.1029/2005WR004723) "Dynamically
     dimensioned search algorithm for computationally efficient
     watershed model calibration", Water Resources Research, 43, 1–16.
     
@@ -835,14 +833,13 @@ packages for Hydrology modelling.
     The 'dynatop' package implements code for simulating models
     which can be created using the 'dynatopGIS' package.
 
--   `r pkg("dynatopGIS")`: A set of algorithms based on Quinn et al.
-    (1991) [doi:10.1002/hyp.3360050106](doi:10.1002/hyp.3360050106) for
+-   `r pkg("dynatopGIS")`: A set of algorithms based on
+    Quinn et al. (1991) [doi:10.1002/hyp.3360050106](doi:10.1002/hyp.3360050106) for
     processing river network and digital elevation data to build
     implementations of Dynamic TOPMODEL, a semi-distributed
-    hydrological model proposed in Beven and Freer (2001)
-    [doi:10.1002/hyp.252](doi:10.1002/hyp.252). The 'dynatop' package
-    implements simulation code for Dynamic TOPMODEL based on the
-    output of 'dynatopGIS'.
+    hydrological model proposed in Beven and Freer (2001) [doi:10.1002/hyp.252](doi:10.1002/hyp.252).
+    The 'dynatop' package implements simulation code for Dynamic
+    TOPMODEL based on the output of 'dynatopGIS'.
 
 -   `r pkg("baytrends")`: Enable users to evaluate long-term trends
     using a Generalized Additive Modeling (GAM) approach. The model
@@ -859,10 +856,10 @@ packages for Hydrology modelling.
 
 -   `r pkg("Raquifer")`: Generate a table of cumulative water influx
     into hydrocarbon reservoirs over time using un-steady and
-    pseudo-steady state models. Van Everdingen, A. F. and Hurst, W.
-    (1949) [doi:10.2118/949305-G](doi:10.2118/949305-G). Fetkovich,
-    M. J. (1971) [doi:10.2118/2603-PA](doi:10.2118/2603-PA). Yildiz,
-    T. and Khosravi, A. (2007) [doi:10.2118/103283-PA](doi:10.2118/103283-PA).
+    pseudo-steady state models.
+    Van Everdingen, A. F. and Hurst, W. (1949) [doi:10.2118/949305-G](doi:10.2118/949305-G).
+    Fetkovich, M. J. (1971) [doi:10.2118/2603-PA](doi:10.2118/2603-PA).
+    Yildiz, T. and Khosravi, A. (2007) [doi:10.2118/103283-PA](doi:10.2118/103283-PA).
     
 -   `r pkg("swmmr")`: Functions to connect the widely used Storm
     Water Management Model (SWMM) of the United States Environmental
