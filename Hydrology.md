@@ -576,6 +576,11 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     used for the pre-processing of semi-distributed large-scale
     hydrological and erosion models using catena-representation
     (WASA-SED, CATFLOW). GitHub only package.
+    
+-   `r pkg("pRecipe")`: Designed with reproducible science in mind,
+    pRecipe facilitates the download, exploration, visualization, 
+    and analysis of multiple precipitation data products(24 at the 
+    moment) across various spatiotemporal scales.    
 
 -   `r pkg("lakemorpho")`: Lake morphometry metrics are used
     by limnologists to understand, among other things, the ecological
