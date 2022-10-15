@@ -309,6 +309,11 @@ the maintainer of that package.
 -   `r pkg("biotic")`: Calculates a range of UK freshwater
     invertebrate biotic indices including BMWP, Whalley, WHPT,
     Habitat-specific BMWP, AWIC, LIFE and PSI.
+    
+-   `r pkg("bdrc")`: Fits a discharge rating curve based on
+     the power-law and the generalized power-law from data on
+     paired water elevation and discharge measurements in a 
+     given river using a Bayesian hierarchical model.
 
 -   `r pkg("EcoHydRology", priority = "core")`: This package
     provides a flexible foundation for scientists, engineers, and policy
