@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Sam Zipper,  Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2022-03-02
+version: 2022-12-18
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
