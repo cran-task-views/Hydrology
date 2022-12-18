@@ -85,11 +85,6 @@ the maintainer of that package.
     [KISTERS WISKI databases](https://www.kisters.net/NA/products/wiski/)
     via the KiWIS API.
 
--   `r pkg("metScanR")`: A tool for locating, mapping, and
-    gathering environmental data and metadata from over 157,000
-    environmental monitoring stations among 219 countries/territories
-    and >20 networks/organizations,
-
 -   `r pkg("nhdR")`: Tools for working with the National
     Hydrography Dataset, with functions for querying, downloading, and
     networking both the
@@ -141,12 +136,6 @@ the maintainer of that package.
 -   `r pkg("frostr")`: An API to Norway's 'Frost' [API](https://frost.met.no/) to retrieve data as data frames. The 'Frost' API, and the underlying data, is made available by the Norwegian Meteorological Institute (MET Norway). 
 
 ### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
-
--   `r pkg("climate")`: Automatize downloading of
-    meteorological and hydrological data from publicly available
-    repositories: OGIMET, University of Wyoming - atmospheric vertical
-    profiling data, and Polish Institute of Meterology and Water
-    Management - National Research Institute. T
 
 -   `r pkg("clifro")`: A web portal to the New Zealand
     National Climate Database of around 6,500 climate stations. See
@@ -257,9 +246,6 @@ the maintainer of that package.
     and to obtain climatological summaries and grids from the results.
     Also functions to draw wind-roses and Walter&Lieth climate diagrams.
 
--   `r pkg("getMet")`: Functions for sourcing, formatting,
-    and editing meteorological data for hydrologic models.
-
 -   `r pkg("htsr")`: Functions for the management and treatment of
     hydrology and meteorology time-series stored in a 'Sqlite' data
     base.
@@ -302,10 +288,6 @@ the maintainer of that package.
 
 ### Hydrograph analysis (functions for working with streamflow data, e.g., flow statistics, trends, biological indices, etc.)
 
--   `r pkg("baseflow")`: Computes hydrograph separation
-    using the conceptual automated process from Pelletier and
-    Andreassian (2019).
-
 -   `r pkg("biotic")`: Calculates a range of UK freshwater
     invertebrate biotic indices including BMWP, Whalley, WHPT,
     Habitat-specific BMWP, AWIC, LIFE and PSI.
@@ -314,12 +296,6 @@ the maintainer of that package.
      the power-law and the generalized power-law from data on
      paired water elevation and discharge measurements in a 
      given river using a Bayesian hierarchical model.
-
--   `r pkg("EcoHydRology", priority = "core")`: This package
-    provides a flexible foundation for scientists, engineers, and policy
-    makers to base teaching exercises as well as for more applied use to
-    model complex eco-hydrological interactions, including some SWAT
-    calibration functions.
 
 -   `r pkg("ecoval")`: Functions for evaluating and
     visualizing ecological assessment procedures for surface waters
@@ -937,13 +913,6 @@ ecological sciences. Additionally, packages that help model datasets
 with extreme values are discussed in the
 `r view("ExtremeValue")` task view.
 
--   `r pkg("CityWaterBalance")`: Retrieves data and
-    estimates unmeasured flows of water through the urban network. Any
-    city may be modeled with preassembled data, but data for US cities
-    can be gathered via web services using this package and dependencies
-    `r pkg("geoknife")` and
-    `r pkg("dataRetrieval")`.
-
 -   `r pkg("CoSMoS")`: is an implementation of [Papalexiou
     2018](https://doi.org/10.1016/j.advwatres.2018.02.013). CoSMoS
     generates univariate/multivariate non-Gaussian time series and
@@ -959,10 +928,6 @@ with extreme values are discussed in the
     the Framework for Understanding Structural Errors
     [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub
     only package.
-
--   `r pkg("hydroApps")`: Package providing tools for
-    hydrological applications and models developed for regional analysis
-    in Northwestern Italy focused on Flood Frequency Analysis.
 
 -   `r pkg("hydroGOF", priority = "core")`: S3 functions
     implementing both statistical and graphical goodness-of-fit measures
