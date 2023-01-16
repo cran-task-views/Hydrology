@@ -342,6 +342,11 @@ the maintainer of that package.
     of the runoff:  ground, rain, thaw, and spring (seasonal thaw). 
     High-performance C++17 computation, annual statistics, and 
     supplementary functions for plotting and generating reports.
+    
+-   `r pkg("hydroEvents")`: Extract events from hydrologic time series using
+     a number of different methods, pair events from multiple time series,
+     and calculate statistics on the events.
+     [Wasko and Guo (2022)](https://doi.org/10.1002/hyp.14563)
 
 -   `r pkg("hydropeak")`: Detect and characterize sub-daily
     flow fluctuations based on a framework introduced in [Greimel et
