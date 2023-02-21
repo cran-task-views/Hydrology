@@ -633,6 +633,13 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     uses 'EPANET' version 2.2 from Open Water Analytics
     [https://github.com/OpenWaterAnalytics/EPANET/releases/tag/v2.2](https://github.com/OpenWaterAnalytics/EPANET/releases/tag/v2.2).
 
+-   `r pkg("traudem")`: Utility functions to use TauDEM 
+    ([Terrain Analysis Using Digital Elevation Models](https://hydrology.usu.edu/taudem/taudem5/)) 
+    command-line interface. This package provides a guide to 
+    installation of TauDEM and its dependencies GDAL and MPI. 
+    It checks that TauDEM and its dependencies are correctly 
+    installed and included to the PATH,  and it provides wrapper 
+    commands for calling TauDEM methods from R.
 
 ## Modeling
 
