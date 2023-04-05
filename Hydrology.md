@@ -140,9 +140,6 @@ the maintainer of that package.
     National Climate Database of around 6,500 climate stations. See
     <https://cliflo.niwa.co.nz/> for more information.
 
--   `r pkg("getMet")`: Functions for sourcing, formatting,
-    and editing meteorological data for hydrologic models.
-
 -   `r pkg("GSODR")`: Provides automated downloading,
     parsing, cleaning, unit conversion and formatting of Global Surface
     Summary of the Day (GSOD) weather data from the from the USA
