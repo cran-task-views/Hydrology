@@ -684,11 +684,6 @@ packages for Hydrology modelling.
     through the normalized difference vegetation index (NDVI). See
     [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
 
--   `r pkg("EcoHydRology")`: Flexible foundation for
-    scientists, engineers, and policy makers to base teaching exercises
-    as well as for more applied use to model complex eco-hydrological
-    interactions, including some SWAT calibration functions.
-
 -   `r pkg("geotopbricks")`: An R Plug-in for the
     Distributed Hydrological Model
     [GEOtop](https://github.com/geotopmodel). The package analyzes
