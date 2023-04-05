@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Sam Zipper,  Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2022-12-18
+version: 2023-04-05
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -70,12 +70,6 @@ the maintainer of that package.
 -   `r pkg("FedData")`: Functions to Automate Downloading
     Geospatial Data Available from Several Federated Data Sources.
 
--   `r pkg("hydroscoper")`: R interface to the [Greek
-    National Data Bank for Hydrological and Meteorological
-    Information](http://www.hydroscope.gr/). It covers Hydroscope's data
-    sources and provides functions to transliterate, translate and
-    download them into tidy dataframes (tibbles).
-    
 -    `r pkg("isoWater")`: R interface to the 
     [Waterisotopes Database](http://waterisotopesDB.org). Provides 
     functions to query and obtain stable H and O isotope data from water 
