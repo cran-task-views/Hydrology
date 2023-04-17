@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2023-04-16
+version: 2023-04-17
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -752,11 +752,6 @@ packages for Hydrology modelling.
     via inverse modeling. The package assists with data preparation,
     handles data gaps during modeling, and provides tabular and
     graphical reports of model outputs. GitHub only package.
-
--   `r pkg("swmmr")`: Functions to connect the widely used
-    [Storm Water Management Model
-    (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm)
-    of the United States Environmental Protection Agency (US EPA) to R.
 
 -   `r pkg("telemac")`: An R interface to the TELEMAC suite
     for modelling of free surface flow. This includes methods for model
