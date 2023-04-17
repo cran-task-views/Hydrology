@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - '.github/workflows/validate-ctv.yml'
-      - '<TaskViewName>.md'
+      - 'Hydrology.md'
   pull_request:
     branches:
       - main
