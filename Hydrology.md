@@ -753,11 +753,6 @@ packages for Hydrology modelling.
     handles data gaps during modeling, and provides tabular and
     graphical reports of model outputs. GitHub only package.
 
--   `r pkg("swmmr")`: Functions to connect the widely used
-    [Storm Water Management Model
-    (SWMM)](https://www.epa.gov/water-research/storm-water-management-model-swmm)
-    of the United States Environmental Protection Agency (US EPA) to R.
-
 -   `r pkg("telemac")`: An R interface to the TELEMAC suite
     for modelling of free surface flow. This includes methods for model
     initialisation, simulation, and visualisation. So far only the
