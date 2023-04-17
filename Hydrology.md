@@ -388,15 +388,6 @@ the maintainer of that package.
     ISBN:978-0072432022). For the Manning equation solutions, this
     package uses modifications of original code from the 'iemisc'
     package by Irucka Embry.
-   
--   `r pkg("RiverLoad")`: Implements several of the most popular load
-    estimation procedures, including averaging methods, ratio
-    estimators and regression methods. The package provides an
-    easy-to-use tool to rapidly calculate the load for various
-    compounds and to compare different methods. The package also
-    supplies additional functions to easily organize and analyze the
-    data.
-
 
 ### Meteorology (functions for working with meteorological and climate data)
 
