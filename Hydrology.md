@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2023-04-17
+version: 2023-05-28
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -580,6 +580,13 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     bootstrap envelope.  Tools are also provided for editing the river
     networks, meaning there is no reliance on external software.
 
+- `r pjg("rivnet")`: rivnet presents a simple user interface to 
+   extract and analyze river networks based on digital elevation 
+   models. Extraction of river networks is performed via TauDEM’s 
+   D8 flow direction algorithm. A key feature of the rivnet package
+   is that it operates without the need to install and operate GIS 
+   software.
+
 -   `r pkg("gsw")`: Provides an interface to the Gibbs 'SeaWater'
     ('TEOS-10') C library, version 3.05 (commit
     'f7bfebf44f686034636facb09852f1d5760c27f5', dated 2021-03-27,
@@ -830,17 +837,6 @@ packages for Hydrology modelling.
     Van Everdingen, A. F. and Hurst, W. (1949) [doi:10.2118/949305-G](doi:10.2118/949305-G).
     Fetkovich, M. J. (1971) [doi:10.2118/2603-PA](doi:10.2118/2603-PA).
     Yildiz, T. and Khosravi, A. (2007) [doi:10.2118/103283-PA](doi:10.2118/103283-PA).
-    
--   `r pkg("swmmr")`: Functions to connect the widely used Storm
-    Water Management Model (SWMM) of the United States Environmental
-    Protection Agency (US EPA)
-    [https://www.epa.gov/water-research/storm-water-management-model-swmm](https://www.epa.gov/water-research/storm-water-management-model-swmm)
-    to R with currently two main goals: (1) Run a SWMM simulation
-    from R and (2) provide fast access to simulation results, i.e.
-    SWMM's binary '.out'-files. High performance is achieved with
-    help of Rcpp. Additionally, reading SWMM's '.inp' and '.rpt'
-    files is supported to glance model structures and to get direct
-    access to simulation summaries.
 
 -   `r pkg("transfR")`: A geomorphology-based hydrological modelling
     for transferring streamflow measurements from gauged to ungauged
