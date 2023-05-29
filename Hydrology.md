@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2023-04-17
+version: 2023-05-28
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -579,6 +579,13 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     and clustering analysis using empirical k-functions with a
     bootstrap envelope.  Tools are also provided for editing the river
     networks, meaning there is no reliance on external software.
+
+- `r pjg("rivnet")`: rivnet presents a simple user interface to 
+   extract and analyze river networks based on digital elevation 
+   models. Extraction of river networks is performed via TauDEM’s 
+   D8 flow direction algorithm. A key feature of the rivnet package
+   is that it operates without the need to install and operate GIS 
+   software.
 
 -   `r pkg("gsw")`: Provides an interface to the Gibbs 'SeaWater'
     ('TEOS-10') C library, version 3.05 (commit
