@@ -837,17 +837,6 @@ packages for Hydrology modelling.
     Van Everdingen, A. F. and Hurst, W. (1949) [doi:10.2118/949305-G](doi:10.2118/949305-G).
     Fetkovich, M. J. (1971) [doi:10.2118/2603-PA](doi:10.2118/2603-PA).
     Yildiz, T. and Khosravi, A. (2007) [doi:10.2118/103283-PA](doi:10.2118/103283-PA).
-    
--   `r pkg("swmmr")`: Functions to connect the widely used Storm
-    Water Management Model (SWMM) of the United States Environmental
-    Protection Agency (US EPA)
-    [https://www.epa.gov/water-research/storm-water-management-model-swmm](https://www.epa.gov/water-research/storm-water-management-model-swmm)
-    to R with currently two main goals: (1) Run a SWMM simulation
-    from R and (2) provide fast access to simulation results, i.e.
-    SWMM's binary '.out'-files. High performance is achieved with
-    help of Rcpp. Additionally, reading SWMM's '.inp' and '.rpt'
-    files is supported to glance model structures and to get direct
-    access to simulation summaries.
 
 -   `r pkg("transfR")`: A geomorphology-based hydrological modelling
     for transferring streamflow measurements from gauged to ungauged
