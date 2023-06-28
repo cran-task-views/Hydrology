@@ -673,6 +673,18 @@ packages for Hydrology modelling.
 -   `r github("rkronen/Brook90_R")`: an R implementation of
     the 1D-SVAT model Brook90. GitHub only package.
 
+-   `r pkg("agriwater")`: provides spatial modeling of energy balance 
+    and actual evapotranspiration using satellite images and 
+    meteorological data. Options of satellite are: Landsat-8 
+    (with and without thermal bands), Sentinel-2 and MODIS. 
+    Respectively spatial resolutions are 30, 100, 10 and 250 meters. 
+    User can use data from a single meteorological station or a grid 
+    of meteorological stations (using any spatial 
+    interpolation method) as described in *agriwater: An R package 
+    for spatial modelling of energy balance and actual evapotranspiration 
+    using satellite images and agrometeorological data* 
+    Silva, Teixeira, and Manzione ([2019](https://doi.org/10.1016/j.envsoft.2019.104497)).
+
 -   `r pkg("Ecohydmod")`: Simulates the soil water balance
     (soil moisture, evapotranspiration, leakage and runoff), rainfall
     series by using the marked Poisson process and the vegetation growth
