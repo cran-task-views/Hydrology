@@ -233,10 +233,6 @@ the maintainer of that package.
     reference values. The equations implemented are from
     [Hasenmueller (2011)](http://doi.org/10.7936/K7N014KS).
 
--   `r pkg("climdex.pcic")`: PCIC Implementation of Climdex
-    Routines PCIC's implementation of Climdex routines for computation
-    of extreme climate indices.
-
 -   `r pkg("climatol")`: Functions for the quality control,
     homogenization and missing data infilling of climatological series
     and to obtain climatological summaries and grids from the results.
