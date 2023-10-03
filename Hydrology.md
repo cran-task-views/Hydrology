@@ -576,7 +576,7 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     bootstrap envelope.  Tools are also provided for editing the river
     networks, meaning there is no reliance on external software.
 
-- `r pkg("rivnet")`: rivnet presents a simple user interface to 
+- `r github("lucarraro/rivnet")`: rivnet presents a simple user interface to 
    extract and analyze river networks based on digital elevation 
    models. Extraction of river networks is performed via TauDEM’s 
    D8 flow direction algorithm. A key feature of the rivnet package
@@ -591,17 +591,17 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     Working Group 127 of 'SCOR'/'IAPSO' (Scientific Committee on
     Oceanic Research / International Association for the Physical
     Sciences of the Oceans).
-
--   `r pkg("OCNet")`: Generate and analyze Optimal Channel Networks
+	
+	-   `r github("lucarraro/OCNet")`: Generate and analyze Optimal Channel Networks
     (OCNs): oriented spanning trees reproducing all scaling features
     characteristic of real, natural river networks. As such, they can
     be used in a variety of numerical experiments in the fields of
     hydrology, ecology and epidemiology. See Carraro et al. (2020)
     [doi:10.1002/ece3.647](doi:10.1002/ece3.647). for a presentation
     of the package; Rinaldo et al. (2014) [doi:10.1073/pnas.1322700111](doi:10.1073/pnas.1322700111)
-    for a theoretical overview on the OCN concept;
-    Furrer and Sain (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10)
-    for the construct used.
+    for a theoretical overview on the OCN concept; Furrer and Sain
+    (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10) for the
+    construct used.
 
 -   `r pkg("SBN")`: Generate Stochastic Branching Networks ('SBNs').
     Used to model the branching structure of rivers.
@@ -961,10 +961,13 @@ with extreme values are discussed in the
 
 -   `r pkg("meteo")`: Spatio-temporal geostatistical mapping
     of meteorological data.
+	
+-   `r pkg("lmomco")`: Extensive functions for Lmoments (LMs) and probability-weighted moments (PWMs), distribution parameter estimation, LMs for distributions, LM ratio diagrams, multivariate Lcomoments, and asymmetric (asy) trimmed LMs (TLMs). 
 
--   `r pkg("nsRFA")`: A collection of statistical tools for
-    objective (non-supervised) applications of the Regional Frequency
-    Analysis methods in hydrology.
+-   `r pkg("lmom")`: Functions related to L-moments: computation of L-moments and trimmed L-moments of distributions and data samples; parameter estimation; L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.
+
+-   `r pkg("lmomRFA")`: Functions for regional frequency analysis using the methods of Hosking and Wallis (1997), Regional frequency analysis: an approach based on L-moments. 
+
 
 -   `r pkg("RMAWGEN")`: Functions for spatial multi-site
     stochastic generation of daily time series of temperature and
