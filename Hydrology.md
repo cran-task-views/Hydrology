@@ -964,7 +964,7 @@ with extreme values are discussed in the
 	
 -   `r pkg("lmomco")`: Extensive functions for Lmoments (LMs) and probability-weighted moments (PWMs), distribution parameter estimation, LMs for distributions, LM ratio diagrams, multivariate Lcomoments, and asymmetric (asy) trimmed LMs (TLMs). 
 
--   `r pkg("lmomRFA")`: Functions related to L-moments: computation of L-moments and trimmed L-moments of distributions and data samples; parameter estimation; L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.
+-   `r pkg("lmom")`: Functions related to L-moments: computation of L-moments and trimmed L-moments of distributions and data samples; parameter estimation; L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.
 
 -   `r pkg("lmomRFA")`: Functions for regional frequency analysis using the methods of Hosking and Wallis (1997), Regional frequency analysis: an approach based on L-moments. 
 
