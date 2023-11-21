@@ -385,6 +385,15 @@ the maintainer of that package.
     package uses modifications of original code from the 'iemisc'
     package by Irucka Embry.
 
+-  `r pkg("PowerSDI")`: The PowerSDI calculates two Standardised Drought Indices (SPI and SPEI) 
+    using NASA POWER Data. The package also verifies if the indices' estimates meet 
+    the assumption of normality and how well NASA POWER estimates represent real-world 
+    data. Indices are calculated in a routine mode. Potential evapotranspiration amounts 
+    and the difference between rainfall and potential evapotranspiration are also calculated.
+    It adopts a basic time scale that splits each month into four periods where 'TS=4' 
+    corresponds to a 1-month length moving window (calculated 4 times per month) and 
+    'TS=48' corresponds to a 12-month length moving window (calculated 4 times per month).`
+
 ### Meteorology (functions for working with meteorological and climate data)
 
 -   `r pkg("Evapotranspiration")`: Functions to calculate
