@@ -689,7 +689,7 @@ packages for Hydrology modelling.
 
 -   `r pkg("geotopbricks")`: An R Plug-in for the
     Distributed Hydrological Model
-    [GEOtop](https://github.com/geotopmodel). The package analyzes
+    [GEOtop](www.geotop.org). The package analyzes
     raster maps and other information as input/output files from the
     Hydrological Distributed Model GEOtop.
 
