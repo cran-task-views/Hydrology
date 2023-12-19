@@ -248,13 +248,6 @@ the maintainer of that package.
     particular South Australia ([https://water.data.sa.gov.au](https://water.data.sa.gov.au)
     hydrological data).
 
--   `r pkg("openSTARS")`: An open source implementation of the 'STARS'
-    toolbox (Peterson & Ver Hoef, 2014, [doi:10.18637/jss.v056.i02](doi:10.18637/jss.v056.i02))
-    using 'R' and 'GRASS GIS'. It prepares the *.ssn object needed
-    for the 'SSN' package. A Digital Elevation Model (DEM) is used to
-    derive stream networks (in contrast to 'STARS' that can clean an
-    existing stream network).
-
 -   `r pkg("waterquality")`: The main purpose of waterquality is to
     quickly and easily convert satellite-based reflectance imagery
     into one or many well-known water quality algorithms designed for
@@ -346,11 +339,6 @@ the maintainer of that package.
 -   `r pkg("hydrostats")`: Calculates a suite of hydrologic
     indices for daily time series data that are widely used in hydrology
     and stream ecology.
-
--   `r pkg("hydroTSM", priority = "core")`: Functions for
-    management, analysis, interpolation and plotting of time series used
-    in hydrology and related environmental sciences. In particular, this
-    package is highly oriented to hydrological modelling tasks.
 
 -   `r pkg("lfstat")`: Functions to compute and plot
     statistics described in the "Manual on Low-flow Estimation and
@@ -706,12 +694,6 @@ packages for Hydrology modelling.
     Assessment and Development -
     [website](http://hydromad.catchment.org). GitHub only package.
 
--   `r pkg("hydroPSO")`: Particle Swarm Optimisation (PSO)
-    algorithm for the calibration of environmental and other real-world
-    models that need to be executed from the system console. hydroPSO is
-    model-independent, allowing the user to easily interface any
-    computer simulation model with the PSO calibration engine.
-
 -   `r pkg("HBV.IANIGLA")`: This package contains the HBV
     hydrological model but in modules, allowing the user to build
     his/her own HBV model. HBV.IANIGLA incorporates routines for clean
@@ -805,21 +787,6 @@ packages for Hydrology modelling.
     simulation and analysis of primary water resources features
     (e.g., reservoirs, aquifers, and etc.) based on Standard Operating
     Policy (SOP).
-
--   `r pkg("DWBmodelUN")`: A tool to hydrologic modelling using the
-    Budyko framework and the Dynamic Water Balance model with
-    Dynamical Dimension Search algorithm to calibrate the model and
-    analyze the outputs from interactive graphics. It allows to
-    calculate the water availability in basins and also some water
-    fluxes represented by the structure of the model. See Zhang, L.,
-    N., Potter, K., Hickel, Y., Zhang, Q., Shao (2008)
-    [doi:10.1016/j.jhydrol.2008.07.021](doi:10.1016/j.jhydrol.2008.07.021) "Water
-    balance modeling over variable time scales based on the Budyko
-    framework - Model development and testing", Journal of Hydrology,
-    360, 117–131. See Tolson, B., C., Shoemaker (2007)
-    [doi:10.1029/2005WR004723](doi:10.1029/2005WR004723) "Dynamically
-    dimensioned search algorithm for computationally efficient
-    watershed model calibration", Water Resources Research, 43, 1–16.
     
  -   `r pkg("dynatop")`: An R implementation and enhancement of the
     Dynamic TOPMODEL semi-distributed hydrological model originally
@@ -864,10 +831,6 @@ packages for Hydrology modelling.
     catchments by spatial interpolation in order to finally simulate
     streamflow following de Lavenne et al. (2016)
     [doi:10.1002/2016WR018716](doi:10.1002/2016WR018716).
-
--   `r pkg("smnet")`: Fits flexible additive models to data on stream
-    networks, taking account of flow-connectivity of the network.
-    Models are fitted using penalised least squares.
 
 -   `r github("cvitolo/curvenumber")`: This package is an
     implementation of the Curve Number, a well established method for
@@ -925,12 +888,6 @@ with extreme values are discussed in the
     the Framework for Understanding Structural Errors
     [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub
     only package.
-
--   `r pkg("hydroGOF", priority = "core")`: S3 functions
-    implementing both statistical and graphical goodness-of-fit measures
-    between observed and simulated values, mainly oriented to be used
-    during the calibration, validation, and application of hydrological
-    models.
 
 -   `r pkg("HydroMe")`: Estimates the parameters in
     infiltration and water retention models by curve-fitting method. The
