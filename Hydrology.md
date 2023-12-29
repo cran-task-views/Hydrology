@@ -238,6 +238,9 @@ the maintainer of that package.
     and to obtain climatological summaries and grids from the results.
     Also functions to draw wind-roses and Walter&Lieth climate diagrams.
 
+- `r pkg("CSHShydRology")`: A collection of user-submitted functions to aid in the  
+   analysis of hydrological data, particularly for users in Canada. The functions focus on the use of Canadian data sets, and are suited to Canadian hydrology, such as the important cold region hydrological processes and will work with Canadian hydrological models.
+
 -   `r pkg("htsr")`: Functions for the management and treatment of
     hydrology and meteorology time-series stored in a 'Sqlite' data
     base.
