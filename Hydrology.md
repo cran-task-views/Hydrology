@@ -116,7 +116,7 @@ the maintainer of that package.
     plots.  The README file has a quick introduction. See
     [https://www.epa.gov/water-research/epanet](https://www.epa.gov/water-research/epanet).
     for more information on the Epanet software for modeling
-    hydraulic and water quality behavior of water piping systems.
+    hydraulic and  behavior of water piping systems.
 
 -   `r pkg("noaastormevents")`: Allows users to explore and plot data
     from the National Oceanic and Atmospheric Administration (NOAA)
@@ -257,6 +257,11 @@ the maintainer of that package.
     the detection of harmful algal blooms or the following pigment
     proxies: chlorophyll-a, blue-green algae (phycocyanin), and
     turbidity. Johansen et al. (2019) [doi:10.21079/11681/35053](doi:10.21079/11681/35053).
+
+-   `r pkg("hydroTSM", priority = "core")`: Functions for
+    management, analysis, interpolation and plotting of time series used
+    in hydrology and related environmental sciences. In particular, this
+    package is highly oriented to hydrological modelling tasks.
 
 -   `r pkg("RWDataPlyr")`: A tool to read and manipulate data
     generated from 'RiverWare'(TM) [http://www.riverware.org/](http://www.riverware.org/)
@@ -838,6 +843,12 @@ packages for Hydrology modelling.
 -   `r github("cvitolo/curvenumber")`: This package is an
     implementation of the Curve Number, a well established method for
     the estimation of direct runoff from storm rainfall.
+
+-   `r pkg("hydroGOF", priority = "core")`: S3 functions
+    implementing both statistical and graphical goodness-of-fit measures
+    between observed and simulated values, mainly oriented to be used
+    during the calibration, validation, and application of hydrological
+    models.
     
 -   `r pkg("VIC5")`: The Variable Infiltration Capacity (VIC) model
     is a macroscale hydrologic model that solves full water and
