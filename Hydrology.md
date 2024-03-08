@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2023-05-28
+version: 2024-03-08
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -69,6 +69,9 @@ the maintainer of that package.
 
 -   `r pkg("FedData")`: Functions to Automate Downloading
     Geospatial Data Available from Several Federated Data Sources.
+
+-   `r pkg("hubeau")`: Get Data from the French National Database on Water [`Hub'Eau`](https://hubeau.eaufrance.fr/), 
+    the free and public French National APIs on water.
 
 -    `r pkg("isoWater")`: R interface to the 
     [Waterisotopes Database](http://waterisotopesDB.org). Provides 
@@ -182,16 +185,6 @@ the maintainer of that package.
     II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html)
     datasets.
 
--   `r pkg("rnoaa")`: Client for many NOAA data sources
-    including the [NCDC climate
-    API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2), with
-    functions for each of the API endpoints: data, data categories, data
-    sets, data types, locations, location categories, and stations.
-    Includes interface NOAA sea ice data, severe weather inventory,
-    Historical Observing Metadata Repository ('HOMR'), storm data via
-    'IBTrACS', tornado data via the NOAA storm prediction center, and
-    more.
-
 -   `r pkg("rpdo")`: Get Monthly Pacific Decadal Oscillation
     (PDO) index values from January 1900 to present. See also
     `r pkg("rsoi")` for downloading Southern Oscillation
@@ -206,7 +199,7 @@ the maintainer of that package.
     imagery, weather alerts, hurricane alerts and historical high/low
     temperatures.
 
--   `r pkg("smapr")`: Acquisition and Processing of NASA
+-   `r github("ropensci/smapr")`: Acquisition and Processing of NASA
     Soil Moisture Active-Passive (SMAP) Data. Facilitates programmatic
     access to search for, acquire, and extract NASA Soil Moisture Active
     Passive (SMAP) data.
@@ -485,7 +478,7 @@ the maintainer of that package.
     manipulation and calculations for Maryland DNR MBSS program. GitHub
     only package.
 
--   `r pkg("MODIStsp")`: Suite of tools to automate the
+-   `r github("ropensci/MODIStsp/")`: Suite of tools to automate the
     Download and Preprocessing of MODIS Land Products Data. Allows
     automating the creation of time series of rasters derived from MODIS
     Satellite Land Products data. It performs several typical
@@ -646,6 +639,12 @@ packages for Hydrology modelling.
     semi-distributed way. A snow accumulation and melt model (CemaNeige)
     and the associated functions for their calibration and evaluation.
 
+-   `r pkg("airGRdatasets")`: Hydro-Meteorological Catchments Datasets for the 
+    *airGR* Packages. Sample of hydro-meteorological datasets extracted from the 
+	*CAMELS-FR* [French database](https://hal.inrae.fr/hal-03687235). It provides 
+	metadata and catchment-scale aggregated hydro-meteorological time series on 
+	a pool of French catchments for use by the *airGR* packages.
+	
 -   `r pkg("airGRdatassim")`: Add-on to the 'airGR' package
     which provides the tools to assimilate observed discharges in daily
     GR hydrological models using the Ensemble Kalman filter or the
@@ -690,7 +689,7 @@ packages for Hydrology modelling.
     (soil moisture, evapotranspiration, leakage and runoff), rainfall
     series by using the marked Poisson process and the vegetation growth
     through the normalized difference vegetation index (NDVI). See
-    [Souza et al. (2016)](http://doi.org/10.1002/hyp.10953).
+    [Souza et al. (2016)](https://doi.org/10.1002/hyp.10953).
 
 -   `r pkg("geotopbricks")`: An R Plug-in for the
     Distributed Hydrological Model
@@ -698,22 +697,19 @@ packages for Hydrology modelling.
     raster maps and other information as input/output files from the
     Hydrological Distributed Model GEOtop.
 
+-   `r pkg("gumboot")`: Bootstrap Analyses of Sampling Uncertainty in Goodness-of-Fit Statistics. 
+    Uses jackknife and bootstrap methods to quantify the sampling uncertainty in goodness-of-fit statistics. 
+	See [Clark et al. (2021)](https://doi.org/10.1029/2020WR029001).
+
 -   `r github("floybix/hydromad")`: Hydrological Model
     Assessment and Development -
-    [website](http://hydromad.catchment.org). GitHub only package.
+    [website](https://hydromad.catchment.org). GitHub only package.
 
 -   `r pkg("HBV.IANIGLA")`: This package contains the HBV
     hydrological model but in modules, allowing the user to build
     his/her own HBV model. HBV.IANIGLA incorporates routines for clean
     and debris covered glacier melt simulations. See [Toum et
     al. 2021](https://journal.r-project.org/archive/2021/RJ-2021-059/index.html)
-
--   `r pkg("kwb.hantush")`: Calculation groundwater mounding
-    beneath an infiltration basin based on the
-    [Hantush (1967)](http://doi.org/10.1029/WR003i001p00227) equation.
-    The correct implementation is shown with a verification example
-    based on a USGS report ( [page
-    25](http://pubs.usgs.gov/sir/2010/5102/support/sir2010-5102.pdf)).
 
 -   `r pkg("LWFBrook90R")`: Simulate Evapotranspiration and
     Soil Moisture with the SVAT Model LWF-Brook90. See paper
@@ -748,14 +744,6 @@ packages for Hydrology modelling.
     construction, simulation, visualization, and calibration of
     hydrologic systems.
 
--   `r pkg("RSAlgaeR")`: Builds Empirical Remote Sensing
-    Models of Water Quality Variables and Analyzes Long-Term Trends.
-    Assists in processing reflectance data, developing empirical models
-    using stepwise regression and a generalized linear modeling
-    approach, cross- validation, and analysis of trends in water quality
-    conditions (specifically chl-a) and climate conditions using the
-    Theil-Sen estimator.
-
 -   `r pkg("streamDepletr")`: Analytical depletion functions
     used to calculate the impacts of groundwater pumping on one or more
     streams.
@@ -766,12 +754,6 @@ packages for Hydrology modelling.
     via inverse modeling. The package assists with data preparation,
     handles data gaps during modeling, and provides tabular and
     graphical reports of model outputs. GitHub only package.
-
--   `r pkg("telemac")`: An R interface to the TELEMAC suite
-    for modelling of free surface flow. This includes methods for model
-    initialisation, simulation, and visualisation. So far only the
-    TELEMAC-2D module for 2-dimensional hydrodynamic modelling is
-    implemented.
 
 -   `r pkg("topmodel")`: Set of hydrological functions
     including the hydrological model TOPMODEL, which is based on the
@@ -887,6 +869,13 @@ ecological sciences. Additionally, packages that help model datasets
 with extreme values are discussed in the
 `r view("ExtremeValue")` task view.
 
+-   `r pkg("BLRPM")`: Stochastic Rainfall Generator with Bartlett-Lewis 
+    Rectangular Pulse Model. This package contains an R implementation of 
+	the original Bartlett-Lewis rectangular pulse model (BLRPM), developed by 
+	[Rodriguez-Iturbe et al. (1987)](https://doi.org/10.1098/rspa.1987.0039). 
+	The package can simulate a precipitation time series based given parameters or 
+	it can estimate BLRPM parameters from a given time series.
+
 -   `r pkg("CoSMoS")`: is an implementation of [Papalexiou
     2018](https://doi.org/10.1016/j.advwatres.2018.02.013). CoSMoS
     generates univariate/multivariate non-Gaussian time series and
@@ -942,11 +931,22 @@ with extreme values are discussed in the
 -   `r pkg("meteo")`: Spatio-temporal geostatistical mapping
     of meteorological data.
 	
--   `r pkg("lmomco")`: Extensive functions for Lmoments (LMs) and probability-weighted moments (PWMs), distribution parameter estimation, LMs for distributions, LM ratio diagrams, multivariate Lcomoments, and asymmetric (asy) trimmed LMs (TLMs). 
+-   `r pkg("lmomco")`: Extensive functions for Lmoments (LMs) and 
+    probability-weighted moments (PWMs), distribution parameter estimation, 
+	LMs for distributions, LM ratio diagrams, multivariate Lcomoments, 
+	and asymmetric (asy) trimmed LMs (TLMs). 
 
--   `r pkg("lmom")`: Functions related to L-moments: computation of L-moments and trimmed L-moments of distributions and data samples; parameter estimation; L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.
+-   `r pkg("lmom")`: Functions related to L-moments: computation of L-moments 
+    and trimmed L-moments of distributions and data samples; parameter estimation; 
+	L-moment ratio diagram; plot vs. quantiles of an extreme-value distribution.
 
--   `r pkg("lmomRFA")`: Functions for regional frequency analysis using the methods of Hosking and Wallis (1997), Regional frequency analysis: an approach based on L-moments. 
+-   `r pkg("lmomRFA")`: Functions for regional frequency analysis using 
+    the methods of Hosking and Wallis (1997), Regional frequency analysis: 
+	an approach based on L-moments. 
+
+-   `r pkg("nsRFA")`: A collection of statistical tools for 
+    objective (non-supervised) applications of the Regional Frequency
+    Analysis methods in hydrology.
 
 
 -   `r pkg("RMAWGEN")`: Functions for spatial multi-site
