@@ -597,7 +597,7 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     Oceanic Research / International Association for the Physical
     Sciences of the Oceans).
 	
-	-   `r github("lucarraro/OCNet")`: Generate and analyze Optimal Channel Networks
+-   `r github("lucarraro/OCNet")`: Generate and analyze Optimal Channel Networks
     (OCNs): oriented spanning trees reproducing all scaling features
     characteristic of real, natural river networks. As such, they can
     be used in a variety of numerical experiments in the fields of
