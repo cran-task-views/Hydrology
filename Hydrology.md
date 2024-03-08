@@ -574,7 +574,7 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     bootstrap envelope.  Tools are also provided for editing the river
     networks, meaning there is no reliance on external software.
 
-- `r github("lucarraro/rivnet")`: rivnet presents a simple user interface to 
+- `r pkg("rivnet")`: rivnet presents a simple user interface to 
    extract and analyze river networks based on digital elevation 
    models. Extraction of river networks is performed via TauDEM’s 
    D8 flow direction algorithm. A key feature of the rivnet package
