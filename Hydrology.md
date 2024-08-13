@@ -209,6 +209,16 @@ the maintainer of that package.
     automatically downloaded from a data repository and processed into a
     'tibble' for the exact range of years requested.
 
+-   `r pkg("weatherOz")`: facilitates access and download weather and
+    climate data for Australia from Australian data sources. Data are
+    sourced from from the [Western Australia Department of Primary
+    Industries and Regional Development
+    (DPIRD)](https://www.agric.wa.gov.au/weather-api-20) and the
+    [Scientific Information for Land Owners (SILO)
+    API](https://www.agric.wa.gov.au/weather-api-20)
+    endpoints and the Australian Government Bureau of Meteorology’s (BOM)
+    [FTP server](http://www.bom.gov.au/catalogue/anon-ftp.shtml).
+
 -   `r pkg("worldmet")`: Functions to import data from more
     than 30,000 surface meteorological sites around the world managed by
     the National Oceanic and Atmospheric Administration (NOAA)
