@@ -209,7 +209,7 @@ the maintainer of that package.
     automatically downloaded from a data repository and processed into a
     'tibble' for the exact range of years requested.
 
--   `r pkg("weatherOz")`: facilitates access and download weather and
+-   `r pkg("weatherOz")`: facilitates access to and download of weather and
     climate data for Australia from Australian data sources. Data are
     sourced from from the [Western Australia Department of Primary
     Industries and Regional Development
