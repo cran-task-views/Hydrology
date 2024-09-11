@@ -185,11 +185,6 @@ the maintainer of that package.
     II](http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html)
     datasets.
 
--   `r pkg("rpdo")`: Get Monthly Pacific Decadal Oscillation
-    (PDO) index values from January 1900 to present. See also
-    `r pkg("rsoi")` for downloading Southern Oscillation
-    Index, Oceanic Nino Index and North Pacific Gyre Oscillation data.
-
 -   `r pkg("rwunderground")`: Tools for getting historical
     weather information and forecasts from wunderground.com. Historical
     weather and forecast data includes, but is not limited to,
