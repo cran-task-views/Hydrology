@@ -44,10 +44,6 @@ the maintainer of that package.
     Florida Water Management District's 'DBHYDRO' database at
     [https://www.sfwmd.gov/science-data/dbhydro](https://www.sfwmd.gov/science-data/dbhydro),
     with functions for accessing hydrologic and water quality data.
-
--   `r pkg("iemiscdata")`: Miscellaneous data sets [Engineering
-    Economics, Environmental/Water Resources Engineering, US
-    Presidential Elections].
     
 -   `r pkg("ie2miscdata")`: A collection of Irucka Embry's
     miscellaneous USGS data sets (USGS Parameter codes with fixed
@@ -521,11 +517,6 @@ the maintainer of that package.
     to ensure that the estimated parameters are physically valid.
     Common S3 methods and further utility functions allow to process,
     explore and visualise estimation results.
-
--   `r pkg("iemisc")`: A collection of Irucka Embry's miscellaneous
-    functions (Engineering Economics, Civil & Environmental/Water
-    Resources Engineering, Geometry, Statistics, GNU Octave length
-    functions, Trigonometric functions in degrees, etc.).
     
 -   `r pkg("ie2misc")`: A collection of Irucka Embry's
     miscellaneous USGS functions (processing .exp and .psf files,
