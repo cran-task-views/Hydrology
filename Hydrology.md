@@ -751,11 +751,6 @@ packages for Hydrology modelling.
     handles data gaps during modeling, and provides tabular and
     graphical reports of model outputs. GitHub only package.
 
--   `r pkg("topmodel")`: Set of hydrological functions
-    including the hydrological model TOPMODEL, which is based on the
-    1995 FORTRAN version by Keith Beven. From version 0.7.0, the package
-    is put into maintenance mode.
-
 -   `r pkg("TUWmodel")`: Lumped Hydrological Model for
     Education Purposes: a lumped conceptual rainfall-runoff model,
     following the structure of the HBV model. The model runs on a daily
