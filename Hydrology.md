@@ -117,15 +117,6 @@ the maintainer of that package.
     for more information on the Epanet software for modeling
     hydraulic and  behavior of water piping systems.
 
--   `r pkg("noaastormevents")`: Allows users to explore and plot data
-    from the National Oceanic and Atmospheric Administration (NOAA)
-    Storm Events database through R for United States counties.
-    Functionality includes matching storm event listings by time and
-    location to hurricane best tracks data. This work was supported
-    by grants from the Colorado Water Center, the National Institute
-    of Environmental Health Sciences (R00ES022631) and the National
-    Science Foundation (1331399).
-
 -   `r pkg("frostr")`: An API to Norway's 'Frost' [API](https://frost.met.no/) to retrieve data as data frames. The 'Frost' API, and the underlying data, is made available by the Norwegian Meteorological Institute (MET Norway). 
 
 ### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
