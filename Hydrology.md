@@ -103,12 +103,6 @@ the maintainer of that package.
     Nakuru, Kenya; Antananarivo, Madagascar; Maputo, Mozambique; and,
     Lusaka, Zambia.
 
--   `r pkg("waterData")`: Imports U.S. Geological Survey
-    (USGS) daily hydrologic data from [USGS web
-    services](https://waterservices.usgs.gov/), plots the data,
-    addresses some common data problems, and calculates and plots
-    anomalies.   
-
 -   `r pkg("epanetReader")`: Reads water network simulation data in
     'Epanet' text-based '.inp' and '.rpt' formats into R. Also reads
     results from 'Epanet-msx'. Provides basic summary information and
@@ -396,9 +390,6 @@ the maintainer of that package.
 
 -   `r pkg("meteoland")`: Functions to estimate weather
     variables at any position of a landscape.
-
--   `r pkg("musica")`: Multiscale Climate Model Assessment.
-    Provides function to compare and analyse time series.
 
 -   `r pkg("openair")`: Tools to analyse, interpret and
     understand air pollution data. Many functions can also be applied to
