@@ -865,10 +865,6 @@ with extreme values are discussed in the
     [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub
     only package.
 
--   `r pkg("HydroMe")`: Estimates the parameters in
-    infiltration and water retention models by curve-fitting method. The
-    models considered are those that are commonly used in soil science.
-
 -   `r pkg("hyfo")`: Focuses on data processing and
     visualization in hydrology and climate forecasting. Main function
     includes data extraction, data downscaling, data resampling, gap
