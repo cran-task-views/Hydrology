@@ -856,10 +856,6 @@ with extreme values are discussed in the
     precipitation, streamflow, relative humidity, temperature and
     beyond.
 
--   `r rforge("dream")`: DiffeRential Evolution Adaptive
-    Metropolis (DREAM). Efficient global MCMC even in high-dimensional
-    spaces. R-Forge only package.
-
 -   `r github("cvitolo/fuse")`: An R package implementing
     the Framework for Understanding Structural Errors
     [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub
