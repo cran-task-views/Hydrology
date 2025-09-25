@@ -856,10 +856,6 @@ with extreme values are discussed in the
     precipitation, streamflow, relative humidity, temperature and
     beyond.
 
--   `r rforge("dream")`: DiffeRential Evolution Adaptive
-    Metropolis (DREAM). Efficient global MCMC even in high-dimensional
-    spaces. R-Forge only package.
-
 -   `r github("cvitolo/fuse")`: An R package implementing
     the Framework for Understanding Structural Errors
     [cvitolo.github.io/fuse/](https://cvitolo.github.io/fuse/). GitHub
@@ -963,5 +959,5 @@ with extreme values are discussed in the
 -   [rOpenSci MapTools listing](https://github.com/ropensci/maptools)
 -   [rOpenSci OpenData listing](https://github.com/ropensci/opendata)
 -   [Riccardo Rigon blog post about R resources for hydrologists](https://abouthydrology.blogspot.com/2012/08/r-resources-for-hydrologists.html)
--   [USGS-R community](https://owi.usgs.gov/R/)
+-   [USGS-R community](https://github.com/USGS-R)
 -   [WaterProgramming blog post about data retrieval and statistical analysis in R](https://waterprogramming.wordpress.com/2019/07/08/packages-for-hydrological-data-retrieval-and-statistical-analysis/)
