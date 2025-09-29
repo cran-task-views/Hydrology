@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2024-03-08
+version: 2025-08-29
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -83,6 +83,11 @@ the maintainer of that package.
     networking both the
     [NHD](https://www.usgs.gov/core-science-systems/ngp/national-hydrography)
     and [NHDPlus](http://www.horizon-systems.com/nhdplus) datasets.
+
+-   `r pkg("RcamelsCL")`: Provides easy handling of the CAMELS-CL dataset (Catchment
+	Attributes and Meteorology for Large Sample Studies, Chile; Álvarez-Garretón et
+	al., 2018), enabling users to download and work with spatial and temporal
+	hydrometeorological data from Chile.
 
 -   `r pkg("rnrfa")`: Utility functions to retrieve data
     from the [UK National River Flow Archive](http://nrfa.ceh.ac.uk/).
