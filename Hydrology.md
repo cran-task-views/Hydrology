@@ -262,6 +262,10 @@ the maintainer of that package.
     Document for Water Quality-based Toxics Control", United States
     Environmental Protection Agency (1991).
 
+- 	`r pkg ("whitebox")`: R frontend of the 'WhiteboxTools' geospatial data
+	analysis platform. Includes functions for common tasks in GIS, remote sensing and
+	image processing, spatial hydrological analysis, terrain analysis,
+	and LiDAR data processing.
 
 ### Hydrograph analysis (functions for working with streamflow data, e.g., flow statistics, trends, biological indices, etc.)
 
