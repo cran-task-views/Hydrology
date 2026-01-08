@@ -125,10 +125,6 @@ the maintainer of that package.
     and analysis of multiple precipitation data products(24 at the 
     moment) across various spatiotemporal scales.
 
--   `r pkg("clifro")`: A web portal to the New Zealand
-    National Climate Database of around 6,500 climate stations. See
-    <https://cliflo.niwa.co.nz/> for more information.
-
 -   `r pkg("GSODR")`: Provides automated downloading,
     parsing, cleaning, unit conversion and formatting of Global Surface
     Summary of the Day (GSOD) weather data from the from the USA
