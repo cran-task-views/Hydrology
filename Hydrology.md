@@ -69,7 +69,7 @@ the maintainer of that package.
 -   `r pkg("hubeau")`: Get Data from the French National Database on Water [`Hub'Eau`](https://hubeau.eaufrance.fr/), 
     the free and public French National APIs on water.
 
--   `r plg("hydrodownloadR")`: Provides a unified, extensible interface to discover
+-   `r pkg("hydrodownloadR")`: Provides a unified, extensible interface to discover
     hydrologic stations and download daily time series (e.g., water
     discharge, water level, water temperature, and several other water
     quality parameter) from national and regional public APIs.
