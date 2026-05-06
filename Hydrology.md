@@ -592,11 +592,6 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
 -   `r pkg("SBN")`: Generate Stochastic Branching Networks ('SBNs').
     Used to model the branching structure of rivers.
 
--   `r pkg("gwavr")`: Provides methods to Get Water Attributes
-    Visually in R ('gwavr'). This allows the user to point and click
-    on areas within the United States and get back hydrological data,
-    e.g., flowlines, catchments, basin boundaries, comids, etc.
-
 -   `r pkg("epanet2toolkit")`: Enables simulation of water piping
     networks using 'EPANET'. The package provides functions from the
     'EPANET' programmer's toolkit as R functions so that basic or
