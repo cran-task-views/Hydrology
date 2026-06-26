@@ -810,6 +810,11 @@ packages for Hydrology modelling.
     during the calibration, validation, and application of hydrological
     models.
     
+-   `r pkg("sceua")`: Provides SCE-UA, the Shuffled Complex Evolution -
+    University of Arizona global optimization algorithm of Duan et al. (1992),
+    for bounded continuous parameter estimation. SCE-UA is commonly used to
+    calibrate nonlinear hydrological and environmental models.
+    
 -   `r pkg("VIC5")`: The Variable Infiltration Capacity (VIC) model
     is a macroscale hydrologic model that solves full water and
     energy balances, originally developed by Xu Liang at the
