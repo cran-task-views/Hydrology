@@ -3,7 +3,7 @@ name: Hydrology
 topic: Hydrological Data and Modeling
 maintainer: Sam Albers, Ilaria Prosdocimi
 email: sam.albers@gmail.com
-version: 2026-05-13
+version: 2026-06-26
 source: https://github.com/cran-task-views/Hydrology/
 ---
 
@@ -809,6 +809,11 @@ packages for Hydrology modelling.
     between observed and simulated values, mainly oriented to be used
     during the calibration, validation, and application of hydrological
     models.
+    
+-   `r pkg("sceua")`: Provides SCE-UA, the Shuffled Complex Evolution -
+    University of Arizona global optimization algorithm of Duan et al. (1992),
+    for bounded continuous parameter estimation. SCE-UA is commonly used to
+    calibrate nonlinear hydrological and environmental models.
     
 -   `r pkg("VIC5")`: The Variable Infiltration Capacity (VIC) model
     is a macroscale hydrologic model that solves full water and
