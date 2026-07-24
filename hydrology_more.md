@@ -311,3 +311,12 @@
     implementation of the Curve Number, a well established method for
     the estimation of direct runoff from storm rainfall.
  
+-   `r github("NOAA-NWRFC/nwsrfs-hydro-models")`: Interface to the U.S. National Weather Service 
+    operational hydrology models, Sacramento Soil Moisture Accounting 
+    (SAC-SMA), Snow Accumulation and Ablation (SNOW17). Also provides 
+    an interface to the unit hydrograph routing model (UH), consumptive 
+    use (CONSUSE) and channel loss/gain modules (CHANLOSS). The Fortran 
+    code used in this package is considered "legacy" and is not supported 
+    officially by NWS, but it should not have any significant differences 
+    from current operational models. This repo contains additional resources 
+    for working with these models. 

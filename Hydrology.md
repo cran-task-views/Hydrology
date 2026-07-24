@@ -842,6 +842,14 @@ packages for Hydrology modelling.
     data. The method is as described in: Campos, D.F., (1984,
     ISBN:9686194444).
 
+-   `r pkg("nwsrfsr")`: Interface to the U.S. National Weather Service 
+    operational hydrology models, Sacramento Soil Moisture Accounting 
+    (SAC-SMA), Snow Accumulation and Ablation (SNOW17). Also provides 
+    an interface to the unit hydrograph routing model (UH), consumptive 
+    use (CONSUSE) and channel loss/gain modules (CHANLOSS). The Fortran 
+    code used in this package is considered "legacy" and is not supported 
+    officially by NWS, but it should not have any significant differences 
+    from current operational models.
 
 ### Statistical modeling (hydrology-related statistical models)
 
