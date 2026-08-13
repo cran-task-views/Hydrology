@@ -585,9 +585,9 @@ See also the rOpenSci [MapTools listing](https://github.com/ropensci/maptools).
     hydrology, ecology and epidemiology. See Carraro et al. (2020)
     [doi:10.1002/ece3.647](doi:10.1002/ece3.647). for a presentation
     of the package; Rinaldo et al. (2014) [doi:10.1073/pnas.1322700111](doi:10.1073/pnas.1322700111)
-    for a theoretical overview on the OCN concept; Furrer and Sain
-    (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10) for the
-    construct used.
+    for a theoretical overview on the OCN concept;
+    Furrer and Sain (2010) [doi:10.18637/jss.v036.i10](doi:10.18637/jss.v036.i10)
+    for the construct used.
 
 -   `r pkg("SBN")`: Generate Stochastic Branching Networks ('SBNs').
     Used to model the branching structure of rivers.
