@@ -69,6 +69,10 @@ the maintainer of that package.
 -   `r pkg("hubeau")`: Get Data from the French National Database on Water [`Hub'Eau`](https://hubeau.eaufrance.fr/), 
     the free and public French National APIs on water.
 
+-   `r pkg("hydrocan")`: hydrocan provides unified access to Canadian
+	hydrometric data from diverse web-published sources. hydrocan adds
+	provincial and utility networks data sources that have no existing R package.
+
 -   `r pkg("hydrodownloadR")`: Provides a unified, extensible interface to discover
     hydrologic stations and download daily time series (e.g., water
     discharge, water level, water temperature, and several other water
