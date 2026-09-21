@@ -66,8 +66,12 @@ the maintainer of that package.
 -   `r pkg("FedData")`: Functions to Automate Downloading
     Geospatial Data Available from Several Federated Data Sources.
 
--   `r pkg("hubeau")`: Get Data from the French National Database on Water [`Hub'Eau`](https://hubeau.eaufrance.fr/), 
-    the free and public French National APIs on water.
+-   `r pkg("hubeau")`: Get Data from the French National Database on Water 
+[`Hub'Eau`](https://hubeau.eaufrance.fr/), the free and public French National APIs on water.
+
+-   `r pkg("hydrocan")`: hydrocan provides unified access to Canadian
+	hydrometric data from diverse web-published sources. hydrocan adds
+	provincial and utility networks data sources that have no existing R package.
 
 -   `r pkg("hydrodownloadR")`: Provides a unified, extensible interface to discover
     hydrologic stations and download daily time series (e.g., water
@@ -121,7 +125,9 @@ the maintainer of that package.
     for more information on the Epanet software for modeling
     hydraulic and  behavior of water piping systems.
 
--   `r pkg("frostr")`: An API to Norway's 'Frost' [API](https://frost.met.no/) to retrieve data as data frames. The 'Frost' API, and the underlying data, is made available by the Norwegian Meteorological Institute (MET Norway). 
+-   `r pkg("frostr")`: An API to Norway's 'Frost' [API](https://frost.met.no/) to 
+    retrieve data as data frames. The 'Frost' API, and the underlying data, is made 
+    available by the Norwegian Meteorological Institute (MET Norway). 
 
 ### Meteorological data (precipitation, radiation, temperature, etc - including both measurements and reanalysis)
 
@@ -268,9 +274,9 @@ the maintainer of that package.
     Habitat-specific BMWP, AWIC, LIFE and PSI.
     
 -   `r pkg("bdrc")`: Fits a discharge rating curve based on
-     the power-law and the generalized power-law from data on
-     paired water elevation and discharge measurements in a 
-     given river using a Bayesian hierarchical model.
+    the power-law and the generalized power-law from data on
+    paired water elevation and discharge measurements in a 
+    given river using a Bayesian hierarchical model.
 
 -   `r pkg("ecoval")`: Functions for evaluating and
     visualizing ecological assessment procedures for surface waters
@@ -314,17 +320,17 @@ the maintainer of that package.
     supplementary functions for plotting and generating reports.
     
 -   `r pkg("hydroEvents")`: Extract events from hydrologic time series using
-     a number of different methods, pair events from multiple time series,
-     and calculate statistics on the events.
-     [Wasko and Guo (2022)](https://doi.org/10.1002/hyp.14563)
+    a number of different methods, pair events from multiple time series,
+    and calculate statistics on the events.
+    [Wasko and Guo (2022)](https://doi.org/10.1002/hyp.14563)
 
 -   `r pkg("hydropeak")`: Detect and characterize sub-daily
     flow fluctuations based on a framework introduced in [Greimel et
     al. (2016)](https://doi.org/10.1002/hyp.10773).
     
 -   `r pkg("hydroroute")`: Implements the "PeakTrace" method which 
-     allows to trace longitudinal hydropeaking waves based on an 
-     approach proposed and validated in [Greimel et al. (2022)](https://doi.org/10.1002/rra.3978).
+    allows to trace longitudinal hydropeaking waves based on an 
+    approach proposed and validated in [Greimel et al. (2022)](https://doi.org/10.1002/rra.3978).
 
 -   `r pkg("hydrostats")`: Calculates a suite of hydrologic
     indices for daily time series data that are widely used in hydrology
@@ -438,6 +444,7 @@ the maintainer of that package.
     [HEC-DSSVue](https://www.hec.usace.army.mil/software/hec-dssvue/) to
     read hydrologic timeseries from HEC-DSS files. Github and Windows
     only package, due to dependency on HEC-DSS libraries.
+
 
 -   `r pkg("GWSDAT")`: Shiny application for the analysis of
     groundwater monitoring data, designed to work with simple
