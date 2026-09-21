@@ -236,13 +236,6 @@ the maintainer of that package.
     particular South Australia ([https://water.data.sa.gov.au](https://water.data.sa.gov.au)
     hydrological data).
 
--   `r pkg("waterquality")`: The main purpose of waterquality is to
-    quickly and easily convert satellite-based reflectance imagery
-    into one or many well-known water quality algorithms designed for
-    the detection of harmful algal blooms or the following pigment
-    proxies: chlorophyll-a, blue-green algae (phycocyanin), and
-    turbidity. Johansen et al. (2019) [doi:10.21079/11681/35053](doi:10.21079/11681/35053).
-
 -   `r pkg("hydroTSM", priority = "core")`: Functions for
     management, analysis, interpolation and plotting of time series used
     in hydrology and related environmental sciences. In particular, this
@@ -451,10 +444,6 @@ the maintainer of that package.
     time-series data for solute concentration and ground water
     elevation, but can also plot non-aqueous phase liquid (NAPL)
     thickness if required.
-
--   `r pkg("hydrogeo")`: Contains one function for drawing
-    Piper diagrams (also called Piper-Hill diagrams) of water analyses
-    for major ions.
 
 -   `r pkg("hydrotoolbox")`: Read, plot, manipulate and
     process hydro-meteorological data records (with special features for
@@ -783,13 +772,6 @@ packages for Hydrology modelling.
     management- and research-focused questions. Methodology described
     in Murphy (2019) [doi:10.1016/j.envsoft.2019.03.027](doi:10.1016/j.envsoft.2019.03.027).
 
--   `r pkg("Raquifer")`: Generate a table of cumulative water influx
-    into hydrocarbon reservoirs over time using un-steady and
-    pseudo-steady state models.
-    Van Everdingen, A. F. and Hurst, W. (1949) [doi:10.2118/949305-G](doi:10.2118/949305-G).
-    Fetkovich, M. J. (1971) [doi:10.2118/2603-PA](doi:10.2118/2603-PA).
-    Yildiz, T. and Khosravi, A. (2007) [doi:10.2118/103283-PA](doi:10.2118/103283-PA).
-
 -   `r pkg("transfR")`: A geomorphology-based hydrological modelling
     for transferring streamflow measurements from gauged to ungauged
     catchments. Inverse modelling enables to estimate net rainfall
@@ -859,13 +841,6 @@ hydrological data, including many statistical approaches used in the
 ecological sciences. Additionally, packages that help model datasets
 with extreme values are discussed in the
 `r view("ExtremeValue")` task view.
-
--   `r pkg("BLRPM")`: Stochastic Rainfall Generator with Bartlett-Lewis 
-    Rectangular Pulse Model. This package contains an R implementation of 
-	the original Bartlett-Lewis rectangular pulse model (BLRPM), developed by 
-	[Rodriguez-Iturbe et al. (1987)](https://doi.org/10.1098/rspa.1987.0039). 
-	The package can simulate a precipitation time series based given parameters or 
-	it can estimate BLRPM parameters from a given time series.
 
 -   `r pkg("CoSMoS")`: is an implementation of [Papalexiou
     2018](https://doi.org/10.1016/j.advwatres.2018.02.013). CoSMoS
