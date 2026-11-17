@@ -734,6 +734,12 @@ packages for Hydrology modelling.
     handles data gaps during modeling, and provides tabular and
     graphical reports of model outputs. GitHub only package.
 
+-   `r pkg("sptrends")`: sptrends provides statistical inference for temporal trends 
+    in gridded environmental data, addressing serial correlation, spatial 
+    dependence and multiple testing. Its spatially explicit methods include 
+    the Contextual Mann-Kendall test, alongside slope estimation, false 
+    discovery rate control and spatial autocorrelation diagnostics.
+
 -   `r pkg("TUWmodel")`: Lumped Hydrological Model for
     Education Purposes: a lumped conceptual rainfall-runoff model,
     following the structure of the HBV model. The model runs on a daily
